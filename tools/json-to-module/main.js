@@ -81,7 +81,8 @@ class DatabaseInterface {
                     )
             )
         );
-        outcomes.filter(outcome => outcome.status !== "fulfilled").map(outcome => console.error("Error", outcome.reason));        this.db.persistence.compactDatafile();
+        outcomes.filter(outcome => outcome.status !== "fulfilled").map(outcome => console.error("Error", outcome.reason));
+        this.db.persistence.compactDatafile();
         console.info(`Inserted ${this.name} and compacted database file`);
         return outcomes.map(outcome => outcome.value);
     }
