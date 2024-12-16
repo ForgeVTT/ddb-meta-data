@@ -1,0 +1,68 @@
+{
+	"id": "tir",
+	"name": "tir",
+	"title": "The Illrigger Revised",
+	"description": "<p>“Ready yourselves. Put doubt behind you. As long as I am in front of you, we are facing victory. You will not fear death, because so long as I live, you die only when I grant permission, and today I am not that forgiving. Our enemies are no match for steel and spell...\" Holding the massive steel-devil blade in her right hand, she clenched her left hand into a fist and a glowing, censorious seal manifested there, \"...And hellfire!”</p><p>The Illrigger isn't a Paladin. It isn't a Warlock. It's a unique class made for players who want to be a KNIGHT FROM HELL!</p><p>Illriggers are versatile armored warriors with a wide array of supernatural abilities that reflect the infernal source of their power. Depending on their contract they can be highly mobile stealthy assassins, heavily armored battlefield commanders, or fighting illusionists.</p><ul><li>Painkiller: The heavily armored death troopers of Hell, Painkillers serve Dispater, leading from the front of every major infernal battle.</li><li>Shadowmaster: The hidden assassins of Hell, Shadowmasters serve Belial and excel at stealth and disguise.</li><li>Architect of Ruin: Architects of Ruin are cool and calculating arcane knights who serve Asmodeus, deploying spells, steel, and subterfuge to win at any cost.</li><li>Hellspeaker: The charismatic and manipulative Hellspeakers serve Moloch as they slip about the battlefield, coercing enemies into becoming unwitting allies.</li><li>Sanguine Knight: The blood-knights of Hell, Sanguine Knights serve Sutekh, Lord of Blood. Their sorceries drain their enemies’ life force, pouring this stolen vitality into infernal rituals to turn the tide of battle.</li><li>Also includes the Treachery, Bravado, Schemes, and Lies combat styles!</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/tir/the-illrigger-revised",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/tir/listing_images/638675303929857493.png"
+		}
+	]
+}
