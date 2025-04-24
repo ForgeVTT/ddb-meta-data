@@ -1,4 +1,4 @@
-# Monster Manual (2024)
+# Monster Manual
 
 ### Venture into the mightiest Monster Manual yet.
 

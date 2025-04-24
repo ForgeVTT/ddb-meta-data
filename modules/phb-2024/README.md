@@ -1,4 +1,4 @@
-# Player’s Handbook (2024)
+# Player’s Handbook
 
 > Embark on an epic adventure 10 years in the making.
 
