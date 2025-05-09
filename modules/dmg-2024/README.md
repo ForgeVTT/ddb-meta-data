@@ -1,4 +1,4 @@
-# Dungeon Master’s Guide (2024)
+# Dungeon Master’s Guide
 
 ### Weave Fantastical Adventures
 

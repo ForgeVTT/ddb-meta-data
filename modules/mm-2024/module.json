@@ -1,0 +1,68 @@
+{
+	"id": "mm-2024",
+	"name": "mm-2024",
+	"title": "Monster Manual",
+	"description": "<h3>Venture into the mightiest Monster Manual yet.</h3><p>Meet a monstrous menagerie of creatures for fifth edition! Encounter iconic D&amp;D favorites, like dragons and mind flayers. Confront a host of new monsters, and take on higher level play with terrifying creatures like the arch-hag, vampire nightbringer, and the blob of annihilation. Craft memorable encounters, with 500 monsters to choose from, and more than 75 of them brand new to D&amp;D.</p><p>We’ve filled this book with breathtaking creature art of almost every monster, including the legendary D&amp;D dragons, and carefully redesigned each monster stat block to be easier to run and reference. Populate your worlds and adventures with the hundreds of monsters provided, and let their stories, illustrations, and streamlined stat blocks fuel your D&amp;D adventures for years to come. This book has been redesigned from the ground up to keep the page-flipping to a minimum and the focus on your adventures! Inside you’ll find:</p><ul><li>The biggest D&amp;D monster manual ever, with over 500 total and over 75 brand-new monsters to choose from.</li><li>Terrifying new predators for higher-level play, like the arch-hag and blob of annihilation.</li><li>New variations on beloved creatures like the primeval owlbear and vampire familiar.</li><li>40+ versatile humanoid stat blocks that give Dungeon Masters greater flexibility when populating their worlds with NPCs.</li><li>All creature stat blocks have been redesigned and rebalanced for ease of use and maximum fun.</li><li>Breathtaking new artwork for almost every monster, including stunning redesigns of the chromatic and metallic dragons.</li><li>Intuitive organization makes finding your favorite monster easier than ever before.</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/mm-2024",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/mm-2024/listing_images/638520960905139721.jpeg"
+		}
+	]
+}

@@ -1,6 +1,6 @@
-# Baldur’s Gate Gazetteer
+# D&D Beyond Basic Rules
 
-Baldur’s Gate Gazetteer.
+Everything you need to get started playing D&D on D&D Beyond!
 
 ---
 

@@ -1,8 +1,8 @@
 {
-	"id": "bgg",
-	"name": "bgg",
-	"title": "Baldur’s Gate Gazetteer",
-	"description": "Baldur’s Gate Gazetteer.",
+	"id": "br-2024",
+	"name": "br-2024",
+	"title": "D&D Beyond Basic Rules",
+	"description": "Everything you need to get started playing D&amp;D on D&amp;D Beyond!",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -20,7 +20,7 @@
 			"twitter": "@ForgeVTT"
 		}
 	],
-	"url": "https://www.dndbeyond.com/sources/dnd/bgg/baldurs-gate-gazetteer",
+	"url": "https://www.dndbeyond.com/sources/dnd/br-2024",
 	"license": "",
 	"readme": "",
 	"bugs": "",
@@ -62,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/bgg/listing_images/638254794193165644.jpeg"
+			"url": "ddb://image/br-2024/listing_images/638809278615622299.jpeg"
 		}
 	]
 }
