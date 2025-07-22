@@ -1,0 +1,77 @@
+{
+	"id": "modr",
+	"name": "modr",
+	"title": "Monsters of Drakkenheim",
+	"description": "<p>Unleash the Eldritch Horrors of Drakkenheim in Your Campaign!</p><p>Delve into the corrupted world of Drakkenheim with this monster guide, featuring over 200 new monsters. Discover their detailed lore, lairs, and tactics, and learn to craft new magic items from their remains.</p><p>This book provides GMs and players with the tools to explore the fallen city and beyond, including adventure locations, lair maps, unique crafting recipes, and deadly new conditions.</p>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/modr",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [
+		{
+			"name": "scenes",
+			"label": "MODR Scenes",
+			"path": "packs/scenes.db",
+			"entity": "Scene",
+			"type": "Scene",
+			"system": "dnd5e"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/modr/listing_images/638829230579961696.jpeg"
+		}
+	]
+}
