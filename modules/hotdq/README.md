@@ -1,11 +1,35 @@
 # Hoard of the Dragon Queen
 
-> A draconic adventure for levels 1-8
+**A draconic adventure for levels 1-8**
 
 In an audacious bid for power, the Cult of the Dragon, along with its dragon allies and the Red Wizards of Thay seeks to free Tiamat from her prison in the Nine Hells and bring her to the Forgotten Realms. The threat is so dire, factions are banding together to battle the cult. Never before has the need for heroes been as desperate.
 
+• Adds **16 tyrannical monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
+
+• Wield **5 new magical items** against the cult of Tiamat with a click of your character sheet<br>
+
+• **Rollable tables**, **detailed maps**, and **unique NPCs** to help dungeons masters run this **96-page monstrous adventure<br>
+
+<br>
+
+<span>Continue&nbsp;the&nbsp;war against Tiamat in these follow-up adventures:</span>
+
+<span><br></span>
+
+<span>-&nbsp;<span><a>Rise of Tiamat</a></span></span>
+
+<span><br></span>
+
+<span>-&nbsp;<span><a>Baldur’s Gate: Descent into Avernus</a></span></span>
+
+**
+
 ---
+
+This purchase unlocks the contents of this source for use with D&D Beyond, including the book in digital format in the game compendium and access options from the book in the searchable listings, character builder, and digital sheet.
+
+
 
 ## License
 
-This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

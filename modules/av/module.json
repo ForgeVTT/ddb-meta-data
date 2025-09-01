@@ -1,8 +1,8 @@
 {
-	"id": "oota",
-	"name": "oota",
-	"title": "Out of the Abyss",
-	"description": "<blockquote>An Underdark Adventure for Levels 1-15</blockquote><p>The Underdark is a subterranean wonderland, a vast and twisted labyrinth where fear reigns. It is here that the dark elf Gromph Baenre, Archmage of Menzoberranzan, casts a foul spell meant to ignite a magical energy that suffuses the Underdark, and he tears open portals to the demonic Abyss in the process. What steps through surprises even him, and from that moment on, the insanity that pervades the Underdark escalates and threatens to shake the Forgotten Realms to its foundations. Stop the madness before it consumes you!</p>",
+	"id": "av",
+	"name": "av",
+	"title": "Abomination Vaults",
+	"description": "<p>Spiteful evil stirs beneath the mysterious lighthouse called Gauntlight. Hideous monsters, deadly traps, unexpected allies, vengeful ghosts, and more await the heroes who dare to enter the sprawling megadungeon called the Abomination Vaults! The Abomination Vaults Adventure Path is a complete Fifth Edition (2024) campaign taking heroes from 1st to 11th level.</p>",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -10,10 +10,6 @@
 			"url": "https://mrprimate.co.uk",
 			"patreon": "https://www.patreon.com/MrPrimate",
 			"discord": "https://discord.gg/WzPuRuDJVP"
-		},
-		{
-			"name": "Pariah Zero",
-			"discord": "Pariah Zero#9919"
 		},
 		{
 			"name": "The Forge",
@@ -24,7 +20,7 @@
 			"twitter": "@ForgeVTT"
 		}
 	],
-	"url": "https://www.dndbeyond.com/sources/dnd/oota",
+	"url": "https://www.dndbeyond.com/sources/dnd/av",
 	"license": "",
 	"readme": "",
 	"bugs": "",
@@ -41,16 +37,7 @@
 	"esmodules": [],
 	"styles": [],
 	"languages": [],
-	"packs": [
-		{
-			"name": "scenes",
-			"label": "OOTA Scenes",
-			"path": "packs/scenes.db",
-			"entity": "Scene",
-			"type": "Scene",
-			"system": "dnd5e"
-		}
-	],
+	"packs": [],
 	"relationships": {
 		"systems": [
 			{
@@ -75,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/oota/listing_images/636383500945700817.jpeg"
+			"url": "ddb://image/av/listing_images/638895107009815728.jpeg"
 		}
 	]
 }

@@ -1,0 +1,68 @@
+{
+	"id": "ghpg",
+	"name": "ghpg",
+	"title": "Grim Hollow: Player’s Guide",
+	"description": "<h3>Everything your character needs to survive in a cursed world.</h3>\r\n<p><em>Grim Hollow: Player&rsquo;s Guide</em>&nbsp;offers everything players need to create unforgettable characters in the cursed world of Etharis. With dozens of new character options designed for morally complex play, it&rsquo;s the perfect resource for a more grounded game. Whether your adventurer embraces forbidden power or fights against their own corruption, this guide gives you the tools to tell a darker story.</p>\r\n<h3>Bring your character&rsquo;s darkest potential to life.</h3>\r\n<p>The&nbsp;<em>Player&rsquo;s Guide</em>&nbsp;content is available directly within D&amp;D Beyond, allowing you to build characters using new species, subclasses, spells, feats, and backgrounds. You can easily access and manage all your options within the character builder, streamlining your preparation for adventures in the world of Etharis.</p>\r\n<hr />\r\n<h3>New features:</h3>\r\n<ul>\r\n<li>17 new playable species.</li>\r\n<li>40 subclasses designed for dark fantasy storytelling.</li>\r\n<li>Dark fantasy Backgrounds, Feats and Curses.</li>\r\n<li>91 new spells steeped in horror and shadow.</li>\r\n<li>Backgrounds that reflect a world of war, tyranny, and despair.</li>\r\n<li>Tools to embrace or resist corruption.</li>\r\n<li>Compatible with the D&amp;D Beyond character builder.</li>\r\n<li>A perfect companion to the Grim Hollow: Campaign Guide.</li>\r\n</ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/ghpg",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/ghpg/listing_images/638912410729015597.jpeg"
+		}
+	]
+}

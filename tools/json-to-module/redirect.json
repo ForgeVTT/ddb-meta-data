@@ -1,6 +1,7 @@
 {
     "aatm": "https://www.dndbeyond.com/sources/dnd/aatm/the-mortuary",
     "ai": "https://www.dndbeyond.com/sources/dnd/ai",
+    "av": "https://www.dndbeyond.com/sources/dnd/av",
     "bgdia": "https://www.dndbeyond.com/sources/dnd/bgdia",
     "bgg": "https://www.dndbeyond.com/sources/dnd/bgg/baldurs-gate-gazetteer",
     "boet": "https://www.dndbeyond.com/sources/dnd/boet",
@@ -11,6 +12,7 @@
     "cos": "https://www.dndbeyond.com/sources/dnd/cos",
     "cosco": "https://www.dndbeyond.com/sources",
     "cotn": "https://www.dndbeyond.com/sources/dnd/cotn",
+    "ctbt": "https://www.dndbeyond.com/sources/dnd/ctbt/cthulhu-by-torchlight",
     "dc": "https://www.dndbeyond.com/sources/dnd/dc",
     "ddia-mord": "https://www.dndbeyond.com/sources/dnd/ddia-mord",
     "ddvram": "https://www.dndbeyond.com/sources/dnd/ddvram",
@@ -30,6 +32,7 @@
     "free-rules": "https://www.dndbeyond.com/sources/dnd/free-rules",
     "ftod": "https://www.dndbeyond.com/sources/dnd/ftod",
     "ggtr": "https://www.dndbeyond.com/sources/dnd/ggtr",
+    "ghpg": "https://www.dndbeyond.com/sources/dnd/ghpg",
     "ghpp": "https://www.dndbeyond.com/sources/dnd/ghpp/grim-hollow-player-pack",
     "gos": "https://www.dndbeyond.com/sources/dnd/gos",
     "gotg": "https://www.dndbeyond.com/sources/dnd/gotg",
