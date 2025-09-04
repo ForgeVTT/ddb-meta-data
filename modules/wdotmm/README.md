@@ -1,23 +1,11 @@
 # Waterdeep: Dungeon of the Mad Mage
 
-**A Dungeon Diving Adventure for Levels 5-20**
+> A Dungeon Diving Adventure for Levels 5-20
 
 Dive into the dungeon shunned by all but the most daring adventurers. Known as Undermountain, this dungeon is the domain of the mad wizard Halaster Blackcloak. Long has the Mad Mage dwelt in these forlorn depths, seeding his lair with monsters, traps, and mysteries. This adventure picks up where Waterdeep: Dragon Heist leaves off, exploring the twenty-three levels of Undermountain along with the subterranean refuge of Skullport.
 
-• Explore the **23 unique levels of the Undermountain**<br>
-
-• Adds **75 mad monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
-
-• Uncover **16 new magical items** and what they do with a click of your character sheet<br>
-
-• **Rollable tables**, **detailed maps**, and **helpful stats** to run this **256-page adventure** as the dungeon master
-
 ---
-
-This purchase unlocks the contents of this adventure for use with D&D Beyond, including the book in digital format in the game compendium and access options from the book in the searchable listings, character builder, and digital sheet.
-
-
 
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

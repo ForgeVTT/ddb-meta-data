@@ -4,8 +4,8 @@ Gunslingers live on the edge, brandishing six-shooters and shotguns to survive b
 
 Play the Gunslinger class if you enjoy scoring powerful Critical Hits and having an entire arsenal of guns at your disposal. Take aim with 6 subclasses and a host of new maneuvers powered by Risk Dice.
 
-
+---
 
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

@@ -1,36 +1,16 @@
 # Bigby Presents: Glory of the Giants
 
-**A Manual of Mammoth Marvels**
+> A Manual of Mammoth Marvels
 
 Bigby the Great recounts his journeys into the history, myth, and society of giants in this guide to their realms in the worlds of Dungeons & Dragons. Here Bigby and the demigod Diancastra, child of the giants’ All-Father, Annam, unveil the secrets of Annam’s mighty descendants. Players will find a wealth of giant-themed character options: a subclass for barbarians, two backgrounds related to giants and their runic magic, and feat options that evoke the strength and primal magic of the giants. Dungeon Masters will gain inspiration for bringing giants to life, from maps of giant-built sites and big new monsters to tremendous treasures and intriguing trinkets in a giant’s bag! Let Bigby and Diancastra teach you everything about the iconic giants of D&D:
 
-- Delves into unrevealed giant lore, including an overview of the hierarchical structure of the ordning and giants’ religion, and ideas about giants’ organizations and societies across the multiverse.
-- Add giant-themed player character options with **1 new barbarian subclass**, **The Path of the Giant** for use in the **D&D Beyond character creator**
-- Explore the vast world of giants with **2 new backgrounds**, and **8 new feats to unleash runic magic and wield elemental power**
-- Discover a wondrous collection of **over 30 magic items**, including **3 illustrious artifacts**.
-- Encounter **over 70 new monsters and other enormous creatures** to face in the **D&D Beyond Encounter Builder**.
-- Offers a plethora of tools for Dungeon Masters including **lair maps**, **detailed lore**, **adventure hooks**, **encounter tables**, **treasures**, **and giant roleplaying inspiration**.
-
-<!-- -->
-
-Visit other places in the D&D multiverse with these books:
-
-- 
-- 
-- 
-
-<!-- -->
+* Delves into unrevealed giant lore, including an overview of the hierarchical structure of the ordning and giants’ religion, and ideas about giants’ organizations and societies across the multiverse.
+* Explore the vast world of giants with **2 new backgrounds**, and **8 new feats to unleash runic magic and wield elemental power**
+* Discover a wondrous collection of **over 30 magic items**, including **3 illustrious artifacts**.
+* Offers a plethora of tools for Dungeon Masters including **lair maps**, **detailed lore**, **adventure hooks**, **encounter tables**, **treasures**, **and giant roleplaying inspiration**.
 
 ---
 
-This purchase unlocks the contents of this sourcebook for use with D&D Beyond, including the book in digital format in the game compendium and access options from the book in the searchable listings, character builder, Encounters tool, Maps tool, and digital character sheet.
-
-#### 2024 and Beyond
-
-The 2024 Core Rulebooks will provide new options for players and DMs along with updates and improvements to the classes, mechanics, items, and monsters of fifth edition. All updates are being done with care to make sure anything from fifth edition will **continue to be fully playable**.
-
-
-
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
