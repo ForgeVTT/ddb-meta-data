@@ -1,8 +1,8 @@
 {
-	"id": "tfof",
-	"name": "tfof",
-	"title": "The Forge of Fury",
-	"description": "<blockquote>Adventure for Levels 3-5</blockquote><p>The Forge of Fury, by Richard Baker, was originally published in 2000 as an adventure for the third edition of the D&amp;D game. The adventure was published shortly after The Sunless Citadel and was designed as a follow-up to it. Characters who succeeded in that mission and advanced to 3rd level were now ready to take on the challenges of a ruined dwarven fortress.</p>",
+	"id": "hotb",
+	"name": "hotb",
+	"title": "Heroes of the Borderlands",
+	"description": "<p>The <em>Heroes of the Borderlands Digital Adventure Pack</em> is your all-in-one storytelling toolkit, designed for aspiring Dungeon Masters who want to run fast, collaborative DUNGEONS &amp; DRAGONS adventures.</p>",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -10,14 +10,6 @@
 			"url": "https://mrprimate.co.uk",
 			"patreon": "https://www.patreon.com/MrPrimate",
 			"discord": "https://discord.gg/WzPuRuDJVP"
-		},
-		{
-			"name": "MaxPat",
-			"discord": "MaxPat#7936"
-		},
-		{
-			"name": "Pariah Zero",
-			"discord": "Pariah Zero#9919"
 		},
 		{
 			"name": "The Forge",
@@ -28,7 +20,7 @@
 			"twitter": "@ForgeVTT"
 		}
 	],
-	"url": "https://www.dndbeyond.com/sources/tftyp/a2/the-forge-of-fury",
+	"url": "https://www.dndbeyond.com/sources/dnd/hotb",
 	"license": "",
 	"readme": "",
 	"bugs": "",
@@ -45,16 +37,7 @@
 	"esmodules": [],
 	"styles": [],
 	"languages": [],
-	"packs": [
-		{
-			"name": "scenes",
-			"label": "TFoF Scenes",
-			"path": "packs/scenes.db",
-			"entity": "Scene",
-			"type": "Scene",
-			"system": "dnd5e"
-		}
-	],
+	"packs": [],
 	"relationships": {
 		"systems": [
 			{
@@ -79,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/tfof/listing_images/637248156999902689.jpeg"
+			"url": "ddb://image/hotb/listing_images/638924470222941154.jpeg"
 		}
 	]
 }
