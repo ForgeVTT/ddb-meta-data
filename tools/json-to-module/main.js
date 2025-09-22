@@ -237,13 +237,15 @@ async function assembleTables(args, contentPath) {
     return tables;
 }
 
-const DDB_REDIRECTIONS_PATH = path.resolve(__dirname, "./redirect.json");
+const DDB_REDIRECTIONS_PATH = path.resolve(__dirname, "../../redirect.json");
 const DDB_SOURCES_MAP = fs.existsSync(DDB_REDIRECTIONS_PATH) ? fs.readJSONSync(DDB_REDIRECTIONS_PATH) : {};
+
 function cacheSourceUrl(bookName, sourceUrl) {
     DDB_SOURCES_MAP[bookName] = sourceUrl;
     const sortedSourcesMap = Object.fromEntries(Object.entries(DDB_SOURCES_MAP).sort());
     fs.writeJSONSync(DDB_REDIRECTIONS_PATH, sortedSourcesMap, { spaces: 4 });
 }
+
 async function confirmSourceUrl(bookName, defaultUrl) {
     const sourceUrl = await new Promise((resolve) => {
         const rl = readline.createInterface({
@@ -251,44 +253,34 @@ async function confirmSourceUrl(bookName, defaultUrl) {
             output: process.stdout,
         });
         rl.question(
-            `Please check the correct URL for ${bookName} [${defaultUrl}] : `,
+            `Please check the correct URL (${chalk.strikethrough(defaultUrl)}) for ${chalk.bold(bookName)} ${chalk.dim("(leave empty if unavailable)")}:`,
             (url) => {
                 rl.close();
-                resolve(url || defaultUrl);
+                resolve(url || null);
             }
         );
     });
     cacheSourceUrl(bookName, sourceUrl);
     return sourceUrl;
 }
-async function getRedirectUrl(bookName, skipCheck = true) {
-    if (skipCheck && DDB_SOURCES_MAP[bookName]) {
-        console.log(`Using cached URL for ${bookName} (${DDB_SOURCES_MAP[bookName]})`);
+
+async function getRedirectUrl(bookName) {
+    if (DDB_SOURCES_MAP[bookName]) {
         return DDB_SOURCES_MAP[bookName];
     }
-    const sourceUrl = DDB_SOURCES_MAP[bookName] || `https://www.dndbeyond.com/sources/dnd/${bookName}`;
-    console.log(`Checking URL for ${bookName} (${sourceUrl})...`);
+    const sourceUrl = `https://www.dndbeyond.com/sources/dnd/${bookName}`;
     try {
         const response = await fetch(sourceUrl, { redirect: "follow", method: "HEAD" });
-        if (response.status === 200) {
-            if (response.url !== sourceUrl) {
-                if (DDB_SOURCES_MAP[bookName]) {
-                    console.warn(`Cached URL for ${bookName} (${DDB_SOURCES_MAP[bookName]}) redirects to ${response.url}`);
-                    return DDB_SOURCES_MAP[bookName];
-                }
-                if (!response.url.startsWith("https://www.dndbeyond.com/sources")) {
-                    return confirmSourceUrl(bookName, response.url);
-                }
-            }
+        if (response.status === 200 && response.url === sourceUrl) {
             cacheSourceUrl(bookName, response.url);
             return response.url;
         }
         console.warn(`${response.status} ${response.statusText} ${sourceUrl}`);
-        return confirmSourceUrl(bookName, response.url);
+        return confirmSourceUrl(bookName, response.url) || response.url;
     } catch (err) {
         console.error(`Error checking URL for ${bookName} (${sourceUrl})`, err);
-        return confirmSourceUrl(bookName, sourceUrl);
     }
+    return confirmSourceUrl(bookName, sourceUrl) || sourceUrl;
 }
 
 /**
@@ -363,7 +355,7 @@ async function assembleManifest(args) {
     };
     if (args.converted) {
         const source = (await fs.readJson(args.converted))[0]
-        if (source && source.Avatar) {  
+        if (source && source.Avatar) {
             manifest.media = [
                 {
                     type: "cover",
@@ -536,20 +528,20 @@ async function alterTables(tables, args) {
     // Create tables
     try {
         tables.forEach((table, i) => alteredTables.push({
-            name: table.tableName,
-            img: "",
-            results: [],
-            replacement: true,
-            displayRoll: true,
-            folder: folders.get(table.folderName)?._id ?? null,
-            sort: i * 1000,
-            permission: {},
-            flags: {
-                ddb: Object.fromEntries(
-                    Object.entries(table).filter(([key]) => !["tableName", "folderName"].includes(key))
-                ),
-            },
-        }));
+                name: table.tableName,
+                img: "",
+                results: [],
+                replacement: true,
+                displayRoll: true,
+                folder: folders.get(table.folderName)?._id ?? null,
+                sort: i * 1000,
+                permission: {},
+                flags: {
+                    ddb: Object.fromEntries(
+                        Object.entries(table).filter(([key]) => !["tableName", "folderName"].includes(key))
+                    ),
+                },
+            }));
         console.info(`Created ${alteredTables.length} tables`);
     } catch (err) {
         console.error("Error", `Error creating tables`, err);
