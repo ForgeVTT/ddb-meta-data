@@ -528,20 +528,20 @@ async function alterTables(tables, args) {
     // Create tables
     try {
         tables.forEach((table, i) => alteredTables.push({
-                name: table.tableName,
-                img: "",
-                results: [],
-                replacement: true,
-                displayRoll: true,
-                folder: folders.get(table.folderName)?._id ?? null,
-                sort: i * 1000,
-                permission: {},
-                flags: {
-                    ddb: Object.fromEntries(
-                        Object.entries(table).filter(([key]) => !["tableName", "folderName"].includes(key))
-                    ),
-                },
-            }));
+            name: table.tableName,
+            img: "",
+            results: [],
+            replacement: true,
+            displayRoll: true,
+            folder: folders.get(table.folderName)?._id ?? null,
+            sort: i * 1000,
+            permission: {},
+            flags: {
+                ddb: Object.fromEntries(
+                    Object.entries(table).filter(([key]) => !["tableName", "folderName"].includes(key))
+                ),
+            },
+        }));
         console.info(`Created ${alteredTables.length} tables`);
     } catch (err) {
         console.error("Error", `Error creating tables`, err);
