@@ -1,0 +1,68 @@
+{
+	"id": "ghcg",
+	"name": "ghcg",
+	"title": "Grim Hollow: Campaign Guide",
+	"description": "<p>Step into the crumbling world of Etharis with the <em>The Grim Hollow: Campaign Guide</em>. This 300+ page dark fantasy tome offers a fully realized setting teeming with horror, intrigue, and tragedy. Players and GMs alike will find themselves grappling with difficult choices and terrifying forces as they fight for the faintest glimmer of hope in a cursed land.</p><p>New features:</p><ul><li>Fully detailed dark fantasy setting for fifth edition.</li><li>7 unique regions with unique horrors and histories.</li><li>Rules for corruption, wounds, and resting in a gritty world.</li><li>Adventure hooks and faction details to launch campaigns.</li><li>Fully fleshed out cities with 8 included City Guides.</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/ghcg",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/ghcg/listing_images/638938109186580209.jpeg"
+		}
+	]
+}

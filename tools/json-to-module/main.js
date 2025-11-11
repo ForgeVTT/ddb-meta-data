@@ -3,6 +3,8 @@ const readline = require("node:readline");
 const path = require("path");
 const Datastore = require("nedb");
 const { ArgumentParser } = require("argparse");
+const chalk = require("chalk");
+const fetch = require("node-fetch");
 const utils = require("./utils");
 
 async function main() {
@@ -68,7 +70,7 @@ class DatabaseInterface {
     async save(docs) {
         const outcomes = await Promise.allSettled(
             docs.map(
-                doc =>
+                (doc) =>
                     new Promise((resolve, reject) =>
                         this.db.insert(doc, (err, newDoc) => {
                             if (err) {
@@ -82,10 +84,12 @@ class DatabaseInterface {
                     )
             )
         );
-        outcomes.filter(outcome => outcome.status !== "fulfilled").map(outcome => console.error("Error", outcome.reason));
+        outcomes
+            .filter((outcome) => outcome.status !== "fulfilled")
+            .map((outcome) => console.error("Error", outcome.reason));
         this.db.persistence.compactDatafile();
         console.info(`Inserted ${this.name} and compacted database file`);
-        return outcomes.map(outcome => outcome.value);
+        return outcomes.map((outcome) => outcome.value);
     }
 
     /**
@@ -134,7 +138,7 @@ async function assemble(args) {
         assembleREADME(args),
     ]);
     outcomes.push(manifestOutcome);
-    outcomes.filter(outcome => outcome.fulfilled).map(outcome => console.error("Error", outcome.reason));
+    outcomes.filter((outcome) => outcome.fulfilled).map((outcome) => console.error("Error", outcome.reason));
     console.info(`Done assembling meta data for ${args.book}`);
     console.timeEnd();
 }
@@ -154,15 +158,15 @@ async function assembleScenes(args, contentPath) {
             console.warn("Warning", `Scene info folder not found: ${sceneInfoPath}`);
             return;
         }
-        const sceneFilePaths = (await fs.readdir(sceneInfoPath)).map(file => path.resolve(sceneInfoPath, file));
+        const sceneFilePaths = (await fs.readdir(sceneInfoPath)).map((file) => path.resolve(sceneInfoPath, file));
         const noteInfoPath = path.resolve(contentPath, "note_info", `${args.book}.json`);
         let noteInfo = fs.existsSync(noteInfoPath) ? await fs.readJSON(noteInfoPath) : [];
         scenes = await new DatabaseInterface("scenes", args).save(
             (
                 await Promise.allSettled(
                     sceneFilePaths
-                        .filter(file => fs.existsSync(file))
-                        .map(async file => alterScene(await fs.readJSON(file), noteInfo, contentPath, args))
+                        .filter((file) => fs.existsSync(file))
+                        .map(async (file) => alterScene(await fs.readJSON(file), noteInfo, contentPath, args))
                 )
             )
                 .reduce((acc, cur) => {
@@ -172,16 +176,16 @@ async function assembleScenes(args, contentPath) {
                     // Keep track of note info that wasn't inserted anywhere
                     if (cur.value.flags.ddb.noteInfos) {
                         const remainingNoteInfo = noteInfo.filter(
-                            note => !cur.value.flags.ddb.noteInfos.some(n => n.slug === note.slug)
+                            (note) => !cur.value.flags.ddb.noteInfos.some((n) => n.slug === note.slug)
                         );
                         noteInfo = remainingNoteInfo;
                     }
                     return acc;
                 }, [])
-                .map(scene => {
-                    const parentIds = [...new Set(scene.notes.map(n => n.flags.ddb.parentId))];
+                .map((scene) => {
+                    const parentIds = [...new Set(scene.notes.map((n) => n.flags.ddb.parentId))];
                     // Add note to scene if one of the scene's parentIds matches the note's parentId
-                    const newNoteInfos = noteInfo.filter(note => parentIds.some(p => p === note.parentId));
+                    const newNoteInfos = noteInfo.filter((note) => parentIds.some((p) => p === note.parentId));
                     if (newNoteInfos.length) {
                         if (!scene.flags.ddb.noteInfos) scene.flags.ddb.noteInfos = [];
                         scene.flags.ddb.noteInfos.push(...newNoteInfos);
@@ -294,7 +298,7 @@ async function assembleManifest(args) {
         console.info(`Skipping manifest for ${args.book} as it already exists`);
         return;
     }
-    const json = (await fs.readJson(args.manifest)).find(m => m.DirectoryName === args.book);
+    const json = (await fs.readJson(args.manifest)).find((m) => m.DirectoryName === args.book);
     const manifest = {
         id: args.book,
         name: args.book,
@@ -354,7 +358,7 @@ async function assembleManifest(args) {
         manifestPlusVersion: "1.2.0",
     };
     if (args.converted) {
-        const source = (await fs.readJson(args.converted))[0]
+        const source = (await fs.readJson(args.converted))[0];
         if (source && source.Avatar) {
             manifest.media = [
                 {
@@ -380,7 +384,7 @@ async function assembleREADME(args) {
         console.info(`Skipping README for ${args.book} as it already exists`);
         return;
     }
-    const json = (await fs.readJson(args.manifest)).find(m => m.DirectoryName === args.book);
+    const json = (await fs.readJson(args.manifest)).find((m) => m.DirectoryName === args.book);
     const description = utils.htmlToMarkdown(json.ProductBlurb ?? "");
     const readme = `# ${json.Title}\n\n${description}\n\n## License\n\nThis data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.\n`;
     await fs.writeFile(readmePath, readme);
@@ -431,9 +435,9 @@ async function alterScene(scene, noteInfo, contentPath, args) {
 
         // Add note_info to the scene flags
         if (noteInfo) {
-            const slugs = [...new Set(notes.map(n => n.flags.ddb.slug))];
+            const slugs = [...new Set(notes.map((n) => n.flags.ddb.slug))];
             // Add note to scene if one of the scene's slugs matches the note's slug
-            const noteInfos = noteInfo.filter(note => slugs.some(s => note.slug.includes(s)));
+            const noteInfos = noteInfo.filter((note) => slugs.some((s) => note.slug.includes(s)));
             if (noteInfos.length) {
                 scene.flags.ddb.noteInfos = noteInfos;
                 console.info(`Added \`note_info\` to flags for ${scene.name}`);
@@ -460,11 +464,11 @@ async function alterScene(scene, noteInfo, contentPath, args) {
         // Create a note at each position
         scene.notes = scene.notes.reduce((acc, note) => {
             acc.push(
-                ...note.positions.map(position =>
+                ...note.positions.map((position) =>
                     Object.assign(note, {
                         x: position.x,
                         y: position.y,
-                        _id: utils.randomId()
+                        _id: utils.randomId(),
                     })
                 )
             );
@@ -475,8 +479,8 @@ async function alterScene(scene, noteInfo, contentPath, args) {
 
         if (scene.tiles.length) {
             // Rewrite tile links to use meta data schema
-            scene.tiles.forEach(tile => {
-                tile.img = tile.img?.replace(/^assets\//, `ddb-meta-data://${args.book}/tiles/`)
+            scene.tiles.forEach((tile) => {
+                tile.img = tile.img?.replace(/^assets\//, `ddb-meta-data://${args.book}/tiles/`);
                 if (!tile._id) {
                     tile._id = utils.randomId();
                 }
@@ -485,7 +489,14 @@ async function alterScene(scene, noteInfo, contentPath, args) {
         }
         // Ensure every scene embedded entity has an _id so it can migrate to leveldb (v11+) without issues
         // tiles and notes are already handled above
-        const embeddedEntities = [/*"tiles", "notes", */"tokens", "lights", "templates", "sounds", "drawings", "walls"];
+        const embeddedEntities = [
+            /*"tiles", "notes", */ "tokens",
+            "lights",
+            "templates",
+            "sounds",
+            "drawings",
+            "walls",
+        ];
         for (const entity of embeddedEntities) {
             if (!scene[entity]) continue;
             for (const item of scene[entity]) {
@@ -516,7 +527,7 @@ async function alterTables(tables, args) {
 
     // Create folders
     try {
-        const folderNames = [...new Set(tables.map(table => table.folderName).filter(Boolean))];
+        const folderNames = [...new Set(tables.map((table) => table.folderName).filter(Boolean))];
         for (const folderName of folderNames) {
             folders.set(folderName, await createFolder(folderName, "RollTable", args));
         }
@@ -527,21 +538,23 @@ async function alterTables(tables, args) {
 
     // Create tables
     try {
-        tables.forEach((table, i) => alteredTables.push({
-            name: table.tableName,
-            img: "",
-            results: [],
-            replacement: true,
-            displayRoll: true,
-            folder: folders.get(table.folderName)?._id ?? null,
-            sort: i * 1000,
-            permission: {},
-            flags: {
-                ddb: Object.fromEntries(
-                    Object.entries(table).filter(([key]) => !["tableName", "folderName"].includes(key))
-                ),
-            },
-        }));
+        tables.forEach((table, i) =>
+            alteredTables.push({
+                name: table.tableName,
+                img: "",
+                results: [],
+                replacement: true,
+                displayRoll: true,
+                folder: folders.get(table.folderName)?._id ?? null,
+                sort: i * 1000,
+                permission: {},
+                flags: {
+                    ddb: Object.fromEntries(
+                        Object.entries(table).filter(([key]) => !["tableName", "folderName"].includes(key))
+                    ),
+                },
+            })
+        );
         console.info(`Created ${alteredTables.length} tables`);
     } catch (err) {
         console.error("Error", `Error creating tables`, err);
