@@ -1,8 +1,8 @@
 {
-	"id": "ggtr",
-	"name": "ggtr",
-	"title": "Guildmasters’ Guide to Ravnica",
-	"description": "<p>The world of Dungeons &amp; Dragons meets the world of Magic: The Gathering in this sourcebook for the plane of Ravnica. Explore the web of wars, intrigue, and lore as the Ten Guilds vie for power, wealth, influence, and control over the plane.</p><ul><li>Explore <strong>5 unique races</strong>, including the half-horse, half-human Centaurs and the Loxodon, large humanoid elephants</li><li>Jump into the action with the <em>Krenko’s Way</em> <strong>adventure written for level 1 characters</strong></li></ul>",
+	"id": "aboh",
+	"name": "aboh",
+	"title": "Astarion's Book of Hungers",
+	"description": "<p>Embrace the seductive darkness of Baldur’s Gate with a shadow-kissed expansion full of blood, danger, and intrigue.</p><p>This 32-page digital supplement includes:</p><ul><li><strong>3 vampire-themed backgrounds</strong> to shape your character’s origin in shadow.</li><li><strong>16 vampiric feats and an updated Dhampir species</strong>, so you can embrace your inner darkness.</li><li><strong>Play with Astarion in your adventuring group</strong>—two play-ready adventures allow you to team up with your favorite vampire spawn at either character level 3 or character level 12.</li><li><strong>5 villainous stat blocks</strong>, including infernalist vampires and servants of Mephistopheles, that bring gothic horror into your campaign.</li><li><strong>Rat’s Run tavern setting</strong>, a fully mapped adventure setting full of secrets, smuggling, and seduction that can be tied into Baldur’s Gate 3 canon.</li></ul>",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -20,7 +20,7 @@
 			"twitter": "@ForgeVTT"
 		}
 	],
-	"url": "https://www.dndbeyond.com/sources/dnd/ggtr",
+	"url": "https://www.dndbeyond.com/sources/dnd/aboh",
 	"license": "",
 	"readme": "",
 	"bugs": "",
@@ -62,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/ggtr/listing_images/638476689241305817.jpeg"
+			"url": "ddb://image/aboh/listing_images/638981487305001378.jpeg"
 		}
 	]
 }

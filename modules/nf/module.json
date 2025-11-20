@@ -1,8 +1,8 @@
 {
-	"id": "ggtr",
-	"name": "ggtr",
-	"title": "Guildmasters’ Guide to Ravnica",
-	"description": "<p>The world of Dungeons &amp; Dragons meets the world of Magic: The Gathering in this sourcebook for the plane of Ravnica. Explore the web of wars, intrigue, and lore as the Ten Guilds vie for power, wealth, influence, and control over the plane.</p><ul><li>Explore <strong>5 unique races</strong>, including the half-horse, half-human Centaurs and the Loxodon, large humanoid elephants</li><li>Jump into the action with the <em>Krenko’s Way</em> <strong>adventure written for level 1 characters</strong></li></ul>",
+	"id": "nf",
+	"name": "nf",
+	"title": "Netheril’s Fall",
+	"description": "<p>Step through time into the height of Netheril—an empire of flying cities, epic magic, and looming catastrophe.</p><ul><li><strong>Time-traveling adventure hooks</strong> that plunge your party into one of the most dangerous eras in Forgotten Realms history.​</li><li><strong>A gazetteer of High and Low Netheril,</strong> filled with soaring cityscapes, secret underbellies, and factions whose choices shape destiny.​</li><li><strong>Pivotal historical events</strong> reimagined as playable adventures that let you stand at the edge of the empire’s fall.​</li><li><strong>8 pre-cataclysmic magic items</strong> to discover and bring back to the present.​</li><li><strong>8 stat blocks for dangerous creatures,</strong> so you can battle phaerimm and time-lost horrors.</li></ul>",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -20,7 +20,7 @@
 			"twitter": "@ForgeVTT"
 		}
 	],
-	"url": "https://www.dndbeyond.com/sources/dnd/ggtr",
+	"url": "https://www.dndbeyond.com/sources/dnd/nf",
 	"license": "",
 	"readme": "",
 	"bugs": "",
@@ -62,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/ggtr/listing_images/638476689241305817.jpeg"
+			"url": "ddb://image/nf/listing_images/638956184000661571.jpeg"
 		}
 	]
 }
