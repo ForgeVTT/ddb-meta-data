@@ -1,0 +1,68 @@
+{
+	"id": "ctbt",
+	"name": "ctbt",
+	"title": "Cthulhu by Torchlight",
+	"description": "<p>The Cthulhu Mythos invades fifth edition DUNGEONS &amp; DRAGONS! <em>Cthulhu by Torchlight</em> brings deep ones, dimensional shamblers, and even Great Cthulhu himself to your campaigns. But your players will be ready for this invasion with subclasses, feats, and spells powerful enough to stop even the hungriest shoggoth. <em>Cthulhu by Torchlight</em> is ready to unleash cosmic horror on your campaign.</p><p><em>Cthulhu by Torchlight</em> includes everything you need to run an adventure inspired by the Cthulhu Mythos or make them a foundation of an entire campaign. New monsters cover the full range of CRs, giving DMs options to run Mythos adventures at any levels. Rules for skill challenges make investigation, interaction, and exploration as important as combat. Everything DMs and players need to explore the Cthulhu Mythos is here in one volume.</p> New features:<ul><li>Transform into a prowling cat, and use the nine lives given to you wisely as a Warlock of the Exalted Assembly of the Feline Court.</li><li>Proclaim the imminent end of the world, then kick its perpetrators back into the Abyss, as a Cleric of the Apocalypse.</li><li>Tie your character to the Cthulhu Mythos with origin feats such as I Opened the Gate or I Survived to Tell the Tale.</li><li>Uncover the mysteries of five Mythos Tomes, hopefully before they send you to a gruesome fate.</li><li>Flee from the horrors of the Cthulhu Mythos using skill challenges to make chases fun, dynamic, and challenging.</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/ctbt/cthulhu-by-torchlight",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/ctbt/listing_images/638869963334256166.jpeg"
+		}
+	]
+}

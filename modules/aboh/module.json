@@ -1,0 +1,68 @@
+{
+	"id": "aboh",
+	"name": "aboh",
+	"title": "Astarion's Book of Hungers",
+	"description": "<p>Embrace the seductive darkness of Baldur’s Gate with a shadow-kissed expansion full of blood, danger, and intrigue.</p><p>This 32-page digital supplement includes:</p><ul><li><strong>3 vampire-themed backgrounds</strong> to shape your character’s origin in shadow.</li><li><strong>16 vampiric feats and an updated Dhampir species</strong>, so you can embrace your inner darkness.</li><li><strong>Play with Astarion in your adventuring group</strong>—two play-ready adventures allow you to team up with your favorite vampire spawn at either character level 3 or character level 12.</li><li><strong>5 villainous stat blocks</strong>, including infernalist vampires and servants of Mephistopheles, that bring gothic horror into your campaign.</li><li><strong>Rat’s Run tavern setting</strong>, a fully mapped adventure setting full of secrets, smuggling, and seduction that can be tied into Baldur’s Gate 3 canon.</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/aboh",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/aboh/listing_images/638981487305001378.jpeg"
+		}
+	]
+}
