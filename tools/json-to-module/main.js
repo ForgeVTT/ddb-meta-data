@@ -269,7 +269,7 @@ async function confirmSourceUrl(bookName, defaultUrl) {
 }
 
 async function getRedirectUrl(bookName) {
-    if (DDB_SOURCES_MAP[bookName]) {
+    if (DDB_SOURCES_MAP[bookName] !== undefined) {
         return DDB_SOURCES_MAP[bookName];
     }
     const sourceUrl = `https://www.dndbeyond.com/sources/dnd/${bookName}`;
