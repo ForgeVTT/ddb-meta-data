@@ -1,8 +1,8 @@
 {
-	"id": "ee",
-	"name": "ee",
-	"title": "Elemental Evil Player's Companion",
-	"description": "This supplement provides new options for player characters in the Princes of the Apocalypse campaign and beyond.",
+	"id": "oswhap",
+	"name": "oswhap",
+	"title": "One-Shot Wonders: Holiday Adventure Pack",
+	"description": "<blockquote>‘Tis the season to roll initiative!</blockquote><p>Bring joy and chaos to your table this Winterfest season, with sleigh chases, pudding gremlin fights and toy factory break-ins. This festive collection is bursting with ready-to-play one-shots, battle maps, playable species, magic items, and more for merry misadventures. Each one-shot is perfect for dropping into your campaign, or running as a special holiday game night!</p><p>What’s inside:</p><ul><li>Five holiday adventures (for levels 1–12), each playable in three hours</li><li>Five detailed maps, including a toy factory, ice castle, banquet hall and more</li><li>Three festive-themed monsters ready to battle your party</li><li>Four wintry playable species, from the Snowborn to the reindeer-like Tarandus</li><li>Twelve magic items based on the Twelve Days of Christmas</li></ul>",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -20,7 +20,7 @@
 			"twitter": "@ForgeVTT"
 		}
 	],
-	"url": null,
+	"url": "https://www.dndbeyond.com/sources/dnd/oswhap",
 	"license": "",
 	"readme": "",
 	"bugs": "",
@@ -62,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/ee/listing_images/638989884394019759.jpeg"
+			"url": "ddb://image/oswhap/listing_images/639002889856585575.jpeg"
 		}
 	]
 }
