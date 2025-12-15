@@ -1,8 +1,8 @@
 {
-	"id": "ee",
-	"name": "ee",
-	"title": "Elemental Evil Player's Companion",
-	"description": "This supplement provides new options for player characters in the Princes of the Apocalypse campaign and beyond.",
+	"id": "efota",
+	"name": "efota",
+	"title": "Eberron: Forge of the Artificer",
+	"description": "<p>Play as the Artificer: the ultimate creative class. You’re not just an inventor or spellcaster. You're an innovator, a bold-hearted visionary, fusing together magic and technology to craft extraordinary creations.</p>",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -20,7 +20,7 @@
 			"twitter": "@ForgeVTT"
 		}
 	],
-	"url": null,
+	"url": "https://www.dndbeyond.com/sources/dnd/efota",
 	"license": "",
 	"readme": "",
 	"bugs": "",
@@ -62,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/ee/listing_images/638989884394019759.jpeg"
+			"url": "ddb://image/efota/listing_images/638995467851050782.jpeg"
 		}
 	]
 }

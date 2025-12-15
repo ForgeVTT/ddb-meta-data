@@ -1,8 +1,8 @@
 {
-	"id": "ee",
-	"name": "ee",
-	"title": "Elemental Evil Player's Companion",
-	"description": "This supplement provides new options for player characters in the Princes of the Apocalypse campaign and beyond.",
+	"id": "ffotr",
+	"name": "ffotr",
+	"title": "Fated Flight of the Recluse",
+	"description": "<p>A straightforward job turns into a harrowing journey across the skies of Eberron. Mystery, danger, and adventure await in this short adventure for level 3 characters featuring material from <em>Eberron: Forge of the Artificer</em>.</p>",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -20,7 +20,7 @@
 			"twitter": "@ForgeVTT"
 		}
 	],
-	"url": null,
+	"url": "https://www.dndbeyond.com/sources/dnd/ffotr/fated-flight-of-the-recluse",
 	"license": "",
 	"readme": "",
 	"bugs": "",
@@ -62,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/ee/listing_images/638989884394019759.jpeg"
+			"url": "ddb://image/ffotr/listing_images/638996385206175334.jpeg"
 		}
 	]
 }
