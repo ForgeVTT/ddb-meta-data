@@ -8,7 +8,7 @@ on:
 jobs:
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: gh-runners-k8s
     steps:
     - uses: actions/checkout@v2
     - name: Get the version
