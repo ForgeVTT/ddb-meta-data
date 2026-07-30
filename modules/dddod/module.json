@@ -1,0 +1,68 @@
+{
+	"id": "dddod",
+	"name": "dddod",
+	"title": "Dr Dhrolin’s Dictionary of Dinosaurs",
+	"description": "<p>Written by palaeontologists and illustrated by world-famous palaeo-artists, <em>Dr Dhrolin’s Dictionary of Dinosaurs</em> provides everything you could possibly need to fill your world with prehistoric content, or to build an entirely new prehistoric-themed campaign.</p><p>In addition to providing heaps of Mesozoic reptiles (dinosaurs, pterosaurs, marine reptiles, etc.), this book also includes plot hooks, immersive real-world environments (with in-game effects, fauna, and flora), realistic behaviour, evolution mutations, taming rules, naming tables, riding rules, and mountains of scientific information about each animal. This is all complemented by optional magical rules for each non-fictional creature, playable dinosaur-folk species, and NPCs to build your own high-fantasy prehistoric setting.</p>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/dddod",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/dddod/listing_images/639105203709505694.jpeg"
+		}
+	]
+}
