@@ -2,7 +2,7 @@
 	"id": "lfl",
 	"name": "lfl",
 	"title": "Lorwyn: First Light",
-	"description": "<p>​Journey beyond the Forgotten Realms to the beloved plane of Lorwyn-Shadowmoor,where eternal sun shifts into eerie moonlight. Here, you’ll discover new Fey-inspired character options, a rich gazetteer of mystical locales, monstrous incarnations of nature, and ready-to-run adventures.</p>",
+	"description": "<p>Journey beyond the Forgotten Realms to the beloved plane of Lorwyn-Shadowmoor,where eternal sun shifts into eerie moonlight. Here, you’ll discover new Fey-inspired character options, a rich gazetteer of mystical locales, monstrous incarnations of nature, and ready-to-run adventures. ​</p>",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -62,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/lfl/listing_images/639016128027071803.jpeg"
+			"url": "ddb://image/lfl/listing_images/638969165222381014.jpeg"
 		}
 	]
 }

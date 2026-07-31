@@ -1,8 +1,8 @@
 {
-	"id": "vsspp",
-	"name": "vsspp",
-	"title": "Valda’s Spire of Secrets: Player Pack",
-	"description": "<p>The Valda’s Spire of Secrets: Player Pack gives you unique species, subclasses, spells, and magic items from Mage Hand Press’ catalog of innovative additions to the Player’s Handbook. Unearth magic, gear, and player options that even a lich could love!</p>",
+	"id": "hwt",
+	"name": "hwt",
+	"title": "Humblewood Tales",
+	"description": "<p>Engage with 5 new animal adventures set in the Humblewood region, from tackling a sticky situation with a slime cult, to learning the mystery of a Jerbeen that can fly, to a dreamscape battle against the Amaranthine Kren. What tales will you tell?</p><ul><li>5 new animal adventures for levels 3-8</li><li>3 subclasses</li><li>New player faction with ranks, roles, and 4 feats</li><li>35 magic items</li><li>31 monsters and 72 NPCs (103 total)</li><li>4 specialty shoppes with unique merchants</li></ul>",
 	"authors": [
 		{
 			"name": "MrPrimate",
@@ -20,7 +20,7 @@
 			"twitter": "@ForgeVTT"
 		}
 	],
-	"url": "https://www.dndbeyond.com/sources/dnd/vsspp/valdas-spire-of-secrets-player-pack",
+	"url": "https://www.dndbeyond.com/sources/dnd/hwt",
 	"license": "",
 	"readme": "",
 	"bugs": "",
@@ -62,7 +62,7 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "ddb://image/vsspp/listing_images/638780952881052606.jpeg"
+			"url": "ddb://image/hwt/listing_images/638727288656465942.jpeg"
 		}
 	]
 }
