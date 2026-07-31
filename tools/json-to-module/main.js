@@ -167,16 +167,17 @@ async function assemble(args) {
 
     const contentPath = path.resolve(__dirname, "../../content");
 
-    const manifestOutcome = await assembleManifest(args);
     const outcomes = await Promise.allSettled([
         assembleScenes(args, contentPath),
         assembleTables(args, contentPath),
         // assembleActors(args),
         // assembleItems(args),
         assembleREADME(args),
+        assembleManifest(args),
     ]);
-    outcomes.push(manifestOutcome);
-    outcomes.filter((outcome) => outcome.fulfilled).map((outcome) => console.error("Error", outcome.reason));
+    outcomes
+        .filter((outcome) => outcome.status !== "fulfilled")
+        .map((outcome) => console.error("Error", outcome.reason));
     console.info(`Done assembling meta data for ${args.book}`);
     console.timeEnd();
 }
