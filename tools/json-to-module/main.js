@@ -58,8 +58,30 @@ class DatabaseInterface {
     constructor(name, args) {
         this.name = name;
         this.path = path.resolve(args.output, args.book, "packs", `${this.name}.db`);
-        if (fs.existsSync(this.path)) fs.rm(this.path); // Clear existing database
-        this.db = new Datastore({ filename: this.path, autoload: true });
+    }
+
+    static removeIds(value) {
+        if (Array.isArray(value)) {
+            return value.map(DatabaseInterface.removeIds);
+        }
+        if (!value || typeof value !== "object") {
+            return value;
+        }
+        return Object.entries(value)
+            .sort(([aKey], [bKey]) => aKey.localeCompare(bKey))
+            .reduce((obj, [key, entry]) => {
+                if (key === "_id") return obj;
+                obj[key] = DatabaseInterface.removeIds(entry);
+                return obj;
+            }, {});
+    }
+
+    static normalizeDocs(docs) {
+        const normalizedDocs = docs
+            .map(DatabaseInterface.removeIds)
+            .map((doc) => JSON.stringify(doc))
+            .sort();
+        return JSON.stringify(normalizedDocs);
     }
 
     /**
@@ -68,11 +90,27 @@ class DatabaseInterface {
      * @returns {Promise<object>} - A promise that resolves with the inserted documents
      */
     async save(docs) {
+        const dbExists = await fs.pathExists(this.path);
+        if (dbExists) {
+            const existingDocs = await DatabaseInterface.load(this.path);
+            if (
+                existingDocs.length > 0 &&
+                docs.length === existingDocs.length &&
+                DatabaseInterface.normalizeDocs(existingDocs) === DatabaseInterface.normalizeDocs(docs)
+            ) {
+                console.info(`No changes in ${this.name}, skipped writing ${this.path}`);
+                return existingDocs;
+            }
+            await fs.remove(this.path);
+        }
+
+        const db = new Datastore({ filename: this.path, autoload: true });
+
         const outcomes = await Promise.allSettled(
             docs.map(
                 (doc) =>
                     new Promise((resolve, reject) =>
-                        this.db.insert(doc, (err, newDoc) => {
+                        db.insert(doc, (err, newDoc) => {
                             if (err) {
                                 console.error("Error", `Error inserting document`, err);
                                 reject(err);
@@ -87,7 +125,7 @@ class DatabaseInterface {
         outcomes
             .filter((outcome) => outcome.status !== "fulfilled")
             .map((outcome) => console.error("Error", outcome.reason));
-        this.db.persistence.compactDatafile();
+        db.persistence.compactDatafile();
         console.info(`Inserted ${this.name} and compacted database file`);
         return outcomes.map((outcome) => outcome.value);
     }
