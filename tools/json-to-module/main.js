@@ -60,9 +60,9 @@ class DatabaseInterface {
         this.path = path.resolve(args.output, args.book, "packs", `${this.name}.db`);
     }
 
-    static removeIds(value) {
+    static removeMetaFields(value) {
         if (Array.isArray(value)) {
-            return value.map(DatabaseInterface.removeIds);
+            return value.map(DatabaseInterface.removeMetaFields);
         }
         if (!value || typeof value !== "object") {
             return value;
@@ -70,17 +70,17 @@ class DatabaseInterface {
         return Object.entries(value)
             .sort(([aKey], [bKey]) => aKey.localeCompare(bKey))
             .reduce((obj, [key, entry]) => {
-                if (key === "_id") return obj;
-                obj[key] = DatabaseInterface.removeIds(entry);
+                if (key.startsWith("_")) return obj;
+                obj[key] = DatabaseInterface.removeMetaFields(entry);
                 return obj;
             }, {});
     }
 
     static normalizeDocs(docs) {
         const normalizedDocs = docs
-            .map(DatabaseInterface.removeIds)
+            .map(DatabaseInterface.removeMetaFields)
             .map((doc) => JSON.stringify(doc))
-            .sort();
+            .sort((a, b) => a.localeCompare(b));
         return JSON.stringify(normalizedDocs);
     }
 
