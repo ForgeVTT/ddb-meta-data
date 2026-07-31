@@ -31,8 +31,8 @@ const args = parser.parse_args();
             withFileTypes: true,
         })
     )
-        .filter((dirent) => dirent.isDirectory())
-        .map((dirent) => dirent.name);
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
 
     console.groupCollapsed(`Updating ${books.length} descriptions`);
     for (const book of books) {
@@ -42,10 +42,6 @@ const args = parser.parse_args();
         // Skip if no README
         if (!(await fs.pathExists(readmePath))) {
             console.warn(`No README for ${book}`);
-            continue;
-        }
-        if (!(await fs.pathExists(manifestPath))) {
-            console.warn(`No manifest for ${book}`);
             continue;
         }
 

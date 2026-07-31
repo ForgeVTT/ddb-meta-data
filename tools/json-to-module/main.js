@@ -167,13 +167,15 @@ async function assemble(args) {
 
     const contentPath = path.resolve(__dirname, "../../content");
 
+    const manifestOutcome = await assembleManifest(args).catch((err) => {
+        console.error("Failed to assemble manifest", err);
+    });
     const outcomes = await Promise.allSettled([
         assembleScenes(args, contentPath),
         assembleTables(args, contentPath),
         // assembleActors(args),
         // assembleItems(args),
         assembleREADME(args),
-        assembleManifest(args),
     ]);
     outcomes
         .filter((outcome) => outcome.status !== "fulfilled")
