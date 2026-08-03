@@ -28,15 +28,15 @@ if (!args.metadata) throw new Error("No metadata path specified");
     await fs.ensureDir(`${args.metadata}/content/scene_info/${book}`);
     const sceneInfo = await fs.readdir(`${args.metadata}/content/scene_info/${book}`);
     const currentScenes = await Promise.all(
-        sceneInfo.map(file => {
+        sceneInfo.map((file) => {
             return fs.readJSON(`${args.metadata}/content/scene_info/${book}/${file}`);
         })
     );
     const newScenes = [];
 
     let heading,
-        sort = Math.max(currentScenes.map(s => s.sort)),
-        navOrder = Math.max(currentScenes.map(s => s.navOrder));
+        sort = Math.max(currentScenes.map((s) => s.sort)),
+        navOrder = Math.max(currentScenes.map((s) => s.navOrder));
 
     pages: for (const page of contents) {
         try {
@@ -48,7 +48,7 @@ if (!args.metadata) throw new Error("No metadata path specified");
                 if (node.nodeName === "H1") heading = node.textContent;
                 const name = heading ?? page.Title;
 
-                if ([...currentScenes, ...newScenes].find(s => [s.name, s.navName].includes(name))) continue pages;
+                if ([...currentScenes, ...newScenes].find((s) => [s.name, s.navName].includes(name))) continue pages;
                 if (node.title === "View Player Version") {
                     const imagePath = path.join(args.converted, book, node.href.slice(`ddb://image/${book}`.length));
                     if (!node.href.startsWith("ddb://image/") || !fs.pathExists(imagePath)) {
@@ -84,14 +84,10 @@ if (!args.metadata) throw new Error("No metadata path specified");
     }
 
     await Promise.all(
-        newScenes.map(scene => {
+        newScenes.map((scene) => {
             const { ddbId, parentId, contentChunkId } = scene.flags.ddb;
             const basename = [book, ddbId, parentId, contentChunkId, "scene"].join("-");
-            return fs.writeJSON(
-                `${args.metadata}/content/scene_info/${book}/${basename}.json`,
-                scene,
-                { spaces: 4 }
-            );
+            return fs.writeJSON(`${args.metadata}/content/scene_info/${book}/${basename}.json`, scene, { spaces: 4 });
         })
     );
 

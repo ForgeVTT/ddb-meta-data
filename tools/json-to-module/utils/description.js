@@ -31,8 +31,8 @@ const args = parser.parse_args();
             withFileTypes: true,
         })
     )
-        .filter(dirent => dirent.isDirectory())
-        .map(dirent => dirent.name);
+        .filter((dirent) => dirent.isDirectory())
+        .map((dirent) => dirent.name);
 
     console.groupCollapsed(`Updating ${books.length} descriptions`);
     for (const book of books) {

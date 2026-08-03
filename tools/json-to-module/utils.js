@@ -1,6 +1,6 @@
 const { JSDOM } = require("jsdom");
 const showdown = require("showdown");
-const crypto = require('crypto')
+const crypto = require("crypto");
 
 module.exports = {
     /**
@@ -24,7 +24,7 @@ module.exports = {
      * @returns {string}
      */
     htmlToMarkdown(string) {
-        const { window }  = new JSDOM(string);
+        const { window } = new JSDOM(string);
         const { document } = window;
         this.removeAttributes(document, window);
         const converter = new showdown.Converter();
@@ -33,14 +33,15 @@ module.exports = {
     },
     /**
      * Generate a random ID, suitable in use by foundry's database
-     * 
+     *
      * @param {Number} len  Length of the ID (Default=16)
-     * @returns 
+     * @returns
      */
-    randomId(len=16) {
-        return crypto.randomBytes(Math.ceil(Math.max(8, len * 2)))
-          .toString('base64')
-          .replace(/[+\/]/g, '')
-          .slice(0, len);
-      }
+    randomId(len = 16) {
+        return crypto
+            .randomBytes(Math.ceil(Math.max(8, len * 2)))
+            .toString("base64")
+            .replace(/[+\/]/g, "")
+            .slice(0, len);
+    },
 };

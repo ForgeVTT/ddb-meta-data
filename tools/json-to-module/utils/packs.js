@@ -31,13 +31,14 @@ const TYPES = new Map([
         const dbFiles = await fs.readdir(dbPath);
 
         const packs = dbFiles
-            .map(file => {
+            .map((file) => {
                 const name = file.split(".")[0];
                 if (!TYPES.get(name)) return;
                 return {
                     name: name,
                     label:
-                        manifest.packs.find(p => p.name === name)?.label ?? `${book.toUpperCase()} ${TYPES.get(name)}s`,
+                        manifest.packs.find((p) => p.name === name)?.label ??
+                        `${book.toUpperCase()} ${TYPES.get(name)}s`,
                     path: `packs/${file}`,
                     entity: TYPES.get(name),
                     type: TYPES.get(name),

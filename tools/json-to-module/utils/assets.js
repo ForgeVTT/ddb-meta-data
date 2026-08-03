@@ -20,7 +20,7 @@ const utils = {
     async downloadUrl(url, destination) {
         return new Promise((resolve, reject) => {
             const file = fs.createWriteStream(destination);
-            https.get(url, response => {
+            https.get(url, (response) => {
                 response.pipe(file);
                 file.on("finish", () => {
                     console.info(`Downloaded ${url} to ${destination}`);
@@ -35,7 +35,7 @@ async function downloadAssets(bookDir, assetsDir, metadataAssetsDir) {
     console.groupCollapsed("Downloading assets");
     const filesTxt = path.resolve(bookDir, "files.txt");
     if (!(await fs.pathExists(filesTxt))) return;
-    const filesJson = await fs.readJSON(filesTxt).catch(err => ({}));
+    const filesJson = await fs.readJSON(filesTxt).catch((err) => ({}));
     const files = filesJson && filesJson.files;
     if (!files) return;
     for (const asset of files) {
