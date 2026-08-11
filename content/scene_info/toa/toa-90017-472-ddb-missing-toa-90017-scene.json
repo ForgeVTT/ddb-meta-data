@@ -1,0 +1,70 @@
+{
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 16,
+        "offsetY": 2,
+        "rotation": 0,
+        "tint": null
+    },
+    "backgroundColor": "#333333",
+    "darkness": 0,
+    "drawings": [],
+    "flags": {
+        "ddb": {
+            "bookCode": "toa",
+            "ddbId": 90017,
+            "cobaltId": null,
+            "parentId": 472,
+            "contentChunkId": "ddb-missing-toa-90017",
+            "notes": [],
+            "tokens": [],
+            "foundryVersion": "10.291",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map: Locations in Chult (Player)",
+                    "bookCode": "toa",
+                    "contentChunkId": "ddb-missing-toa-90017",
+                    "lastUpdate": "1.1.23",
+                    "notes": "1.1.23",
+                    "tokens": "1.1.23",
+                    "walls": "1.1.23",
+                    "lights": "1.1.23",
+                    "drawings": "1.1.23",
+                    "regions": "1.1.23",
+                    "foundry": "10.291"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "globalLight": true,
+    "globalLightThreshold": null,
+    "grid": {
+        "type": 5,
+        "size": 111,
+        "color": "#000000",
+        "alpha": 0,
+        "distance": 10,
+        "units": "mi"
+    },
+    "height": 8922,
+    "initial": {
+        "x": 5251,
+        "y": 6790,
+        "scale": 0.25
+    },
+    "lights": [],
+    "name": "Map: Locations in Chult (Player)",
+    "navName": "Map: Locations in Chult (Player)",
+    "padding": 0.25,
+    "tokenVision": false,
+    "walls": [],
+    "weather": "",
+    "width": 6561
+}
