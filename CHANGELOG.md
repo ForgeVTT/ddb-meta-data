@@ -1,3 +1,49 @@
+# 1.1.31
+
+- Shadows of Sithicus
+
+# 1.1.30
+
+- Ravenloft: The Horrors Within scenes
+
+# 1.1.26
+
+- Waterdeep Dragon Heist fixes.
+
+# 1.1.23
+
+- Fixes to ToA due to DDB formating updates.
+
+# 1.1.22
+
+- Faster Faster Purple Worm 1.
+
+# 1.1.21
+
+- Heroes of the Borderlands "Bugbear Lair" scene
+
+# 1.1.20
+
+- Fix CM scenes.
+
+# 1.1.19
+
+- Basic scenes for One-Shot Wonders: Holiday Adventure Pack, Netheril’s Fall, Eberron: Forge of the Artificer, and Fated Flight of the Recluse.
+
+# 1.1.18
+
+- DOIP Scenes Regenerated
+- Support for Lorwyn
+
+# 1.1.17
+
+- Forgotten Realms Adventures in Faerun
+- Astarion's Book of Hungers
+
+# 1.1.16
+
+- Heroes of the Borderlands
+
 # 1.1.15
 
 - Abomination Vaults.
