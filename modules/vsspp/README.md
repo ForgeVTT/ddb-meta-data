@@ -1,6 +1,6 @@
 # Valda’s Spire of Secrets: Player Pack
 
-The _Valda’s Spire of Secrets: Player Pack_ gives you unique species, subclasses, spells, and magic items from Mage Hand Press’ catalog of innovative additions to the _Player’s Handbook_. Unearth magic, gear, and player options that even a lich could love!
+The Valda’s Spire of Secrets: Player Pack gives you unique species, subclasses, spells, and magic items from Mage Hand Press’ catalog of innovative additions to the Player’s Handbook. Unearth magic, gear, and player options that even a lich could love!
 
 ---
 
