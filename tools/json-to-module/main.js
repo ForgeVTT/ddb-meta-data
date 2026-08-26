@@ -180,13 +180,7 @@ async function assemble(args) {
 
     try {
         await assembleManifest(args);
-        await Promise.all([
-            assembleScenes(args, contentPath),
-            assembleTables(args, contentPath),
-            // assembleActors(args),
-            // assembleItems(args),
-            assembleREADME(args),
-        ]);
+        await Promise.all([assembleScenes(args, contentPath), assembleTables(args, contentPath), assembleREADME(args)]);
     } catch (err) {
         console.error("Failed to assemble meta data", err);
     }
@@ -363,7 +357,6 @@ async function assembleManifest(args) {
                 email: "contact@forge-vtt.com",
                 discord: "https://forge-vtt.com/discord",
                 reddit: "https://www.reddit.com/r/ForgeVTT",
-                twitter: "@ForgeVTT",
             },
         ],
         url: await getRedirectUrl(args.book),
