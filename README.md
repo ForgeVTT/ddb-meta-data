@@ -18,24 +18,24 @@ If you wish to help improve the scene wall and lighting information, see the bel
 
 ### Scene adjustments
 
-* Scenes will export:
-  * Links to places notes/pins
-  * Information about tokens placed from the DDB Monster Compendium
-  * Lights
-  * Global illumination
-  * Alignment and scaling
-  * Walling and doors
-  * Drawings
-  * Stairways module settings (optional)
-  * Perfect Vision settings on a scene (optional)
-  * Dynamic Illumination settings on a scene (optional)
+- Scenes will export:
+  - Links to places notes/pins
+  - Information about tokens placed from the DDB Monster Compendium
+  - Lights
+  - Global illumination
+  - Alignment and scaling
+  - Walling and doors
+  - Drawings
+  - Stairways module settings (optional)
+  - Perfect Vision settings on a scene (optional)
+  - Dynamic Illumination settings on a scene (optional)
 
 ### How?
 
-* You need to be using v2.1.11+ of ddb-importer.
-* Open the Chrome Developer Console (F12) and run `game.settings.set("ddb-importer", "allow-scene-download", true)`
-* Now when you right click on a scene navigation button you will get the option to download the associated data (DDB Scene Config).
-* Fill out the form and upload the json file [here](https://forms.gle/NvyRWdUxi9Dho4As9)
+- You need to be using v2.1.11+ of ddb-importer.
+- Open the Chrome Developer Console (F12) and run `game.settings.set("ddb-importer", "allow-scene-download", true)`
+- Now when you right click on a scene navigation button you will get the option to download the associated data (DDB Scene Config).
+- Fill out the form and upload the json file [here](https://forms.gle/NvyRWdUxi9Dho4As9)
 
 ### Stairways module
 
@@ -53,81 +53,81 @@ I will be starting to collect this information in a shared google sheet in the c
 
 ### Actors
 
-* `monsterId` - The ID of the associated DDB monster
+- `monsterId` - The ID of the associated DDB monster
 
 ### Tables
 
-* `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
+- `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
 
-* `cobaltId` - ID of a parent section
+- `cobaltId` - ID of a parent section
 
-* `slug` - The table's slug
+- `slug` - The table's slug
 
-* `tagIdFirst` - The ID of the start tag
+- `tagIdFirst` - The ID of the start tag
 
-* `contentChunkId` - The table's content chunk ID
+- `contentChunkId` - The table's content chunk ID
 
-* `sceneName` - Name of the corresponding scene
+- `sceneName` - Name of the corresponding scene
 
 ### Scenes
 
-* `bookCode` - e.g. `lmop`, `cos`
+- `bookCode` - e.g. `lmop`, `cos`
 
-* `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
+- `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
 
-* `cobaltId` - ID of a parent section
+- `cobaltId` - ID of a parent section
 
-* `parentId` - ID for the parent section
+- `parentId` - ID for the parent section
 
-* `contentChunkId` - The scene's content chunk ID
+- `contentChunkId` - The scene's content chunk ID
 
-* `foundryVersion` - Compatible FVTT version
+- `foundryVersion` - Compatible FVTT version
 
-* `versions` - Versioning data
+- `versions` - Versioning data
 
-  * `ddbMetaData` - Versioning data for the metadata specifically
+  - `ddbMetaData` - Versioning data for the metadata specifically
 
-    * `name` - Name of scene
+    - `name` - Name of scene
 
-    * `bookCode` - e.g. `lmop`, `cos`
+    - `bookCode` - e.g. `lmop`, `cos`
 
-    * `contentChunkId` - The map's content chunk ID
+    - `contentChunkId` - The map's content chunk ID
 
-    * `lastUpdate` - Last metadata version the scene was updated in
+    - `lastUpdate` - Last metadata version the scene was updated in
 
-    * `notes` - Version of notes
+    - `notes` - Version of notes
 
-    * `tokens` - Version of tokens
+    - `tokens` - Version of tokens
 
-    * `walls` - Version of walls
+    - `walls` - Version of walls
 
-    * `lights` - Version of lights
+    - `lights` - Version of lights
 
-    * `drawings` - Version of drawings
+    - `drawings` - Version of drawings
 
-    * `foundry` - Compatible FVTT version
+    - `foundry` - Compatible FVTT version
 
-* `noteInfos` - Optionally contains data used for splitting scene notes
+- `noteInfos` - Optionally contains data used for splitting scene notes
 
-  * `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
+  - `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
 
-  * `cobaltId` - ID of a parent section
+  - `cobaltId` - ID of a parent section
 
-  * `parentId` - ID for the parent section
+  - `parentId` - ID for the parent section
 
-  * `splitTag` - Tag to split on
+  - `splitTag` - Tag to split on
 
-  * `slug` - Slug of the scene note
+  - `slug` - Slug of the scene note
 
-  * `tagIdFirst` - The ID of the start tag
+  - `tagIdFirst` - The ID of the start tag
 
-  * `contentChunkIdStart`- Content chunk ID of the tag to start parsing at
+  - `contentChunkIdStart`- Content chunk ID of the tag to start parsing at
 
-  * `tagIdLast` - The ID of the stop tag
+  - `tagIdLast` - The ID of the stop tag
 
-  * `contentChunkIdStop` - Content chunk ID of the tag to stop parsing at
+  - `contentChunkIdStop` - Content chunk ID of the tag to stop parsing at
 
-  * `sceneName` - Name of the scene
+  - `sceneName` - Name of the scene
 
 ## Fan Content
 
