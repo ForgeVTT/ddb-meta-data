@@ -50,7 +50,6 @@ const args = parser.parse_args();
                 email: "contact@forge-vtt.com",
                 discord: "https://forge-vtt.com/discord",
                 reddit: "https://www.reddit.com/r/ForgeVTT",
-                twitter: "@ForgeVTT",
             },
         ];
         await fs.writeJSON(manifestPath, manifest, { spaces: "\t" });
