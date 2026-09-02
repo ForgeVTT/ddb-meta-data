@@ -1,0 +1,67 @@
+{
+	"id": "sgehpp",
+	"name": "sgehpp",
+	"title": "Steinhardt's Guide to the Eldritch Hunt Player Pack",
+	"description": "<blockquote>Join the hunt...</blockquote><p>Fight nightmarish monsters, wield brutal trick weapons, and survive creeping madness in a Soulsborne-inspired world of eldritch horror — before the Scourge consumes everything.</p><p>Inside this accursed city, you will find:</p><ul><li><strong>7 Gothic Subclasses</strong> spanning bone-craft, heretical hunts, and eldritch symbiosis.</li><li><strong>9 Trick Weapons &amp; Firearms</strong> each transforming mid-combat to adapt to the hunt.</li><li><strong>2 Unique Species</strong> the porcelain Manikin and the eldritch-maddened Scourgeborne.</li><li><strong>16 Blasphemous Spells</strong> fueled by Osteomancy: bend bone, command spine, and turn your enemies' skeletons against them.</li><li><strong>A Dying City.</strong> Explore Luyarnha, a gothic metropolis consumed by the Scourge, torn between the Radiant Church, the godless Scions, and the factions rotting in its shadow.</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/sgehpp",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/sgehpp/listing_images/639177458471306971.jpeg"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"id": "fgfd",
+	"name": "fgfd",
+	"title": "The Field Guide to Floral Dragons",
+	"description": "<p><em>The Field Guide to Floral Dragons</em> blends the world of flowers with the fantastic world of dragons. This book contains everything you need to spark imagination and create floral dragon-filled stories and adventures. Within you'll discover flower-inspired dragon described in depth, their origin stories, biology and habitats, along with details of their relationships with people and other floral dragons.</p><ul><li>Discover 25+ floral dragons, pests, pollinators and fungal dragons.</li><li>Play as a floral dragonborn.</li><li>Learn about the habitats and world.</li><li>Read evocative research notes that tell a thorny tale.</li><li>Face off against a fungal threat that endangers all.</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/fgfd",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/fgfd/listing_images/639210382668485800.jpeg"
+		}
+	]
+}

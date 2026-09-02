@@ -16,8 +16,7 @@
 			"url": "https://forge-vtt.com",
 			"email": "contact@forge-vtt.com",
 			"discord": "https://forge-vtt.com/discord",
-			"reddit": "https://www.reddit.com/r/ForgeVTT",
-			"twitter": "@ForgeVTT"
+			"reddit": "https://www.reddit.com/r/ForgeVTT"
 		}
 	],
 	"url": "https://www.dndbeyond.com/sources/dnd/aboh",
@@ -37,7 +36,16 @@
 	"esmodules": [],
 	"styles": [],
 	"languages": [],
-	"packs": [],
+	"packs": [
+		{
+			"name": "scenes",
+			"label": "ABOH Scenes",
+			"path": "packs/scenes.db",
+			"entity": "Scene",
+			"type": "Scene",
+			"system": "dnd5e"
+		}
+	],
 	"relationships": {
 		"systems": [
 			{

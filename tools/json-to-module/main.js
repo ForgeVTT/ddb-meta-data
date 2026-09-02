@@ -58,21 +58,70 @@ class DatabaseInterface {
     constructor(name, args) {
         this.name = name;
         this.path = path.resolve(args.output, args.book, "packs", `${this.name}.db`);
-        if (fs.existsSync(this.path)) fs.rm(this.path); // Clear existing database
-        this.db = new Datastore({ filename: this.path, autoload: true });
+    }
+
+    /**
+     * Recursively removes metadata fields and sorts object keys
+     * @param {*} value - Value to normalize
+     * @returns {*} - Value without metadata fields
+     */
+    static removeMetaFields(value) {
+        if (Array.isArray(value)) {
+            return value.map(DatabaseInterface.removeMetaFields);
+        }
+        if (!value || typeof value !== "object") {
+            return value;
+        }
+        return Object.entries(value)
+            .sort(([aKey], [bKey]) => aKey.localeCompare(bKey))
+            .reduce((obj, [key, entry]) => {
+                if (key.startsWith("_")) return obj;
+                obj[key] = DatabaseInterface.removeMetaFields(entry);
+                return obj;
+            }, {});
+    }
+
+    /**
+     * Normalizes documents for deterministic comparison
+     * @param {object[]} docs - Documents to normalize
+     * @returns {string} - Serialized normalized documents
+     */
+    static normalizeDocs(docs) {
+        const normalizedDocs = docs
+            .map(DatabaseInterface.removeMetaFields)
+            .map((doc) => JSON.stringify(doc))
+            .sort((a, b) => a.localeCompare(b));
+        return JSON.stringify(normalizedDocs);
     }
 
     /**
      * Save documents to the database
-     * @param {object[]} docs - An array of documents to insert
-     * @returns {Promise<object>} - A promise that resolves with the inserted documents
+     * @param {object[]} docs - Array of documents to insert
+     * @returns {Promise<object>} - Promise that resolves with the inserted documents
      */
     async save(docs) {
+        const dbExists = await fs.pathExists(this.path);
+        if (dbExists) {
+            const existingDocs = await DatabaseInterface.load(this.path);
+            if (
+                existingDocs.length > 0 &&
+                docs.length === existingDocs.length &&
+                DatabaseInterface.normalizeDocs(existingDocs) === DatabaseInterface.normalizeDocs(docs)
+            ) {
+                // Existing .db file matches the latest DDB data, no need to regenerate it.
+                console.info(`No changes in ${this.name}, skipped writing ${this.path}`);
+                return existingDocs;
+            }
+            await fs.remove(this.path);
+        }
+
+        const db = new Datastore({ filename: this.path, autoload: true });
+
         const outcomes = await Promise.allSettled(
             docs.map(
                 (doc) =>
                     new Promise((resolve, reject) =>
-                        this.db.insert(doc, (err, newDoc) => {
+                        db.insert(doc, (err, newDoc) => {
                             if (err) {
                                 console.error("Error", `Error inserting document`, err);
                                 reject(err);
@@ -87,7 +136,7 @@ class DatabaseInterface {
         outcomes
             .filter((outcome) => outcome.status !== "fulfilled")
             .map((outcome) => console.error("Error", outcome.reason));
-        this.db.persistence.compactDatafile();
+        db.persistence.compactDatafile();
         console.info(`Inserted ${this.name} and compacted database file`);
         return outcomes.map((outcome) => outcome.value);
     }
@@ -129,16 +178,13 @@ async function assemble(args) {
 
     const contentPath = path.resolve(__dirname, "../../content");
 
-    const manifestOutcome = await assembleManifest(args);
-    const outcomes = await Promise.allSettled([
-        assembleScenes(args, contentPath),
-        assembleTables(args, contentPath),
-        // assembleActors(args),
-        // assembleItems(args),
-        assembleREADME(args),
-    ]);
-    outcomes.push(manifestOutcome);
-    outcomes.filter((outcome) => outcome.fulfilled).map((outcome) => console.error("Error", outcome.reason));
+    try {
+        await assembleManifest(args);
+        await Promise.all([assembleScenes(args, contentPath), assembleTables(args, contentPath), assembleREADME(args)]);
+    } catch (err) {
+        console.error("Failed to assemble meta data", err);
+    }
+
     console.info(`Done assembling meta data for ${args.book}`);
     console.timeEnd();
 }
@@ -311,7 +357,6 @@ async function assembleManifest(args) {
                 email: "contact@forge-vtt.com",
                 discord: "https://forge-vtt.com/discord",
                 reddit: "https://www.reddit.com/r/ForgeVTT",
-                twitter: "@ForgeVTT",
             },
         ],
         url: await getRedirectUrl(args.book),

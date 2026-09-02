@@ -1,0 +1,67 @@
+{
+	"id": "ns",
+	"name": "ns",
+	"title": "Northlands Sagas",
+	"description": "<p>Welcome to the Northlands, where the chill bites harder than the axe! Northlands Sagas is an 11-adventure compendium of Norse adventure in the frozen heart of a Nordic-inspired setting.</p><p>These lands cry out for mighty heroes to pursue noble deeds:</p><ul><li>Scale Yggdrasil, the World-Tree, and survive the frosts of Jotunheim in Among the Norns.</li><li>Rally a defense against an army of giants and the dreaded Cult of Ragnarok in Assault on Hvalfell.</li><li>Race against the coming apocalypse and stop the release of the dread wolf in Storming the Den of Fenris.</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/ns",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/ns/listing_images/639137858928429914.jpeg"
+		}
+	]
+}
