@@ -3,7 +3,6 @@ const readline = require("node:readline");
 const path = require("path");
 const Datastore = require("@seald-io/nedb");
 const { ArgumentParser } = require("argparse");
-const chalk = require("chalk");
 const utils = require("./utils");
 
 async function main() {
@@ -301,13 +300,10 @@ async function confirmSourceUrl(bookName, defaultUrl) {
             input: process.stdin,
             output: process.stdout,
         });
-        rl.question(
-            `Please check the correct URL (${chalk.strikethrough(defaultUrl)}) for ${chalk.bold(bookName)} ${chalk.dim("(leave empty if unavailable)")}:`,
-            (url) => {
-                rl.close();
-                resolve(url || null);
-            }
-        );
+        rl.question(`Please check the redirected URL from ${defaultUrl} (leave empty if unavailable):`, (url) => {
+            rl.close();
+            resolve(url || null);
+        });
     });
     cacheSourceUrl(bookName, sourceUrl);
     return sourceUrl;
