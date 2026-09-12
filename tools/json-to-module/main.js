@@ -1,10 +1,9 @@
 const fs = require("fs-extra");
 const readline = require("node:readline");
 const path = require("path");
-const Datastore = require("nedb");
+const Datastore = require("@seald-io/nedb");
 const { ArgumentParser } = require("argparse");
 const chalk = require("chalk");
-const fetch = require("node-fetch");
 const utils = require("./utils");
 
 async function main() {
@@ -136,7 +135,7 @@ class DatabaseInterface {
         outcomes
             .filter((outcome) => outcome.status !== "fulfilled")
             .map((outcome) => console.error("Error", outcome.reason));
-        db.persistence.compactDatafile();
+        db.compactDatafile();
         console.info(`Inserted ${this.name} and compacted database file`);
         return outcomes.map((outcome) => outcome.value);
     }
