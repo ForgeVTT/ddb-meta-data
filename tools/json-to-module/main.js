@@ -134,7 +134,7 @@ class DatabaseInterface {
         outcomes
             .filter((outcome) => outcome.status !== "fulfilled")
             .map((outcome) => console.error("Error", outcome.reason));
-        db.compactDatafile();
+        await db.compactDatafileAsync();
         console.info(`Inserted ${this.name} and compacted database file`);
         return outcomes.map((outcome) => outcome.value);
     }
