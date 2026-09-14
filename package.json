@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "tools/json-to-module.js",
+  "engines": {
+    "node": ">=24.14.0",
+    "npm": ">=10.9.2"
+  },
   "directories": {
     "doc": "docs"
   },
@@ -23,17 +27,14 @@
     "@types/argparse": "^2.0.10",
     "@types/fs-extra": "^9.0.13",
     "@types/jsdom": "^20.0.0",
-    "@types/nedb": "^1.8.12",
     "@types/showdown": "^2.0.0"
   },
   "dependencies": {
-    "@types/image-size": "^0.8.0",
+    "@seald-io/nedb": "^4.1.2",
     "argparse": "^2.0.1",
     "fs-extra": "^10.1.0",
     "image-size": "^1.0.2",
     "jsdom": "^20.0.0",
-    "nedb": "^1.8.0",
-    "path": "^0.12.7",
     "showdown": "^2.1.0"
   }
 }
