@@ -1,0 +1,1477 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.8
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "rwg",
+            "ddbId": 10030,
+            "cobaltId": null,
+            "parentId": 2980,
+            "contentChunkId": "the-weight-of-responsibility-map-player",
+            "notes": [],
+            "tokens": [
+                {
+                    "_id": "pjFU0WUBnoeMqCP7",
+                    "name": "Gladiator",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3752,
+                    "y": 1608,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "1ff89a0a-02be-470a-8c2a-12a1a7075e0c",
+                            "ddbEntityId": 5195042,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                7.41719649728771,
+                                6.02298988803175
+                            ],
+                            "rawZPosition": 0.11,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/909/638741964180694496.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195042,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 139,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbGladia5195042",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Gladiator"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "hcCzUYXFoBBFTAG0",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 112,
+                                    "max": 112,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "bv3qrYTfgNBtlEMH",
+                    "name": "Spellguard",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2010,
+                    "y": 1608,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "5d292576-0842-4fa6-8e20-f48d52ad0998",
+                            "ddbEntityId": 6719581,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AU",
+                            "rawPosition": [
+                                -10.027423074822135,
+                                5.983876993410502
+                            ],
+                            "rawZPosition": 0.07,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/211/639201559291679359.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719581,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 301,
+                                    "pageNumber": 147,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbSpellg6719581",
+                            "sourceId": 301,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Spellguard"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "u84W6EjdnCVGTlug",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 105,
+                                    "max": 105,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "92ZKYaoE4w8tAbmy",
+                    "name": "Spellguard",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2680,
+                    "y": 2144,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "5702cc81-ac72-42e3-ac0f-761427e21504",
+                            "ddbEntityId": 6719581,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AU",
+                            "rawPosition": [
+                                -3.357100237582392,
+                                0.42976090969942504
+                            ],
+                            "rawZPosition": 0.08,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/211/639201559291679359.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719581,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 301,
+                                    "pageNumber": 147,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbSpellg6719581",
+                            "sourceId": 301,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Spellguard"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "Ua8ES4Ji9ynYbVa2",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 105,
+                                    "max": 105,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "h7yQbE7Ey1o1aGqc",
+                    "name": "Grazzle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4154,
+                    "y": 2278,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "363ef722-c761-428f-b934-a1df21f9d039",
+                            "ddbEntityId": 5194864,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                11.548083602666457,
+                                -0.7827567282948147
+                            ],
+                            "rawZPosition": 0.1,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/540/638741963666292548.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194864,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 10,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbAarAer5194864",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Aarakocra Aeromancer"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "gIOKdT5EPyKdt8II",
+                        "name": "Grazzle",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 66,
+                                    "max": 66,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "9Bknt04hFN3W5R9B",
+                    "name": "Osmik",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4020,
+                    "y": 2412,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "7c265e2b-6749-4ce8-9bb0-fd32618eaadd",
+                            "ddbEntityId": 4831023,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                10.314535181151458,
+                                -2.151733405080502
+                            ],
+                            "rawZPosition": 0.13,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47158/555/638742819087925312.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 4831023,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 199,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbMage4831023II",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Mage"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "1u1E2HJ9keVCGULc",
+                        "name": "Osmik",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 81,
+                                    "max": 81,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "r3ZdOLInHU2pAzlH",
+                    "name": "Gladiator",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3752,
+                    "y": 1876,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "58335c58-5472-4936-8069-79c916e6c8a1",
+                            "ddbEntityId": 5195042,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                7.320882628699556,
+                                3.2459325922068576
+                            ],
+                            "rawZPosition": 0.12,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/909/638741964180694496.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195042,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 139,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbGladia5195042",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Gladiator"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "CNyIAKdZysbzNlCa",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 112,
+                                    "max": 112,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "aWFcb8FAtMnnAvts",
+                    "name": "Air Elemental",
+                    "width": 2,
+                    "height": 2,
+                    "x": 4690,
+                    "y": 1340,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "93f44a3c-21ec-4055-9b8d-997903366925",
+                            "ddbEntityId": 5194878,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                17.49206905942035,
+                                7.900438671077564
+                            ],
+                            "rawZPosition": 0.06,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/573/638741963714305126.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194878,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 13,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbAirEle5194878",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Air Elemental"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "1lLwck5xyxzxeL3d",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 90,
+                                    "max": 90,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "nfpjSwVCgL9OqaeY",
+                    "name": "Spellguard",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2680,
+                    "y": 1206,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "c4b9b4aa-5d95-4340-b41f-6a90c50c2ecf",
+                            "ddbEntityId": 6719581,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AU",
+                            "rawPosition": [
+                                -3.3360754223067928,
+                                9.973453419290923
+                            ],
+                            "rawZPosition": 0.09,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/211/639201559291679359.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719581,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 301,
+                                    "pageNumber": 147,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbSpellg6719581",
+                            "sourceId": 301,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Spellguard"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "NwBH260cpk1l6Yoo",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 105,
+                                    "max": 105,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/rwg/map-04-001.the-weight-of-responsibility-player.png",
+            "foundryVersion": "14.367",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map: The Weight of Responsibility",
+                    "bookCode": "rwg",
+                    "contentChunkId": "the-weight-of-responsibility-map-player",
+                    "lastUpdate": "1.1.31",
+                    "notes": "1.1.31",
+                    "tokens": "1.1.31",
+                    "walls": "1.1.31",
+                    "lights": "1.1.31",
+                    "drawings": "1.1.31",
+                    "regions": "1.1.31",
+                    "foundry": "14.367"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0,
+        "color": "#000000",
+        "distance": 5,
+        "size": 134,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 3010,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#181818",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": null,
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 2.5,
+                "dim": 5
+            },
+            "name": "Ambient Light",
+            "x": 3216,
+            "y": 2278,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": null,
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 2.5,
+                "dim": 5
+            },
+            "name": "Ambient Light",
+            "x": 4020,
+            "y": 1474,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": null,
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 2.5,
+                "dim": 5
+            },
+            "name": "Ambient Light",
+            "x": 4824,
+            "y": 2278,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": null,
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 2.5,
+                "dim": 5
+            },
+            "name": "Ambient Light",
+            "x": 4020,
+            "y": 3082,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        }
+    ],
+    "name": "Map: The Weight of Responsibility",
+    "navName": "The Weight of Responsibility",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": 37,
+    "shiftY": 37,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1122,
+                1717,
+                1123,
+                3424
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1123,
+                3424,
+                1505,
+                3516
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1505,
+                3516,
+                2252,
+                3521
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2252,
+                3521,
+                2318,
+                3246
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2318,
+                3246,
+                2293,
+                1393
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1608,
+                2906,
+                1600,
+                1224
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1600,
+                1224,
+                1097,
+                1214
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1600,
+                1224,
+                1730,
+                987
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1730,
+                987,
+                2757,
+                1000
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2757,
+                1000,
+                3030,
+                1413
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3030,
+                1413,
+                3320,
+                1635
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3030,
+                1413,
+                2991,
+                2290
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2991,
+                2290,
+                3040,
+                2710
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3040,
+                2710,
+                3037,
+                3156
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3037,
+                3156,
+                3333,
+                2960
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3037,
+                3156,
+                3459,
+                3124
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4028,
+                3275,
+                4003,
+                3643
+            ]
+        }
+    ],
+    "weather": "",
+    "width": 4090
+}
