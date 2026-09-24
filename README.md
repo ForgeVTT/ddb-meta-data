@@ -1,134 +1,58 @@
-# DDB Meta Data
+# D&D Beyond metadata
 
-## What?
+This repository contains maintained Foundry VTT metadata for D&D Beyond sources and the assembled per-source directories consumed by The Forge's D&D Beyond converter. It supplements the D&D Beyond database with prepared scenes, journal-note links, roll-table instructions, extra assets, source-page redirects, and contributor attribution.
 
-This repo contains meta data associated with the books on DDB.
-It can be used to help align maps, place tokens and set up content that you have on DDB into Foundry Virtual tabletop.
-This repo is intended to be used by other software products, such as [DDB Adventure Muncher](https://github.com/MrPrimate/ddb-adventure-muncher/).
+For the complete integration flow and maintainer runbook, see the monolith's [D&D Beyond documentation](../../../docs/dndbeyond/README.md).
 
-## Current Scene Support
+## Repository layout
 
-All books with Scenes should now have notes generated. Please highlight if you find missing Notes/Pins.
+| Path                             | Purpose                                                                      |
+| -------------------------------- | ---------------------------------------------------------------------------- |
+| `content/scene_info/<slug>/`     | Maintained Foundry scene exports.                                            |
+| `content/note_info/<slug>.json`  | Rules for linking scene notes to D&D Beyond journal content.                 |
+| `content/table_info/<slug>.json` | RollTable extraction/linking instructions.                                   |
+| `content/assets/<slug>/`         | Metadata-owned files, usually replacement tiles.                             |
+| `content/contributors.json`      | Per-source contributor attribution.                                          |
+| `redirect.json`                  | Confirmed D&D Beyond source URLs; `null` means no usable page was confirmed. |
+| `modules/<slug>/`                | Generated manifest, README, NeDB packs, and copied assets.                   |
 
-You can see the state of scene support at [this website](https://docs.ddb.mrprimate.co.uk/status.html).
+`content/meta.json`, `content/status.json`, and `content/versions.json` describe the maintained dataset. The legacy `content/journal_info/` directory is not read by the current assembler.
 
-If you wish to help improve the scene wall and lighting information, see the below section.
+The `modules/` tree is generated but versioned. Do not fix generated files without making the corresponding change in `content/` or the assembly tools.
 
-## Contribution
+## Contributing scene adjustments
 
-### Scene adjustments
+A DDB Scene Config export can preserve scene alignment and scale, walls and doors, lighting, notes, D&D Beyond monster tokens, drawings, tiles, and supported module flags.
 
-- Scenes will export:
-  - Links to places notes/pins
-  - Information about tokens placed from the DDB Monster Compendium
-  - Lights
-  - Global illumination
-  - Alignment and scaling
-  - Walling and doors
-  - Drawings
-  - Stairways module settings (optional)
-  - Perfect Vision settings on a scene (optional)
-  - Dynamic Illumination settings on a scene (optional)
+To create an export with DDB Importer:
 
-### How?
+1. Open the browser developer console in Foundry and run:
 
-- You need to be using v2.1.11+ of ddb-importer.
-- Open the Chrome Developer Console (F12) and run `game.settings.set("ddb-importer", "allow-scene-download", true)`
-- Now when you right click on a scene navigation button you will get the option to download the associated data (DDB Scene Config).
-- Fill out the form and upload the json file [here](https://forms.gle/NvyRWdUxi9Dho4As9)
+   ```js
+   game.settings.set("ddb-importer", "allow-scene-download", true);
+   ```
 
-### Stairways module
+2. Right-click the scene in the scene navigation and choose **DDB Scene Config**.
+3. Check the exported JSON for secrets and unrelated world data, then submit it through the [scene metadata form](https://forms.gle/NvyRWdUxi9Dho4As9).
 
-If you export scenes with stairways data included, that will be added in to the generated scenes.
+Report missing scenes, pins, parsing errors, or unclear numbered handouts through the repository's [issue tracker](https://github.com/ForgeVTT/ddb-meta-data/issues). Current scene-support status is published at <https://docs.ddb.mrprimate.co.uk/status.html>.
 
-### Missed parsing
+Scene and table files retain D&D Beyond identifiers in `flags.ddb` so the assembler and converter can reconnect them to source content. Follow a recent file for the current shape; do not rely on a copied field list because Foundry scene schemas and exporter output evolve.
 
-If you find a missing scene, or something has not parsed right please let me know on Discord.
+## Assemble and validate
 
-There are a number of handouts/images that are numbered Handout 1/2/3/etc.
-If you have a good name for one of these handouts please make a note of it.
-I will be starting to collect this information in a shared google sheet in the coming weeks.
+Use the monolith workflow rather than running this repository in isolation. The canonical commands, prerequisites, cache layout, and review checklist are in [Operations and troubleshooting](../../../docs/dndbeyond/operations.md#refresh-sources-and-metadata).
 
-## Flags
+Assembly writes `modules/<slug>/module.json` and `README.md`, creates newline-delimited NeDB packs where source metadata exists, and copies `content/assets/<slug>/` into the generated module. A full assembly pass also updates contributors and pack declarations and cleans descriptions across the generated tree. The Forge converter currently consumes the manifest, README, scene pack, and referenced assets; assembled table and folder packs are not merged into generated user packages.
 
-### Actors
+The runtime contract is the assembled source directory:
 
-- `monsterId` - The ID of the associated DDB monster
+```text
+DNDBCONVERTER_METADATA_ROOTDIR/<slug>/module.json
+```
 
-### Tables
+`DNDBCONVERTER_METADATA_ROOTDIR` must therefore point to this repository's `modules/` directory, not to `content/scene_info/`.
 
-- `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
+## Fan content
 
-- `cobaltId` - ID of a parent section
-
-- `slug` - The table's slug
-
-- `tagIdFirst` - The ID of the start tag
-
-- `contentChunkId` - The table's content chunk ID
-
-- `sceneName` - Name of the corresponding scene
-
-### Scenes
-
-- `bookCode` - e.g. `lmop`, `cos`
-
-- `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
-
-- `cobaltId` - ID of a parent section
-
-- `parentId` - ID for the parent section
-
-- `contentChunkId` - The scene's content chunk ID
-
-- `foundryVersion` - Compatible FVTT version
-
-- `versions` - Versioning data
-
-  - `ddbMetaData` - Versioning data for the metadata specifically
-
-    - `name` - Name of scene
-
-    - `bookCode` - e.g. `lmop`, `cos`
-
-    - `contentChunkId` - The map's content chunk ID
-
-    - `lastUpdate` - Last metadata version the scene was updated in
-
-    - `notes` - Version of notes
-
-    - `tokens` - Version of tokens
-
-    - `walls` - Version of walls
-
-    - `lights` - Version of lights
-
-    - `drawings` - Version of drawings
-
-    - `foundry` - Compatible FVTT version
-
-- `noteInfos` - Optionally contains data used for splitting scene notes
-
-  - `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
-
-  - `cobaltId` - ID of a parent section
-
-  - `parentId` - ID for the parent section
-
-  - `splitTag` - Tag to split on
-
-  - `slug` - Slug of the scene note
-
-  - `tagIdFirst` - The ID of the start tag
-
-  - `contentChunkIdStart`- Content chunk ID of the tag to start parsing at
-
-  - `tagIdLast` - The ID of the stop tag
-
-  - `contentChunkIdStop` - Content chunk ID of the tag to stop parsing at
-
-  - `sceneName` - Name of the scene
-
-## Fan Content
-
-The scene adjustments and walling data is released as unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+Scene adjustments and walling data are released as unofficial Fan Content permitted under the Fan Content Policy. Not approved or endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
