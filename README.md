@@ -1,8 +1,7 @@
 # D&D Beyond metadata
 
-This repository contains maintained Foundry VTT metadata for D&D Beyond sources and the assembled per-source directories consumed by The Forge's D&D Beyond converter. It supplements the D&D Beyond database with prepared scenes, journal-note links, roll-table instructions, extra assets, source-page redirects, and contributor attribution.
-
-For the complete integration flow and maintainer runbook, see the monolith's [D&D Beyond documentation](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/README.md).
+This repository is a fork of [MrPrimateddb-meta-data](https://github.com/MrPrimate/ddb-meta-data) and contains metadata associated with books on D&D Beyond.
+It is used by [The Forge's D&D Beyond converter](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/README.md) to align maps, place tokens, and set up D&D Beyond content in generated Foundry VTT packages.
 
 ## Repository layout
 
@@ -20,24 +19,11 @@ For the complete integration flow and maintainer runbook, see the monolith's [D&
 
 The `modules/` tree is generated but versioned. Do not fix generated files without making the corresponding change in `content/` or the assembly tools.
 
-## Contributing scene adjustments
+## Current Scene Support
 
-A DDB Scene Config export can preserve scene alignment and scale, walls and doors, lighting, notes, D&D Beyond monster tokens, drawings, tiles, and supported module flags.
+You can see the current state of scene support on the [DDB Importer documentation site](https://docs.ddb.mrprimate.co.uk/status.html).
 
-To create an export with DDB Importer:
-
-1. Open the browser developer console in Foundry and run:
-
-   ```js
-   game.settings.set("ddb-importer", "allow-scene-download", true);
-   ```
-
-2. Right-click the scene in the scene navigation and choose **DDB Scene Config**.
-3. Check the exported JSON for secrets and unrelated world data, then submit it through the [scene metadata form](https://forms.gle/NvyRWdUxi9Dho4As9).
-
-Report missing scenes, pins, parsing errors, or unclear numbered handouts through the repository's [issue tracker](https://github.com/ForgeVTT/ddb-meta-data/issues). Current scene-support status is published at <https://docs.ddb.mrprimate.co.uk/status.html>.
-
-Scene and table files retain D&D Beyond identifiers in `flags.ddb` so the assembler and converter can reconnect them to source content. Follow a recent file for the current shape; do not rely on a copied field list because Foundry scene schemas and exporter output evolve.
+If you wish to help improve scene walls and lighting, see [MrPrimate/ddb-meta-data README.md#contribution](https://github.com/MrPrimate/ddb-meta-data/blob/main/README.md#contribution).
 
 ## Assemble and validate
 
@@ -53,6 +39,54 @@ DNDBCONVERTER_METADATA_ROOTDIR/<slug>/module.json
 
 `DNDBCONVERTER_METADATA_ROOTDIR` must therefore point to this repository's `modules/` directory, not to `content/scene_info/`.
 
-## Fan content
+## Flags
 
-Scene adjustments and walling data are released as unofficial Fan Content permitted under the Fan Content Policy. Not approved or endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+### Actors
+
+- `monsterId` - The ID of the associated DDB monster
+
+### Tables
+
+- `ddbId` - D&D Beyond record ID
+- `cobaltId` - D&D Beyond Cobalt content ID
+- `parentId` - ID of the parent content record
+- `slug` - D&D Beyond content slug
+- `tagIdFirst` - The ID of the start tag
+- `contentChunkId` - The table's content chunk ID
+- `sceneName` - Name of the D&D Beyond section containing the table
+
+### Scenes
+
+- `bookCode` - e.g. `lmop`, `cos`
+- `ddbId` - D&D Beyond record ID
+- `cobaltId` - D&D Beyond Cobalt content ID
+- `parentId` - ID of the parent content record
+- `contentChunkId` - The scene's content chunk ID
+- `foundryVersion` - Foundry version used to export the scene
+- `versions` - Versioning data
+  - `ddbMetaData` - Versioning data for the metadata specifically
+    - `name` - Name of scene
+    - `bookCode` - e.g. `lmop`, `cos`
+    - `contentChunkId` - The map's content chunk ID
+    - `lastUpdate` - Last metadata version the scene was updated in
+    - `notes` - Version of notes
+    - `tokens` - Version of tokens
+    - `walls` - Version of walls
+    - `lights` - Version of lights
+    - `drawings` - Version of drawings
+    - `foundry` - Foundry version used for the metadata update
+- `noteInfos` - Optionally contains data used for splitting scene notes
+  - `ddbId` - D&D Beyond record ID
+  - `cobaltId` - D&D Beyond Cobalt content ID
+  - `parentId` - ID of the parent content record
+  - `splitTag` - Tag to split on
+  - `slug` - Slug of the scene note
+  - `tagIdFirst` - The ID of the start tag
+  - `contentChunkIdStart` - Content chunk ID of the tag to start parsing at
+  - `tagIdLast` - The ID of the stop tag
+  - `contentChunkIdStop` - Content chunk ID of the tag to stop parsing at
+  - `sceneName` - Name of the scene
+
+## Fan Content
+
+The scene adjustments and walling data are released as unofficial Fan Content permitted under the Fan Content Policy. Not approved or endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
