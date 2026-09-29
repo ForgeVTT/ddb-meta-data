@@ -3,6 +3,12 @@
 This repository is a fork of [MrPrimateddb-meta-data](https://github.com/MrPrimate/ddb-meta-data) and contains metadata associated with books on D&D Beyond.
 It is used by [The Forge's D&D Beyond converter](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/README.md) to align maps, place tokens, and set up D&D Beyond content in generated Foundry VTT packages.
 
+## Current Scene Support
+
+You can see the current state of scene support on the [DDB Importer documentation site](https://docs.ddb.mrprimate.co.uk/status.html).
+
+If you wish to help improve scene walls and lighting, see [MrPrimate/ddb-meta-data README.md#contribution](https://github.com/MrPrimate/ddb-meta-data/blob/main/README.md#contribution).
+
 ## Repository layout
 
 | Path                             | Purpose                                                                      |
@@ -18,12 +24,6 @@ It is used by [The Forge's D&D Beyond converter](https://github.com/ForgeVTT/the
 `content/meta.json`, `content/status.json`, and `content/versions.json` describe the maintained dataset. The legacy `content/journal_info/` directory is not read by the current assembler.
 
 The `modules/` tree is generated but versioned. Do not fix generated files without making the corresponding change in `content/` or the assembly tools.
-
-## Current Scene Support
-
-You can see the current state of scene support on the [DDB Importer documentation site](https://docs.ddb.mrprimate.co.uk/status.html).
-
-If you wish to help improve scene walls and lighting, see [MrPrimate/ddb-meta-data README.md#contribution](https://github.com/MrPrimate/ddb-meta-data/blob/main/README.md#contribution).
 
 ## Assemble and validate
 
@@ -89,4 +89,4 @@ DNDBCONVERTER_METADATA_ROOTDIR/<slug>/module.json
 
 ## Fan Content
 
-The scene adjustments and walling data are released as unofficial Fan Content permitted under the Fan Content Policy. Not approved or endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+The scene adjustments and walling data is released as unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
