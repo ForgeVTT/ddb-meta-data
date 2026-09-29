@@ -2,7 +2,7 @@
 
 This repository contains maintained Foundry VTT metadata for D&D Beyond sources and the assembled per-source directories consumed by The Forge's D&D Beyond converter. It supplements the D&D Beyond database with prepared scenes, journal-note links, roll-table instructions, extra assets, source-page redirects, and contributor attribution.
 
-For the complete integration flow and maintainer runbook, see the monolith's [D&D Beyond documentation](../../../docs/dndbeyond/README.md).
+For the complete integration flow and maintainer runbook, see the monolith's [D&D Beyond documentation](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/README.md).
 
 ## Repository layout
 
@@ -41,7 +41,7 @@ Scene and table files retain D&D Beyond identifiers in `flags.ddb` so the assemb
 
 ## Assemble and validate
 
-Use the monolith workflow rather than running this repository in isolation. The canonical commands, prerequisites, cache layout, and review checklist are in [Operations and troubleshooting](../../../docs/dndbeyond/operations.md#refresh-sources-and-metadata).
+Use the monolith workflow rather than running this repository in isolation. The canonical commands, prerequisites, cache layout, and review checklist are in [Operations and troubleshooting](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/operations.md#refresh-sources-and-metadata).
 
 Assembly writes `modules/<slug>/module.json` and `README.md`, creates newline-delimited NeDB packs where source metadata exists, and copies `content/assets/<slug>/` into the generated module. A full assembly pass also updates contributors and pack declarations and cleans descriptions across the generated tree. The Forge converter currently consumes the manifest, README, scene pack, and referenced assets; assembled table and folder packs are not merged into generated user packages.
 
