@@ -1,53 +1,43 @@
-# DDB Meta Data
+# D&D Beyond metadata
 
-## What?
-
-This repo contains meta data associated with the books on DDB.
-It can be used to help align maps, place tokens and set up content that you have on DDB into Foundry Virtual tabletop.
-This repo is intended to be used by other software products, such as [DDB Adventure Muncher](https://github.com/MrPrimate/ddb-adventure-muncher/).
+This repository is a fork of [MrPrimateddb-meta-data](https://github.com/MrPrimate/ddb-meta-data) and contains metadata associated with books on D&D Beyond.
+It is used by [The Forge's D&D Beyond converter](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/README.md) to align maps, place tokens, and set up D&D Beyond content in generated Foundry VTT packages.
 
 ## Current Scene Support
 
-All books with Scenes should now have notes generated. Please highlight if you find missing Notes/Pins.
+You can see the current state of scene support on the [DDB Importer documentation site](https://docs.ddb.mrprimate.co.uk/status.html).
 
-You can see the state of scene support at [this website](https://docs.ddb.mrprimate.co.uk/status.html).
+If you wish to help improve scene walls and lighting, see [MrPrimate/ddb-meta-data README.md#contribution](https://github.com/MrPrimate/ddb-meta-data/blob/main/README.md#contribution).
 
-If you wish to help improve the scene wall and lighting information, see the below section.
+## Repository layout
 
-## Contribution
+| Path                             | Purpose                                                                      |
+| -------------------------------- | ---------------------------------------------------------------------------- |
+| `content/scene_info/<slug>/`     | Maintained Foundry scene exports.                                            |
+| `content/note_info/<slug>.json`  | Rules for linking scene notes to D&D Beyond journal content.                 |
+| `content/table_info/<slug>.json` | RollTable extraction/linking instructions.                                   |
+| `content/assets/<slug>/`         | Metadata-owned files, usually replacement tiles.                             |
+| `content/contributors.json`      | Per-source contributor attribution.                                          |
+| `redirect.json`                  | Confirmed D&D Beyond source URLs; `null` means no usable page was confirmed. |
+| `modules/<slug>/`                | Generated manifest, README, NeDB packs, and copied assets.                   |
 
-### Scene adjustments
+`content/meta.json`, `content/status.json`, and `content/versions.json` describe the maintained dataset. The legacy `content/journal_info/` directory is not read by the current assembler.
 
-- Scenes will export:
-  - Links to places notes/pins
-  - Information about tokens placed from the DDB Monster Compendium
-  - Lights
-  - Global illumination
-  - Alignment and scaling
-  - Walling and doors
-  - Drawings
-  - Stairways module settings (optional)
-  - Perfect Vision settings on a scene (optional)
-  - Dynamic Illumination settings on a scene (optional)
+The `modules/` tree is generated but versioned. Do not fix generated files without making the corresponding change in `content/` or the assembly tools.
 
-### How?
+## Assemble and validate
 
-- You need to be using v2.1.11+ of ddb-importer.
-- Open the Chrome Developer Console (F12) and run `game.settings.set("ddb-importer", "allow-scene-download", true)`
-- Now when you right click on a scene navigation button you will get the option to download the associated data (DDB Scene Config).
-- Fill out the form and upload the json file [here](https://forms.gle/NvyRWdUxi9Dho4As9)
+Use the monolith workflow rather than running this repository in isolation. The canonical commands, prerequisites, cache layout, and review checklist are in [Operations and troubleshooting](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/operations.md#refresh-sources-and-metadata).
 
-### Stairways module
+Assembly writes `modules/<slug>/module.json` and `README.md`, creates newline-delimited NeDB packs where source metadata exists, and copies `content/assets/<slug>/` into the generated module. A full assembly pass also updates contributors and pack declarations and cleans descriptions across the generated tree. The Forge converter currently consumes the manifest, README, scene pack, and referenced assets; assembled table and folder packs are not merged into generated user packages.
 
-If you export scenes with stairways data included, that will be added in to the generated scenes.
+The runtime contract is the assembled source directory:
 
-### Missed parsing
+```text
+DNDBCONVERTER_METADATA_ROOTDIR/<slug>/module.json
+```
 
-If you find a missing scene, or something has not parsed right please let me know on Discord.
-
-There are a number of handouts/images that are numbered Handout 1/2/3/etc.
-If you have a good name for one of these handouts please make a note of it.
-I will be starting to collect this information in a shared google sheet in the coming weeks.
+`DNDBCONVERTER_METADATA_ROOTDIR` must therefore point to this repository's `modules/` directory, not to `content/scene_info/`.
 
 ## Flags
 
@@ -57,76 +47,44 @@ I will be starting to collect this information in a shared google sheet in the c
 
 ### Tables
 
-- `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
-
-- `cobaltId` - ID of a parent section
-
-- `slug` - The table's slug
-
+- `ddbId` - D&D Beyond record ID
+- `cobaltId` - D&D Beyond Cobalt content ID
+- `parentId` - ID of the parent content record
+- `slug` - D&D Beyond content slug
 - `tagIdFirst` - The ID of the start tag
-
 - `contentChunkId` - The table's content chunk ID
-
-- `sceneName` - Name of the corresponding scene
+- `sceneName` - Name of the D&D Beyond section containing the table
 
 ### Scenes
 
 - `bookCode` - e.g. `lmop`, `cos`
-
-- `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
-
-- `cobaltId` - ID of a parent section
-
-- `parentId` - ID for the parent section
-
+- `ddbId` - D&D Beyond record ID
+- `cobaltId` - D&D Beyond Cobalt content ID
+- `parentId` - ID of the parent content record
 - `contentChunkId` - The scene's content chunk ID
-
-- `foundryVersion` - Compatible FVTT version
-
+- `foundryVersion` - Foundry version used to export the scene
 - `versions` - Versioning data
-
   - `ddbMetaData` - Versioning data for the metadata specifically
-
     - `name` - Name of scene
-
     - `bookCode` - e.g. `lmop`, `cos`
-
     - `contentChunkId` - The map's content chunk ID
-
     - `lastUpdate` - Last metadata version the scene was updated in
-
     - `notes` - Version of notes
-
     - `tokens` - Version of tokens
-
     - `walls` - Version of walls
-
     - `lights` - Version of lights
-
     - `drawings` - Version of drawings
-
-    - `foundry` - Compatible FVTT version
-
+    - `foundry` - Foundry version used for the metadata update
 - `noteInfos` - Optionally contains data used for splitting scene notes
-
-  - `ddbId` - Unique ID used by MrPrimate's importer (often the row number in the sqlite database)
-
-  - `cobaltId` - ID of a parent section
-
-  - `parentId` - ID for the parent section
-
+  - `ddbId` - D&D Beyond record ID
+  - `cobaltId` - D&D Beyond Cobalt content ID
+  - `parentId` - ID of the parent content record
   - `splitTag` - Tag to split on
-
   - `slug` - Slug of the scene note
-
   - `tagIdFirst` - The ID of the start tag
-
-  - `contentChunkIdStart`- Content chunk ID of the tag to start parsing at
-
+  - `contentChunkIdStart` - Content chunk ID of the tag to start parsing at
   - `tagIdLast` - The ID of the stop tag
-
   - `contentChunkIdStop` - Content chunk ID of the tag to stop parsing at
-
   - `sceneName` - Name of the scene
 
 ## Fan Content
