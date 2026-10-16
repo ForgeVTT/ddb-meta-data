@@ -37,7 +37,7 @@
     "dit": 12,
     "atg": 12,
     "toh": 13,
-    "cos": 19,
+    "cos": 20,
     "hotdq": 13,
     "oota": 14,
     "pota": 12,
@@ -148,5 +148,7 @@
     "au": 3,
     "aud": 3,
     "dmau": 6,
-    "rwg": 3
+    "rwg": 3,
+    "dmwow": 4,
+    "prla": 4
 }
