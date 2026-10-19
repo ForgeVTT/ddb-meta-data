@@ -1,0 +1,6276 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.8
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "aud",
+            "ddbId": 10051,
+            "cobaltId": null,
+            "parentId": 2969,
+            "contentChunkId": "map-04-02.tax-station-number-18-player",
+            "notes": [
+                {
+                    "label": "S1: Courtyard",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 50,
+                            "bookCode": "aud",
+                            "slug": "chapter-4-peril-in-pyarados#TaxStationNumber18",
+                            "contentChunkId": null,
+                            "parentId": 2969,
+                            "slugLink": "S1Courtyard"
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2016,
+                            "y": 2976
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "S2: Main Chamber",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 50,
+                            "bookCode": "aud",
+                            "slug": "chapter-4-peril-in-pyarados#TaxStationNumber18",
+                            "contentChunkId": null,
+                            "parentId": 2969,
+                            "slugLink": "S2MainChamber"
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2016,
+                            "y": 2016
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "S3: Audience Chamber",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 50,
+                            "bookCode": "aud",
+                            "slug": "chapter-4-peril-in-pyarados#TaxStationNumber18",
+                            "contentChunkId": null,
+                            "parentId": 2969,
+                            "slugLink": "S3AudienceChamber"
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2592,
+                            "y": 1536
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "S4: Southwest Tower",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 50,
+                            "bookCode": "aud",
+                            "slug": "chapter-4-peril-in-pyarados#TaxStationNumber18",
+                            "contentChunkId": null,
+                            "parentId": 2969,
+                            "slugLink": "S4SouthwestTower"
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1440,
+                            "y": 2304
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "S5: Battlements",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 50,
+                            "bookCode": "aud",
+                            "slug": "chapter-4-peril-in-pyarados#TaxStationNumber18",
+                            "contentChunkId": null,
+                            "parentId": 2969,
+                            "slugLink": "S5Battlements"
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 4032,
+                            "y": 1632
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "S6: Basement",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 50,
+                            "bookCode": "aud",
+                            "slug": "chapter-4-peril-in-pyarados#TaxStationNumber18",
+                            "contentChunkId": null,
+                            "parentId": 2969,
+                            "slugLink": "S6Basement"
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 4608,
+                            "y": 2880
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [
+                {
+                    "_id": "2OyMtu4Ja92l7aTg",
+                    "name": "Glabrezu",
+                    "width": 2,
+                    "height": 2,
+                    "x": 1824,
+                    "y": 2784,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "d18b5f54-c8e0-4f7e-8774-a7f3fa4f9623",
+                            "ddbEntityId": 5195041,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -11.067634995288367,
+                                -9.122656138270269
+                            ],
+                            "rawZPosition": 0.02,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/907/638741964178176794.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195041,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 138,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbGlabre5195041",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Glabrezu"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "R0AOpzp3FlI27vth",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 100,
+                                    "max": 189,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "xJVzNWWnYHiWbFru",
+                    "name": "Glabrezu",
+                    "width": 2,
+                    "height": 2,
+                    "x": 2112,
+                    "y": 2688,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "608f3987-66c3-4034-803b-f2ae8f791b34",
+                            "ddbEntityId": 5195041,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -8.147222881424165,
+                                -8.227482819808774
+                            ],
+                            "rawZPosition": 0.03,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/907/638741964178176794.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195041,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 138,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbGlabre5195041",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Glabrezu"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "EZttGvIJeevVpcyQ",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 100,
+                                    "max": 189,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "r9ZHNDxAC20x8Rym",
+                    "name": "Merias",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2016,
+                    "y": 2688,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "9f1a2868-8ed3-4e62-9231-e0abeb167418",
+                            "ddbEntityId": 5195260,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -9.607169026393816,
+                                -7.6432207965406
+                            ],
+                            "rawZPosition": 0.14,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/357/638741964800207399.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195260,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 320,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarVet5195260",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Veteran"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "57wJal7L9zVCXNw6",
+                        "name": "Merias",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 49,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "utma33bHguNz3JXJ",
+                    "name": "Fallon Nor",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2496,
+                    "y": 1632,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "48213468-52ce-49b9-a929-0b5ded3e03ff",
+                            "ddbEntityId": 5195258,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -4.8335998421798605,
+                                2.858256817289754
+                            ],
+                            "rawZPosition": 0.16,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/353/638741964794571789.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195258,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 321,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarCom5195258",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Commander"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "oADa1lQxt11c0uZz",
+                        "name": "Fallon Nor",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 161,
+                                    "max": 161,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "htnlTbNMyYkLnFWe",
+                    "name": "Garth",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2400,
+                    "y": 1344,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "8934ebb2-2774-455f-a4ad-b0ca34cda8f9",
+                            "ddbEntityId": 5195260,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -5.7688516963676495,
+                                5.707904034255205
+                            ],
+                            "rawZPosition": 0.17,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/357/638741964800207399.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195260,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 320,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarVet5195260",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Veteran"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "Cbejrwa673lMVnCm",
+                        "name": "Garth",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 65,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Eyc0YWJCbJ8A4IEk",
+                    "name": "Marilith",
+                    "width": 2,
+                    "height": 2,
+                    "x": 2208,
+                    "y": 2880,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "716866e9-2968-47ad-9aeb-722e2600a882",
+                            "ddbEntityId": 5195117,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -7.202269868856716,
+                                -10.106828668512732
+                            ],
+                            "rawZPosition": 0.04,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/62/638741964391922076.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195117,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 204,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbMarili5195117",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Marilith"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "FlyPwzK8EdyI8Bg2",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 220,
+                                    "max": 220,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "6mmRStlVV5lNNUYo",
+                    "name": "Letta",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2496,
+                    "y": 1248,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "d7ea276d-d756-4a3a-912f-7ed7cd69053c",
+                            "ddbEntityId": 5195260,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -4.759492274340906,
+                                6.591789881301676
+                            ],
+                            "rawZPosition": 0.18,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/357/638741964800207399.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195260,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 320,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarVet5195260",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Veteran"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "jdsvYPHZuogYG76T",
+                        "name": "Letta",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 65,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "glicfpzU3AcpifnS",
+                    "name": "Serafina",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2400,
+                    "y": 2880,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "0a27459d-17da-481d-9d32-82a69f348e72",
+                            "ddbEntityId": 5195260,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -5.744361626774363,
+                                -9.588674214302984
+                            ],
+                            "rawZPosition": 0.15,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/357/638741964800207399.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195260,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 320,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarVet5195260",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Veteran"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "QDg1O9RR7C8EyCHt",
+                        "name": "Serafina",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 49,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "hQlpHbWbsVJ9Pntv",
+                    "name": "Kellen Tol",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1920,
+                    "y": 2688,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "cd008354-ec8c-4ed8-b058-e3a7bcafd8aa",
+                            "ddbEntityId": 5195260,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -10.550531053526292,
+                                -7.665722484906112
+                            ],
+                            "rawZPosition": 0.13,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/357/638741964800207399.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195260,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 320,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarVet5195260",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Veteran"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "uIYJhm9hUc8ctVEX",
+                        "name": "Kellen Tol",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 49,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "sQPbcUKyYmn7Zejw",
+                    "name": "Marta",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2688,
+                    "y": 1344,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "d89206ff-ddac-4601-9bac-9a46bed06340",
+                            "ddbEntityId": 5195260,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -2.9111423313927984,
+                                5.74551619795931
+                            ],
+                            "rawZPosition": 0.2,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/357/638741964800207399.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195260,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 320,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarVet5195260",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Veteran"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "sZgPjUR75v4TqnLS",
+                        "name": "Marta",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 65,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "D00lCDIwKUInYmkp",
+                    "name": "Garos",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4224,
+                    "y": 1824,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "1657bddb-c7d2-4830-9e26-50e818998c92",
+                            "ddbEntityId": 5194924,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                12.483418096108984,
+                                0.9756355414427418
+                            ],
+                            "rawZPosition": 0.21,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/666/638741963845835363.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194924,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 37,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbBerCom5194924",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Berserker Commander"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "fgFhWHbuK0DP01nu",
+                        "name": "Garos",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 136,
+                                    "max": 136,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "4jBtWrREVn2wko9h",
+                    "name": "Bram",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2592,
+                    "y": 1248,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "76c4f389-f1e6-462e-b482-4e246cf96ee7",
+                            "ddbEntityId": 5195260,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -3.657216607490809,
+                                6.6670142087098885
+                            ],
+                            "rawZPosition": 0.19,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/357/638741964800207399.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195260,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 320,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarVet5195260",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Veteran"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "Dl11kC0bjCO9pNH4",
+                        "name": "Bram",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 65,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "6bSOcoVOVeVd8AW3",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4320,
+                    "y": 2880,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "81bef614-8adc-4a39-aaef-6500b62f4d70",
+                            "ddbEntityId": 5194951,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                13.426579904098073,
+                                -9.573581053577072
+                            ],
+                            "rawZPosition": 0.07,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/723/638741963924525353.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194951,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 77,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCommon5194951",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "EV80v1FDi2cb6X05",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 4,
+                                    "max": 4,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "vEyqukDyXKolSr8H",
+                    "name": "Omina",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4320,
+                    "y": 1824,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "e6baf930-20c1-44cc-8e1e-d1bc8a9371a0",
+                            "ddbEntityId": 4831023,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                13.366874869727347,
+                                0.9502257345684963
+                            ],
+                            "rawZPosition": 0.22,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47158/555/638742819087925312.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 4831023,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 199,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbMage4831023II",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Mage"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "tfDIfOBWNYBcwkmQ",
+                        "name": "Omina",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 81,
+                                    "max": 81,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "6OslCFkfZf3cbG2b",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4800,
+                    "y": 2880,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "034d7277-c8b5-463e-ae1e-07917e23174d",
+                            "ddbEntityId": 5194951,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                18.16908812872232,
+                                -9.603420164192453
+                            ],
+                            "rawZPosition": 0.08,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/723/638741963924525353.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194951,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 77,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCommon5194951",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "e4Xnt9iPloVsF1KZ",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 4,
+                                    "max": 4,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "tu6lBVzIuSTsfGGE",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4512,
+                    "y": 2976,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "2f1e2a93-2c4e-4cb6-ac90-b1c30193eb10",
+                            "ddbEntityId": 5194951,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                15.272784035808485,
+                                -10.558271703884714
+                            ],
+                            "rawZPosition": 0.09,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/723/638741963924525353.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194951,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 77,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCommon5194951",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "R8cVG9RfzkQvjyVB",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 4,
+                                    "max": 4,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "WVOP7uBIFvL0KUZ0",
+                    "name": "Marilith",
+                    "width": 2,
+                    "height": 2,
+                    "x": 3648,
+                    "y": 1344,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "e4ab5043-cdc9-4397-ade5-a0b68443d726",
+                            "ddbEntityId": 5195117,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                7.1876734510891085,
+                                5.273631195371919
+                            ],
+                            "rawZPosition": 0.05,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/62/638741964391922076.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195117,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 204,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbMarili5195117",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Marilith"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "OBh56qprmkeXlrWg",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 150,
+                                    "max": 220,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "ojNlEY8MTf05NDlK",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4512,
+                    "y": 3072,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "24fbe8c5-a693-4ef1-9a7b-e1686f53f716",
+                            "ddbEntityId": 5194951,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                15.300712783202194,
+                                -11.513123243576974
+                            ],
+                            "rawZPosition": 0.1,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/723/638741963924525353.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194951,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 77,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCommon5194951",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "iXPjH7FAXgYOSDHG",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 4,
+                                    "max": 4,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "TWhiXLOyb0DEZmLv",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4608,
+                    "y": 2976,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "755bb149-d883-42a7-bb98-f90c51c592bc",
+                            "ddbEntityId": 5194951,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                16.223814849057405,
+                                -10.588110814500098
+                            ],
+                            "rawZPosition": 0.11,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/723/638741963924525353.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194951,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 77,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCommon5194951",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "V0OVbUBoKO8d6JhX",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 4,
+                                    "max": 4,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "rmrYaCR38ucOkcOo",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4608,
+                    "y": 3072,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "7cc80264-6e22-45dc-b959-76de2d69371a",
+                            "ddbEntityId": 5194951,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                16.192065375220352,
+                                -11.513123243576976
+                            ],
+                            "rawZPosition": 0.12,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/723/638741963924525353.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194951,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 77,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCommon5194951",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "z4Qq33Qqk4lsqgLC",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 4,
+                                    "max": 4,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "ObHyEfcoXBqVpZse",
+                    "name": "Rendelith",
+                    "width": 2,
+                    "height": 2,
+                    "x": 2112,
+                    "y": 1728,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "a9c69898-910b-45ef-bcf4-7f0c875817eb",
+                            "ddbEntityId": 6719631,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AUD",
+                            "rawPosition": [
+                                -8.159073616036514,
+                                1.4132056577972016
+                            ],
+                            "rawZPosition": 0.06,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/339/639198292577538825.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719631,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 302,
+                                    "pageNumber": 123,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbRendel6719631",
+                            "sourceId": 302,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Rendelith"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "v76M3hvU1c9NijDU",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 294,
+                                    "max": 294,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/aud/map-04-02.tax-station-number-18-player.png",
+            "foundryVersion": "14.367",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 4.2: Tax Station Number 18",
+                    "bookCode": "aud",
+                    "contentChunkId": "map-04-02.tax-station-number-18-player",
+                    "lastUpdate": "1.1.31",
+                    "notes": "1.1.31",
+                    "tokens": "1.1.31",
+                    "walls": "1.1.31",
+                    "lights": "1.1.31",
+                    "drawings": "1.1.31",
+                    "regions": "1.1.31",
+                    "foundry": "14.367"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0,
+        "color": "#000000",
+        "distance": 5,
+        "size": 96,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 2658,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#a48f4b",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": null,
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.7
+                },
+                "bright": 7.5,
+                "dim": 15
+            },
+            "name": "Ambient Light",
+            "x": 1248,
+            "y": 2400,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": null,
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.7
+                },
+                "bright": 7.5,
+                "dim": 15
+            },
+            "name": "Ambient Light",
+            "x": 1440,
+            "y": 2616,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": null,
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 10,
+                "dim": 20
+            },
+            "name": "Ambient Light (2)",
+            "x": 4560,
+            "y": 2880,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": null,
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 10,
+                "dim": 20
+            },
+            "name": "Ambient Light (3)",
+            "x": 2592,
+            "y": 1488,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        }
+    ],
+    "name": "Map 4.2: Tax Station Number 18",
+    "navName": "Tax Station Number 18",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [
+        {
+            "name": "Rug",
+            "_id": "gI24zrSqXhmfcVc2",
+            "color": "#2836cc",
+            "shapes": [
+                {
+                    "type": "rectangle",
+                    "x": 2592,
+                    "y": 1440,
+                    "width": 96,
+                    "height": 96,
+                    "hole": false,
+                    "anchorX": 0,
+                    "anchorY": 0,
+                    "rotation": 0,
+                    "gridBased": false
+                }
+            ],
+            "elevation": {
+                "bottom": null,
+                "top": null,
+                "topInclusive": false
+            },
+            "levels": [],
+            "restriction": {
+                "enabled": false,
+                "type": "move",
+                "priority": 0
+            },
+            "attachment": {
+                "token": null
+            },
+            "behaviors": [
+                {
+                    "name": "Teleport Token",
+                    "type": "teleportToken",
+                    "_id": "wi7NXeWKZuLYMsiY",
+                    "system": {
+                        "destinations": [
+                            "Scene.jYfkhqAtHmmZdbVg.Region.ryD1fpfJlCs5wtpj"
+                        ],
+                        "placement": "random",
+                        "snap": true,
+                        "choice": false,
+                        "revealed": false,
+                        "dialog": {
+                            "revealed": null,
+                            "unrevealed": null
+                        },
+                        "transition": {
+                            "type": null,
+                            "duration": 1500
+                        }
+                    },
+                    "disabled": false,
+                    "flags": {},
+                    "_stats": {
+                        "coreVersion": "14.367",
+                        "systemId": "dnd5e",
+                        "systemVersion": "6.0.1",
+                        "createdTime": 1789649479032,
+                        "modifiedTime": 1789649552718,
+                        "lastModifiedBy": "Ufy3hgxeNc4FZ9G8",
+                        "compendiumSource": null,
+                        "duplicateSource": null,
+                        "exportSource": null
+                    }
+                }
+            ],
+            "visibility": 4,
+            "highlightMode": "shapes",
+            "displayMeasurements": false,
+            "hidden": true,
+            "locked": false,
+            "ownership": {
+                "default": 0,
+                "Ufy3hgxeNc4FZ9G8": 3
+            },
+            "flags": {},
+            "_shapeConstraints": null
+        },
+        {
+            "name": "Basement",
+            "_id": "ryD1fpfJlCs5wtpj",
+            "color": "#cc8528",
+            "shapes": [
+                {
+                    "type": "rectangle",
+                    "x": 4608,
+                    "y": 2784,
+                    "width": 96,
+                    "height": 96,
+                    "hole": false,
+                    "anchorX": 0,
+                    "anchorY": 0,
+                    "rotation": 0,
+                    "gridBased": false
+                }
+            ],
+            "elevation": {
+                "bottom": null,
+                "top": null,
+                "topInclusive": false
+            },
+            "levels": [],
+            "restriction": {
+                "enabled": false,
+                "type": "move",
+                "priority": 0
+            },
+            "attachment": {
+                "token": null
+            },
+            "behaviors": [
+                {
+                    "name": "Teleport Token",
+                    "type": "teleportToken",
+                    "_id": "XImLTV8jYWpgtESx",
+                    "system": {
+                        "destinations": [
+                            "Scene.jYfkhqAtHmmZdbVg.Region.gI24zrSqXhmfcVc2"
+                        ],
+                        "placement": "random",
+                        "snap": true,
+                        "choice": false,
+                        "revealed": false,
+                        "dialog": {
+                            "revealed": null,
+                            "unrevealed": null
+                        },
+                        "transition": {
+                            "type": null,
+                            "duration": 1500
+                        }
+                    },
+                    "disabled": false,
+                    "flags": {},
+                    "_stats": {
+                        "coreVersion": "14.367",
+                        "systemId": "dnd5e",
+                        "systemVersion": "6.0.1",
+                        "createdTime": 1789649519006,
+                        "modifiedTime": 1789649551797,
+                        "lastModifiedBy": "Ufy3hgxeNc4FZ9G8",
+                        "compendiumSource": null,
+                        "duplicateSource": null,
+                        "exportSource": null
+                    }
+                }
+            ],
+            "visibility": 4,
+            "highlightMode": "shapes",
+            "displayMeasurements": false,
+            "hidden": false,
+            "locked": false,
+            "ownership": {
+                "default": 0,
+                "Ufy3hgxeNc4FZ9G8": 3
+            },
+            "flags": {},
+            "_shapeConstraints": null
+        },
+        {
+            "name": "Roof (Circular Tower)",
+            "_id": "OLHCuXs8L7fWOYHt",
+            "color": "#287dcc",
+            "shapes": [
+                {
+                    "type": "circle",
+                    "x": 4656,
+                    "y": 1392,
+                    "radius": 48,
+                    "hole": false,
+                    "gridBased": false
+                }
+            ],
+            "elevation": {
+                "bottom": null,
+                "top": null,
+                "topInclusive": false
+            },
+            "levels": [],
+            "restriction": {
+                "enabled": false,
+                "type": "move",
+                "priority": 0
+            },
+            "attachment": {
+                "token": null
+            },
+            "behaviors": [
+                {
+                    "name": "Teleport Token",
+                    "type": "teleportToken",
+                    "_id": "LPtR53D76800aHBw",
+                    "system": {
+                        "destinations": [
+                            "Scene.jYfkhqAtHmmZdbVg.Region.CjoOYAorFzHd6eSr"
+                        ],
+                        "placement": "random",
+                        "snap": true,
+                        "choice": false,
+                        "revealed": false,
+                        "dialog": {
+                            "revealed": null,
+                            "unrevealed": null
+                        },
+                        "transition": {
+                            "type": null,
+                            "duration": 1500
+                        }
+                    },
+                    "disabled": false,
+                    "flags": {},
+                    "_stats": {
+                        "coreVersion": "14.367",
+                        "systemId": "dnd5e",
+                        "systemVersion": "6.0.1",
+                        "createdTime": 1789649731536,
+                        "modifiedTime": 1789649980745,
+                        "lastModifiedBy": "Ufy3hgxeNc4FZ9G8",
+                        "compendiumSource": null,
+                        "duplicateSource": null,
+                        "exportSource": null
+                    }
+                }
+            ],
+            "visibility": 4,
+            "highlightMode": "shapes",
+            "displayMeasurements": false,
+            "hidden": false,
+            "locked": false,
+            "ownership": {
+                "default": 0,
+                "Ufy3hgxeNc4FZ9G8": 3
+            },
+            "flags": {},
+            "_shapeConstraints": null
+        },
+        {
+            "name": "Ground Floor (Square Tower)",
+            "_id": "0FGjduOHoEu0vxYI",
+            "color": "#28cc89",
+            "shapes": [
+                {
+                    "type": "rectangle",
+                    "x": 1344,
+                    "y": 2496,
+                    "width": 96,
+                    "height": 96,
+                    "hole": false,
+                    "anchorX": 0,
+                    "anchorY": 0,
+                    "rotation": 0,
+                    "gridBased": false
+                }
+            ],
+            "elevation": {
+                "bottom": null,
+                "top": null,
+                "topInclusive": false
+            },
+            "levels": [],
+            "restriction": {
+                "enabled": false,
+                "type": "move",
+                "priority": 0
+            },
+            "attachment": {
+                "token": null
+            },
+            "behaviors": [
+                {
+                    "name": "Teleport Token",
+                    "type": "teleportToken",
+                    "_id": "mb1kaxcknpowrmvc",
+                    "system": {
+                        "destinations": [
+                            "Scene.jYfkhqAtHmmZdbVg.Region.1xYLwSgayZpzeCmB"
+                        ],
+                        "placement": "random",
+                        "snap": true,
+                        "choice": false,
+                        "revealed": false,
+                        "dialog": {
+                            "revealed": null,
+                            "unrevealed": null
+                        },
+                        "transition": {
+                            "type": null,
+                            "duration": 1500
+                        }
+                    },
+                    "disabled": false,
+                    "flags": {},
+                    "_stats": {
+                        "coreVersion": "14.367",
+                        "systemId": "dnd5e",
+                        "systemVersion": "6.0.1",
+                        "createdTime": 1789649789541,
+                        "modifiedTime": 1789649849624,
+                        "lastModifiedBy": "Ufy3hgxeNc4FZ9G8",
+                        "compendiumSource": null,
+                        "duplicateSource": null,
+                        "exportSource": null
+                    }
+                }
+            ],
+            "visibility": 4,
+            "highlightMode": "shapes",
+            "displayMeasurements": false,
+            "hidden": false,
+            "locked": false,
+            "ownership": {
+                "default": 0,
+                "Ufy3hgxeNc4FZ9G8": 3
+            },
+            "flags": {},
+            "_shapeConstraints": null
+        },
+        {
+            "name": "Roof (Square Tower)",
+            "_id": "1xYLwSgayZpzeCmB",
+            "color": "#28b0cc",
+            "shapes": [
+                {
+                    "type": "rectangle",
+                    "x": 3264,
+                    "y": 1824,
+                    "width": 96,
+                    "height": 96,
+                    "hole": false,
+                    "anchorX": 0,
+                    "anchorY": 0,
+                    "rotation": 0,
+                    "gridBased": false
+                }
+            ],
+            "elevation": {
+                "bottom": null,
+                "top": null,
+                "topInclusive": false
+            },
+            "levels": [],
+            "restriction": {
+                "enabled": false,
+                "type": "move",
+                "priority": 0
+            },
+            "attachment": {
+                "token": null
+            },
+            "behaviors": [
+                {
+                    "name": "Teleport Token",
+                    "type": "teleportToken",
+                    "_id": "UcBMVIz1yHJqZdsx",
+                    "system": {
+                        "destinations": [
+                            "Scene.jYfkhqAtHmmZdbVg.Region.0FGjduOHoEu0vxYI"
+                        ],
+                        "placement": "random",
+                        "snap": true,
+                        "choice": false,
+                        "revealed": false,
+                        "dialog": {
+                            "revealed": null,
+                            "unrevealed": null
+                        },
+                        "transition": {
+                            "type": null,
+                            "duration": 1500
+                        }
+                    },
+                    "disabled": false,
+                    "flags": {},
+                    "_stats": {
+                        "coreVersion": "14.367",
+                        "systemId": "dnd5e",
+                        "systemVersion": "6.0.1",
+                        "createdTime": 1789649833365,
+                        "modifiedTime": 1789649850506,
+                        "lastModifiedBy": "Ufy3hgxeNc4FZ9G8",
+                        "compendiumSource": null,
+                        "duplicateSource": null,
+                        "exportSource": null
+                    }
+                }
+            ],
+            "visibility": 4,
+            "highlightMode": "shapes",
+            "displayMeasurements": false,
+            "hidden": false,
+            "locked": false,
+            "ownership": {
+                "default": 0,
+                "Ufy3hgxeNc4FZ9G8": 3
+            },
+            "flags": {},
+            "_shapeConstraints": null
+        },
+        {
+            "name": "Ground Floor (Circular Tower)",
+            "_id": "CjoOYAorFzHd6eSr",
+            "color": "#55cc28",
+            "shapes": [
+                {
+                    "type": "circle",
+                    "x": 2726.239926229794,
+                    "y": 1759.1359993158255,
+                    "radius": 48,
+                    "hole": false,
+                    "gridBased": false
+                }
+            ],
+            "elevation": {
+                "bottom": null,
+                "top": null,
+                "topInclusive": false
+            },
+            "levels": [],
+            "restriction": {
+                "enabled": false,
+                "type": "move",
+                "priority": 0
+            },
+            "attachment": {
+                "token": null
+            },
+            "behaviors": [
+                {
+                    "name": "Teleport Token",
+                    "type": "teleportToken",
+                    "_id": "8VzobyWUPOnPe053",
+                    "system": {
+                        "destinations": [
+                            "Scene.jYfkhqAtHmmZdbVg.Region.OLHCuXs8L7fWOYHt"
+                        ],
+                        "placement": "random",
+                        "snap": true,
+                        "choice": false,
+                        "revealed": false,
+                        "dialog": {
+                            "revealed": null,
+                            "unrevealed": null
+                        },
+                        "transition": {
+                            "type": null,
+                            "duration": 1500
+                        }
+                    },
+                    "disabled": false,
+                    "flags": {},
+                    "_stats": {
+                        "coreVersion": "14.367",
+                        "systemId": "dnd5e",
+                        "systemVersion": "6.0.1",
+                        "createdTime": 1789649937099,
+                        "modifiedTime": 1789649990582,
+                        "lastModifiedBy": "Ufy3hgxeNc4FZ9G8",
+                        "compendiumSource": null,
+                        "duplicateSource": null,
+                        "exportSource": null
+                    }
+                }
+            ],
+            "visibility": 4,
+            "highlightMode": "shapes",
+            "displayMeasurements": false,
+            "hidden": false,
+            "locked": false,
+            "ownership": {
+                "default": 0,
+                "Ufy3hgxeNc4FZ9G8": 3
+            },
+            "flags": {},
+            "_shapeConstraints": null
+        },
+        {
+            "name": "Inside (Darken)",
+            "_id": "Hl1is4rLaP5nsM1G",
+            "color": "#284bcc",
+            "shapes": [
+                {
+                    "points": [
+                        1632,
+                        2316,
+                        1644,
+                        2328,
+                        1644,
+                        2616,
+                        1224,
+                        2616,
+                        1224,
+                        2184,
+                        1632,
+                        2184
+                    ],
+                    "type": "polygon",
+                    "hole": false,
+                    "origin": null
+                },
+                {
+                    "points": [
+                        2712,
+                        1224,
+                        2784,
+                        1272,
+                        2844,
+                        1320,
+                        2892,
+                        1380,
+                        2928,
+                        1464,
+                        2928,
+                        1548,
+                        2916,
+                        1620,
+                        2892,
+                        1680,
+                        2856,
+                        1752,
+                        2796,
+                        1812,
+                        2712,
+                        1860,
+                        2688,
+                        1872,
+                        2556,
+                        1872,
+                        2496,
+                        1860,
+                        2424,
+                        1836,
+                        2388,
+                        1812,
+                        2376,
+                        1788,
+                        2376,
+                        1752,
+                        2328,
+                        1680,
+                        2292,
+                        1608,
+                        2268,
+                        1596,
+                        2256,
+                        1572,
+                        2256,
+                        1524,
+                        2268,
+                        1464,
+                        2280,
+                        1416,
+                        2316,
+                        1356,
+                        2376,
+                        1284,
+                        2448,
+                        1224,
+                        2544,
+                        1200,
+                        2640,
+                        1200
+                    ],
+                    "type": "polygon",
+                    "hole": false,
+                    "origin": null
+                },
+                {
+                    "points": [
+                        4656,
+                        2579,
+                        4712,
+                        2593,
+                        4764,
+                        2617,
+                        4817,
+                        2658,
+                        4856,
+                        2701,
+                        4889,
+                        2759,
+                        4907,
+                        2813,
+                        4914,
+                        2880,
+                        4909,
+                        2937,
+                        4889,
+                        3001,
+                        4861,
+                        3051,
+                        4824,
+                        3096,
+                        4780,
+                        3132,
+                        4730,
+                        3160,
+                        4675,
+                        3178,
+                        4608,
+                        3185,
+                        4541,
+                        3178,
+                        4486,
+                        3160,
+                        4436,
+                        3132,
+                        4392,
+                        3096,
+                        4355,
+                        3051,
+                        4327,
+                        3001,
+                        4309,
+                        2947,
+                        4302,
+                        2880,
+                        4307,
+                        2823,
+                        4323,
+                        2768,
+                        4350,
+                        2717,
+                        4385,
+                        2671,
+                        4428,
+                        2633,
+                        4478,
+                        2604,
+                        4541,
+                        2582,
+                        4598,
+                        2575
+                    ],
+                    "type": "polygon",
+                    "hole": false,
+                    "origin": null
+                }
+            ],
+            "elevation": {
+                "bottom": null,
+                "top": null,
+                "topInclusive": false
+            },
+            "levels": [],
+            "restriction": {
+                "enabled": false,
+                "type": "move",
+                "priority": 0
+            },
+            "attachment": {
+                "token": null
+            },
+            "behaviors": [
+                {
+                    "name": "Adjust Darkness Level",
+                    "type": "adjustDarknessLevel",
+                    "_id": "yJ800xmBpGMQD91z",
+                    "system": {
+                        "mode": 0,
+                        "modifier": 0.55
+                    },
+                    "disabled": false,
+                    "flags": {},
+                    "_stats": {
+                        "coreVersion": "14.367",
+                        "systemId": "dnd5e",
+                        "systemVersion": "6.0.1",
+                        "createdTime": 1789650292585,
+                        "modifiedTime": 1789650299188,
+                        "lastModifiedBy": "Ufy3hgxeNc4FZ9G8",
+                        "compendiumSource": null,
+                        "duplicateSource": null,
+                        "exportSource": null
+                    }
+                }
+            ],
+            "visibility": 4,
+            "highlightMode": "shapes",
+            "displayMeasurements": false,
+            "hidden": false,
+            "locked": false,
+            "ownership": {
+                "default": 0,
+                "Ufy3hgxeNc4FZ9G8": 3
+            },
+            "flags": {},
+            "_shapeConstraints": null
+        }
+    ],
+    "shiftX": 84,
+    "shiftY": 31,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3024,
+                696,
+                3024,
+                2494
+            ]
+        },
+        {
+            "c": [
+                3024,
+                2494,
+                3024,
+                3240
+            ],
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {}
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3024,
+                2494,
+                4236,
+                2496
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4236,
+                2496,
+                4980,
+                2496
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4980,
+                2496,
+                4980,
+                3240
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4980,
+                3240,
+                4236,
+                3240
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4236,
+                3240,
+                4236,
+                2496
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3024,
+                3240,
+                4236,
+                3240
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3024,
+                3240,
+                1068,
+                3240
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1068,
+                3240,
+                1056,
+                3084
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1056,
+                3084,
+                1056,
+                696
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1056,
+                696,
+                3024,
+                696
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3024,
+                696,
+                4944,
+                696
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4944,
+                696,
+                4944,
+                984
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4944,
+                984,
+                4992,
+                1056
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4992,
+                1056,
+                4980,
+                2496
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2208,
+                2532,
+                2112,
+                2532
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2112,
+                2532,
+                2016,
+                2532
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1632,
+                2232,
+                1632,
+                2316
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2292,
+                1608,
+                2328,
+                1680
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2328,
+                1680,
+                2376,
+                1752
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2016,
+                2532,
+                1992,
+                2520
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1644,
+                2520,
+                1644,
+                2328
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1644,
+                2328,
+                1632,
+                2316
+            ]
+        },
+        {
+            "c": [
+                1992,
+                2520,
+                1644,
+                2520
+            ],
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {}
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2208,
+                2532,
+                2220,
+                2520
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2220,
+                2520,
+                2592,
+                2520
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2592,
+                2520,
+                2616,
+                2556
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2616,
+                2556,
+                2652,
+                2580
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2652,
+                2580,
+                2688,
+                2592
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2688,
+                2592,
+                2724,
+                2592
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2724,
+                2592,
+                2736,
+                2580
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2772,
+                2544,
+                2784,
+                2532
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2784,
+                2532,
+                2784,
+                2508
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2784,
+                2508,
+                2784,
+                2472
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2784,
+                2472,
+                2772,
+                2448
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2772,
+                2448,
+                2760,
+                2424
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2760,
+                2424,
+                2736,
+                2412
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2736,
+                2412,
+                2712,
+                2400
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2712,
+                2400,
+                2712,
+                1860
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2712,
+                1860,
+                2796,
+                1812
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2796,
+                1812,
+                2856,
+                1752
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2856,
+                1752,
+                2892,
+                1680
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2892,
+                1680,
+                2916,
+                1620
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2916,
+                1620,
+                2928,
+                1548
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2928,
+                1548,
+                2928,
+                1464
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2928,
+                1464,
+                2892,
+                1380
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2892,
+                1380,
+                2844,
+                1320
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2844,
+                1320,
+                2784,
+                1272
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2784,
+                1272,
+                2712,
+                1224
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2712,
+                1224,
+                2640,
+                1200
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2640,
+                1200,
+                2544,
+                1200
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2544,
+                1200,
+                2448,
+                1224
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2448,
+                1224,
+                2376,
+                1284
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2376,
+                1284,
+                2316,
+                1356
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2316,
+                1356,
+                2280,
+                1416
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2280,
+                1416,
+                2268,
+                1464
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2268,
+                1464,
+                2256,
+                1524
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2256,
+                1524,
+                2256,
+                1572
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2256,
+                1572,
+                2268,
+                1596
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2268,
+                1596,
+                2292,
+                1608
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2376,
+                1752,
+                2376,
+                1788
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2376,
+                1788,
+                2388,
+                1812
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2388,
+                1812,
+                2424,
+                1836
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2424,
+                1836,
+                2496,
+                1860
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2496,
+                1860,
+                2556,
+                1872
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2556,
+                1872,
+                2592,
+                1872
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2712,
+                1860,
+                2688,
+                1872
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2280,
+                1416,
+                1440,
+                1416
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1440,
+                1416,
+                1416,
+                1380
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1416,
+                1380,
+                1385,
+                1350
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1385,
+                1350,
+                1344,
+                1344
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1344,
+                1344,
+                1296,
+                1356
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1260,
+                1380,
+                1248,
+                1416
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1248,
+                1416,
+                1248,
+                1464
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1248,
+                1464,
+                1255,
+                1496
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1255,
+                1496,
+                1296,
+                1524
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1296,
+                1524,
+                1320,
+                1536
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1320,
+                1536,
+                1320,
+                2184
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1320,
+                2184,
+                1632,
+                2184
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1632,
+                2184,
+                1632,
+                2232
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1320,
+                2184,
+                1224,
+                2184
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1224,
+                2184,
+                1224,
+                2364
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1224,
+                2424,
+                1224,
+                2616
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1224,
+                2616,
+                1428,
+                2616
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1464,
+                2616,
+                1644,
+                2616
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1644,
+                2616,
+                1644,
+                2520
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 30,
+            "move": 20,
+            "sight": 30,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": 10,
+                "sight": 10,
+                "sound": null,
+                "attenuation": true
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2736,
+                2580,
+                2772,
+                2544
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 30,
+            "move": 20,
+            "sight": 30,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": 10,
+                "sight": 10,
+                "sound": null,
+                "attenuation": true
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1224,
+                2364,
+                1224,
+                2424
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 30,
+            "move": 20,
+            "sight": 30,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": 10,
+                "sight": 10,
+                "sound": null,
+                "attenuation": true
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1428,
+                2616,
+                1464,
+                2616
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 30,
+            "move": 20,
+            "sight": 30,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": 10,
+                "sight": 10,
+                "sound": null,
+                "attenuation": true
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1260,
+                1380,
+                1296,
+                1356
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4914,
+                2880,
+                4909,
+                2937
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4909,
+                2937,
+                4889,
+                3001
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4889,
+                3001,
+                4861,
+                3051
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4861,
+                3051,
+                4824,
+                3096
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4824,
+                3096,
+                4780,
+                3132
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4780,
+                3132,
+                4730,
+                3160
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4730,
+                3160,
+                4675,
+                3178
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4675,
+                3178,
+                4608,
+                3185
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4608,
+                3185,
+                4541,
+                3178
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4541,
+                3178,
+                4486,
+                3160
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4486,
+                3160,
+                4436,
+                3132
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4436,
+                3132,
+                4392,
+                3096
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4392,
+                3096,
+                4355,
+                3051
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4355,
+                3051,
+                4327,
+                3001
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4327,
+                3001,
+                4309,
+                2947
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4309,
+                2947,
+                4302,
+                2880
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4307,
+                2823,
+                4323,
+                2768
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4350,
+                2717,
+                4385,
+                2671
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4385,
+                2671,
+                4428,
+                2633
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4428,
+                2633,
+                4478,
+                2604
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4478,
+                2604,
+                4541,
+                2582
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4598,
+                2575,
+                4656,
+                2579
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4541,
+                2582,
+                4598,
+                2575
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4656,
+                2579,
+                4712,
+                2593
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4712,
+                2593,
+                4764,
+                2617
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4323,
+                2768,
+                4350,
+                2717
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4302,
+                2880,
+                4307,
+                2823
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4817,
+                2658,
+                4856,
+                2701
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4889,
+                2759,
+                4907,
+                2813
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4907,
+                2813,
+                4914,
+                2880
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4764,
+                2617,
+                4817,
+                2658
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4856,
+                2701,
+                4889,
+                2759
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 0,
+            "move": 20,
+            "sight": 0,
+            "sound": 0,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2688,
+                1872,
+                2592,
+                1872
+            ]
+        }
+    ],
+    "weather": "",
+    "width": 4109
+}

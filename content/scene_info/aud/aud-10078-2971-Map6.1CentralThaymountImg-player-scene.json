@@ -1,0 +1,150 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.8
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "aud",
+            "ddbId": 10078,
+            "cobaltId": null,
+            "parentId": 2971,
+            "contentChunkId": "Map6.1CentralThaymountImg-player",
+            "notes": [],
+            "tokens": [],
+            "originalLink": "ddb://image/aud/map-06-01.central-thaymount-player.png",
+            "foundryVersion": "14.368",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 6.1: Central Thaymount",
+                    "bookCode": "aud",
+                    "contentChunkId": "Map6.1CentralThaymountImg-player",
+                    "lastUpdate": "1.1.31",
+                    "notes": "1.1.31",
+                    "tokens": "1.1.31",
+                    "walls": "1.1.31",
+                    "lights": "1.1.31",
+                    "drawings": "1.1.31",
+                    "regions": "1.1.31",
+                    "foundry": "14.368"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0.2,
+        "color": "#000000",
+        "distance": 0.5,
+        "size": 79,
+        "type": 0,
+        "units": "mi",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 2321,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#180818",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [],
+    "name": "Map 6.1: Central Thaymount",
+    "navName": "Central Thaymount",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": -3,
+    "shiftY": 60,
+    "tokenVision": false,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [],
+    "weather": "",
+    "width": 3588
+}

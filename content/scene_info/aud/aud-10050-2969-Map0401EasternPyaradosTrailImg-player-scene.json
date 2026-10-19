@@ -1,0 +1,694 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.85
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "aud",
+            "ddbId": 10050,
+            "cobaltId": null,
+            "parentId": 2969,
+            "contentChunkId": "Map0401EasternPyaradosTrailImg-player",
+            "notes": [],
+            "tokens": [
+                {
+                    "_id": "vCqXPFML0TSB3JIl",
+                    "name": "Ezkaar Softhoof",
+                    "width": 2,
+                    "height": 2,
+                    "x": 2686,
+                    "y": 2212,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "a253bbb5-8102-4cf5-9eec-d1a3083347dc",
+                            "ddbEntityId": 5194939,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                3.9654122047226066,
+                                6.2686112741087925
+                            ],
+                            "rawZPosition": 0.02,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/697/638741963890005751.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194939,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 67,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCenTro5194939",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Centaur Trooper"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "R3Eks0UrPNWyLJVX",
+                        "name": "Ezkaar Softhoof",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 45,
+                                    "max": 45,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Y3k1h4z1mtq6prfM",
+                    "name": "Glabrezu",
+                    "width": 2,
+                    "height": 2,
+                    "x": 2054,
+                    "y": 1738,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "b8e6df2c-b2d8-4ef2-b3ac-63cbbe619ed3",
+                            "ddbEntityId": 16902,
+                            "ddbType": "MONSTER",
+                            "sourceName": "BR",
+                            "rawPosition": [
+                                -2.392127051036326,
+                                11.019573069315511
+                            ],
+                            "rawZPosition": 0.03,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/0/336/636252776677057421.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 16902,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": true,
+                            "sources": [
+                                {
+                                    "sourceId": 1,
+                                    "pageNumber": 271,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbGlabrezu16902",
+                            "sourceId": 1,
+                            "sourceCategory": 26,
+                            "flatAC": false,
+                            "name": "Glabrezu"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "xzkieFpKKTjqcNU6",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 157,
+                                    "max": 157,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "OVb2L5DdCnB8glrF",
+                    "name": "Yaris",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2370,
+                    "y": 2054,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "4bf3ef90-44cc-475c-a870-2e1a6bcae546",
+                            "ddbEntityId": 5195260,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -0.024288639713454074,
+                                8.682482553113928
+                            ],
+                            "rawZPosition": 0.06,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/357/638741964800207399.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195260,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 320,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarVet5195260",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Veteran"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "FQeBgjyzrGJHbtm2",
+                        "name": "Yaris",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 46,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "KTs6BMPNgpVEqp3r",
+                    "name": "Tilda Vern",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2054,
+                    "y": 2212,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "95cb290c-1c75-4f03-b97e-e4aa03d01ed4",
+                            "ddbEntityId": 5195260,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -3.1490536458017973,
+                                7.120100050069757
+                            ],
+                            "rawZPosition": 0.07,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/357/638741964800207399.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195260,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 320,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWarVet5195260",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Warrior Veteran"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "0WhbZsYSiWm35X6V",
+                        "name": "Tilda Vern",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 46,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "TUlnI2kdweqZ8TXF",
+                    "name": "Abveku",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1896,
+                    "y": 2054,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "84d9ee91-ac91-45dd-b9aa-8a8dee1695fb",
+                            "ddbEntityId": 6719629,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AUD",
+                            "rawPosition": [
+                                -4.797351504293217,
+                                8.673457717341408
+                            ],
+                            "rawZPosition": 0.05,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/332/639198291607068641.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719629,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 302,
+                                    "pageNumber": 122,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbAbveku6719629",
+                            "sourceId": 302,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Abveku"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "i3JwibBGJU4aHFcb",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 209,
+                                    "max": 209,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "ZQkXFkJcaUJeghtO",
+                    "name": "Glabrezu",
+                    "width": 2,
+                    "height": 2,
+                    "x": 2528,
+                    "y": 1738,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "19d39956-1f63-4cfe-a234-7485923406f5",
+                            "ddbEntityId": 16902,
+                            "ddbType": "MONSTER",
+                            "sourceName": "BR",
+                            "rawPosition": [
+                                2.399404262314335,
+                                10.982560713191079
+                            ],
+                            "rawZPosition": 0.04,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/0/336/636252776677057421.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 16902,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": true,
+                            "sources": [
+                                {
+                                    "sourceId": 1,
+                                    "pageNumber": 271,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbGlabrezu16902",
+                            "sourceId": 1,
+                            "sourceCategory": 26,
+                            "flatAC": false,
+                            "name": "Glabrezu"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "Jge9Yrp7ptaw34US",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 157,
+                                    "max": 157,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/aud/map-04-01.eastern-pyarados-trail-player.png",
+            "foundryVersion": "14.367",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 4.1: Eastern Pyarados Trail",
+                    "bookCode": "aud",
+                    "contentChunkId": "Map0401EasternPyaradosTrailImg-player",
+                    "lastUpdate": "1.1.31",
+                    "notes": "1.1.31",
+                    "tokens": "1.1.31",
+                    "walls": "1.1.31",
+                    "lights": "1.1.31",
+                    "drawings": "1.1.31",
+                    "regions": "1.1.31",
+                    "foundry": "14.367"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0,
+        "color": "#000000",
+        "distance": 5,
+        "size": 158,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 4087,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#745a16",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [],
+    "name": "Map 4.1: Eastern Pyarados Trail",
+    "navName": "Eastern Pyarados Trail",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": 137,
+    "shiftY": 151,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [],
+    "weather": "",
+    "width": 3270
+}

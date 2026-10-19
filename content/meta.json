@@ -1,5 +1,5 @@
 {
-    "version": "1.1.31",
+    "version": "1.1.33",
     "scenes": {
         "aboh": [
             {
@@ -6633,6 +6633,147 @@
                 "name": "Map: Victory In Valachan",
                 "originalLink": "ddb://image/sos/map-05-001.victory-in-valachan.jpg",
                 "filepath": "sos-10032-2862-MapGraveAwakenings-map-scene.json"
+            }
+        ],
+        "rwg": [
+            {
+                "name": "Map: Immilmar Plaza",
+                "originalLink": "ddb://image/rwg/map-01-001.immilmar-plazas-player.png",
+                "filepath": "rwg-10011-2977-immilmar-plaza-map-player-scene.json"
+            },
+            {
+                "name": "Map: The Standing Stones",
+                "originalLink": "ddb://image/rwg/map-01-002.standing-stones-player.png",
+                "filepath": "rwg-10013-2977-standing-stones-map-player-scene.json"
+            },
+            {
+                "name": "Map: The Height of Danger",
+                "originalLink": "ddb://image/rwg/map-02-001.the-height-of-danger-player.png",
+                "filepath": "rwg-10020-2979-the-height-of-danger-map-player-scene.json"
+            },
+            {
+                "name": "Map: The Depth of Despair",
+                "originalLink": "ddb://image/rwg/map-03-001.the-depth-of-despair-player.png",
+                "filepath": "rwg-10024-2978-the-depth-of-despair-map-player-scene.json"
+            },
+            {
+                "name": "Map: The Weight of Responsibility",
+                "originalLink": "ddb://image/rwg/map-04-001.the-weight-of-responsibility-player.png",
+                "filepath": "rwg-10030-2980-the-weight-of-responsibility-map-player-scene.json"
+            },
+            {
+                "name": "Map: Delia’s Dagger",
+                "originalLink": "ddb://image/rwg/map-05-001.delias-dagger-player.png",
+                "filepath": "rwg-10037-2975-the-weight-of-responsibility-map-player-scene.json"
+            }
+        ],
+        "aud": [
+            {
+                "name": "Map 1.1: Thay",
+                "originalLink": "ddb://image/aud/map-01-01.thay-player.jpg",
+                "filepath": "aud-10015-2966-Map0101thayImg-player-scene.json"
+            },
+            {
+                "name": "Map 1.2: Eltabbar",
+                "originalLink": "ddb://image/aud/map-01-02.eltabbar-player.png",
+                "filepath": "aud-10017-2966-Map0102EltabbarImg-player-scene.json"
+            },
+            {
+                "name": "Map 3.1: Bazaar Bridge",
+                "originalLink": "ddb://image/aud/map-03-01.bazaar-bridge-player.png",
+                "filepath": "aud-10030-2968-BazaarBridgeImg-player-scene.json"
+            },
+            {
+                "name": "Map 3.2: Wrynn's Bespoke Vestments",
+                "originalLink": "ddb://image/aud/map-03-02.wrynns-bespoke-vestments-player.png",
+                "filepath": "aud-10031-2968-Map0302wrynnsbespokevestments-player-scene.json"
+            },
+            {
+                "name": "Map 3.4: The Hooded Lantern",
+                "originalLink": "ddb://image/aud/map-03-04.the-hooded-lantern-player.png",
+                "filepath": "aud-10034-2968-Map0304TheHoodedLanternImg-player-scene.json"
+            },
+            {
+                "name": "Map 3.3: Zulkir Thrul's Demiplane",
+                "originalLink": "ddb://image/aud/map-03-03.zulkir-thruls-demiplane-player.png",
+                "filepath": "aud-10034-2968-ZulkirThrulsDemiplaneMapImg-player-scene.json"
+            },
+            {
+                "name": "Map 3.5: Nym Building 3",
+                "originalLink": "ddb://image/aud/map-03-05.nym-building-3-player.png",
+                "filepath": "aud-10035-2968-Map-03-05.NymBuilding3Img-player-scene.json"
+            },
+            {
+                "name": "Map 3.6: Lower Ward Alley",
+                "originalLink": "ddb://image/aud/map-03-06.lower-ward-alley-player.png",
+                "filepath": "aud-10036-2968-Map0306lowerwardalley-player-scene.json"
+            },
+            {
+                "name": "Map 3.7: Two Plateaus Shipping Company",
+                "originalLink": "ddb://image/aud/map-03-07.two-plateaus-shipping-company-player.png",
+                "filepath": "aud-10042-2968-map-03-07.two-plateaus-shipping-company-player-scene.json"
+            },
+            {
+                "name": "Map 4.1: Eastern Pyarados Trail",
+                "originalLink": "ddb://image/aud/map-04-01.eastern-pyarados-trail-player.png",
+                "filepath": "aud-10050-2969-Map0401EasternPyaradosTrailImg-player-scene.json"
+            },
+            {
+                "name": "Map 4.2: Tax Station Number 18",
+                "originalLink": "ddb://image/aud/map-04-02.tax-station-number-18-player.png",
+                "filepath": "aud-10051-2969-map-04-02.tax-station-number-18-player-scene.json"
+            },
+            {
+                "name": "Map 4.3: Temple of the Red Knight",
+                "originalLink": "ddb://image/aud/map-04-03.temple-of-the-red-knight-player.png",
+                "filepath": "aud-10055-2969-Map0403TempleOfTheRedKnightImg-player-scene.json"
+            },
+            {
+                "name": "Map 5.1: Veiled Tower",
+                "originalLink": "ddb://image/aud/map-05-01.veiled-tower-player.png",
+                "filepath": "aud-10064-2970-Map-05-01VeiledTowerImg-player-scene.json"
+            },
+            {
+                "name": "Map 5.2: Blackrock Cove",
+                "originalLink": "ddb://image/aud/map-05-02.blackrock-cove-player.png",
+                "filepath": "aud-10068-2970-BlackrockCoveMapImg-player-scene.json"
+            },
+            {
+                "name": "Map 6.1: Central Thaymount",
+                "originalLink": "ddb://image/aud/map-06-01.central-thaymount-player.png",
+                "filepath": "aud-10078-2971-Map6.1CentralThaymountImg-player-scene.json"
+            },
+            {
+                "name": "Map 6.2: Fortress of Opposition",
+                "originalLink": "ddb://image/aud/map-06-02.fortress-of-opposition-player.png",
+                "filepath": "aud-10079-2971-MapFortressOfOppositionImg-player-scene.json"
+            },
+            {
+                "name": "Map 6.3: Castle Thrul",
+                "originalLink": "ddb://image/aud/map-06-03.castle-thrul-player.png",
+                "filepath": "aud-10080-2971-Map06-03CastleThrulImg-player-scene.json"
+            },
+            {
+                "name": "Map 7.1: Szass Tam’s Sanctum",
+                "originalLink": "ddb://image/aud/map-07-01.szass-tams-sanctum-player.png",
+                "filepath": "aud-10088-2972-map-07-01.szass-tams-sanctum-player-scene.json"
+            }
+        ],
+        "prla": [
+            {
+                "name": "Map 1.1 The Sanctuary",
+                "originalLink": "ddb://image/prla/map-05-001.the-sanctuary-player.jpg",
+                "filepath": "prla-10026-2994-Map04001thesanctuary-player-scene.json"
+            },
+            {
+                "name": "Map 1.2 Cryogenics",
+                "originalLink": "ddb://image/prla/map-05-002.cryogenics-player.jpg",
+                "filepath": "prla-10027-2994-Map04002cryogenics-player-scene.json"
+            },
+            {
+                "name": "Map 1.3 Neural Tuning",
+                "originalLink": "ddb://image/prla/map-05-003.neural-tuning-player.jpg",
+                "filepath": "prla-10028-2994-Map04003neuraltuning-player-scene.json"
             }
         ]
     }

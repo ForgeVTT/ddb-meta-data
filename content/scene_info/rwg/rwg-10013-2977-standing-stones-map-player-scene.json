@@ -1,0 +1,1006 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.7
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "rwg",
+            "ddbId": 10013,
+            "cobaltId": null,
+            "parentId": 2977,
+            "contentChunkId": "standing-stones-map-player",
+            "notes": [],
+            "tokens": [
+                {
+                    "_id": "Uo0zuPduqQ9H08me",
+                    "name": "Mage Apprentice",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2412,
+                    "y": 2814,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "1605882f-7099-4686-9c6a-710db954de9a",
+                            "ddbEntityId": 5195109,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -6.091998294247201,
+                                -6.174920989144528
+                            ],
+                            "rawZPosition": 0.06,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/46/638741964368451966.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195109,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 198,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbMagApp5195109",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Mage Apprentice"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "UC5RbUbNCBsPv7d4",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 49,
+                                    "max": 49,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "t86xy9JmL28bb2WS",
+                    "name": "Berserker",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2680,
+                    "y": 2144,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "a707f43a-1563-40de-a03f-7437264c5cf7",
+                            "ddbEntityId": 4904621,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -3.333713029574073,
+                                0.6187461383683697
+                            ],
+                            "rawZPosition": 0.05,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47158/221/638742804951282434.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 4904621,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 37,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbBerser4904621",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Berserker"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "Im4vQWoFVX14805U",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 67,
+                                    "max": 67,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "G0Qqpk9A4ef6mCBa",
+                    "name": "Scout",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3216,
+                    "y": 2278,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "182aa92b-4356-402d-9fe1-5f52b32adbf3",
+                            "ddbEntityId": 5174957,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                2.00866013438063,
+                                -0.7422621173064553
+                            ],
+                            "rawZPosition": 0.08,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/46992/17/638736097250843939.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5174957,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 270,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbScout5174957I",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Scout"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "LTwM0O8MZCR7DnVW",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 16,
+                                    "max": 16,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "xCIuQajpoy0SSfSu",
+                    "name": "Xorn",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4556,
+                    "y": 3216,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "b8d7b716-e371-4512-a19d-499a9a63708f",
+                            "ddbEntityId": 5195274,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                15.365423845459247,
+                                -10.199111277286159
+                            ],
+                            "rawZPosition": 0.03,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/385/638741964840772804.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195274,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 338,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbXorn5195274II",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Xorn"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "txdTRYIXRhdynV8u",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 84,
+                                    "max": 84,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "BXwcepuFWqjHQC4A",
+                    "name": "Scout",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2948,
+                    "y": 2814,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "e7455156-c732-4a93-8aa7-48206e6a8a42",
+                            "ddbEntityId": 5174957,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -0.6504655986876002,
+                                -6.074316455810797
+                            ],
+                            "rawZPosition": 0.1,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/46992/17/638736097250843939.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5174957,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 270,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbScout5174957I",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Scout"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "VF0oEvoiHoa0GFTW",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 16,
+                                    "max": 16,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Xk9S5csw1yihfrPk",
+                    "name": "Scout",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2948,
+                    "y": 2010,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "6704e6a0-6b50-47e6-878e-809ce4a35983",
+                            "ddbEntityId": 5174957,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -0.5685993826483522,
+                                1.9740666789845602
+                            ],
+                            "rawZPosition": 0.07,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/46992/17/638736097250843939.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5174957,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 270,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbScout5174957I",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Scout"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "Hrim8JprnOyFOWZ4",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 16,
+                                    "max": 16,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "UonTlOTca95AJ3QN",
+                    "name": "Zorri",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2546,
+                    "y": 2412,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "4c7b1f48-d916-4587-a326-ae3b56d46820",
+                            "ddbEntityId": 4831023,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -4.322537005598426,
+                                -1.995745405864772
+                            ],
+                            "rawZPosition": 0.11,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47158/555/638742819087925312.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 4831023,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 199,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbMage4831023II",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Mage"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "nLW4mBxc9Ye1bLr4",
+                        "name": "Zorri",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 81,
+                                    "max": 81,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "j34PLRH1HPZJZyfT",
+                    "name": "Scout",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3216,
+                    "y": 2546,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "25ede99e-6b49-4a41-b317-995d95b2cf4f",
+                            "ddbEntityId": 5174957,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                2.0037259687100786,
+                                -3.425056495571574
+                            ],
+                            "rawZPosition": 0.09,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/46992/17/638736097250843939.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5174957,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 270,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbScout5174957I",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Scout"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "7oMpA4LhzsRlyiMB",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 16,
+                                    "max": 16,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "2ncEuA6hnDdpMKko",
+                    "name": "Ri'all",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2814,
+                    "y": 2412,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "951efe3f-6e89-4a92-8a27-b65790bba917",
+                            "ddbEntityId": 6719643,
+                            "ddbType": "MONSTER",
+                            "sourceName": "RWG",
+                            "rawPosition": [
+                                -1.9990374153771768,
+                                -2.0352036096553983
+                            ],
+                            "rawZPosition": 0.04,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/4675/675/636747837794884984.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719643,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 307,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbRiall6719643I",
+                            "sourceId": 307,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Ri'all"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "2INuSAMMD0iF8oon",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 127,
+                                    "max": 127,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/rwg/map-01-002.standing-stones-player.png",
+            "foundryVersion": "14.367",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map: The Standing Stones",
+                    "bookCode": "rwg",
+                    "contentChunkId": "standing-stones-map-player",
+                    "lastUpdate": "1.1.31",
+                    "notes": "1.1.31",
+                    "tokens": "1.1.31",
+                    "walls": "1.1.31",
+                    "lights": "1.1.31",
+                    "drawings": "1.1.31",
+                    "regions": "1.1.31",
+                    "foundry": "14.367"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0,
+        "color": "#000000",
+        "distance": 5,
+        "size": 134,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 3011,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#181818",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [],
+    "name": "Map: The Standing Stones",
+    "navName": "The Standing Stones",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [
+        {
+            "color": "#54cc28",
+            "elevation": {
+                "bottom": 0,
+                "top": 20,
+                "topInclusive": false
+            },
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "restriction": {
+                "enabled": false,
+                "type": "move",
+                "priority": 0
+            },
+            "attachment": {
+                "token": null
+            },
+            "visibility": 2,
+            "highlightMode": "shapes",
+            "displayMeasurements": false,
+            "hidden": false,
+            "name": "Force Field",
+            "_id": "MZLzAx6pTztSMJPx",
+            "shapes": [
+                {
+                    "type": "circle",
+                    "x": 2814,
+                    "y": 2546,
+                    "radius": 1072,
+                    "hole": false,
+                    "gridBased": false
+                }
+            ],
+            "behaviors": [],
+            "locked": false,
+            "ownership": {
+                "default": 0,
+                "Ufy3hgxeNc4FZ9G8": 3
+            },
+            "flags": {},
+            "_shapeConstraints": null
+        }
+    ],
+    "shiftX": 37,
+    "shiftY": 38,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [],
+    "weather": "",
+    "width": 4092
+}
