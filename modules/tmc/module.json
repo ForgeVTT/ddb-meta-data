@@ -1,0 +1,67 @@
+{
+	"id": "tmc",
+	"name": "tmc",
+	"title": "The Magus Class",
+	"description": "<blockquote>An Arcane Warrior Wielding Spell and Steel…</blockquote><p>The Magus is a spell-slinging, steel-wielding new class with six subclasses, perfect for mixing and matching magical themes and combat styles.</p><p>New Features:</p><ul><li>The Magus class</li><li><strong>6 subclasses:</strong> Arcane Order, Heaven’s Guard, Knights Stygian, Shadow Court, Sidereal Cabal, Sylvan Circle.</li><li><strong>30+ new spells</strong> available to the Magus and expanding the spell lists of other classes.</li><li><strong>20 magic items</strong> every aspiring gish will wish for.</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/tmc/the-magus-class",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/tmc/listing_images/639204175149510761.jpeg"
+		}
+	]
+}

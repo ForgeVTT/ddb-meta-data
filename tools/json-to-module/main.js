@@ -166,8 +166,6 @@ async function assemble(args) {
     if (!args.overwrite && (await fs.pathExists(path.resolve(args.output, args.book)))) {
         console.info(`Skipping ${args.book} because it already exists`);
         return;
-    } else if (args.force && (await fs.pathExists(path.resolve(args.output, args.book)))) {
-        await fs.remove(path.resolve(args.output, args.book));
     }
     console.info(`Assembling meta data for ${args.book}`);
     console.time();

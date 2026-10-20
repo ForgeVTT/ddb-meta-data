@@ -1,6 +1,6 @@
 # Lorwyn: First Light
 
-Journey beyond the Forgotten Realms to the beloved plane of Lorwyn-Shadowmoor,where eternal sun shifts into eerie moonlight. Here, you’ll discover new Fey-inspired character options, a rich gazetteer of mystical locales, monstrous incarnations of nature, and ready-to-run adventures. ​
+​Journey beyond the Forgotten Realms to the beloved plane of Lorwyn-Shadowmoor,where eternal sun shifts into eerie moonlight. Here, you’ll discover new Fey-inspired character options, a rich gazetteer of mystical locales, monstrous incarnations of nature, and ready-to-run adventures.
 
 ---
 
