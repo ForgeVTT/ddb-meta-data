@@ -421,13 +421,13 @@
                     "name": "Map 2.22: Old Kartakan Inn And Taverna",
                     "bookCode": "rthw",
                     "contentChunkId": "Map222OldKartakanInnandTaverna-player",
-                    "lastUpdate": "1.1.30",
-                    "notes": "1.1.30",
-                    "tokens": "1.1.30",
-                    "walls": "1.1.30",
-                    "lights": "1.1.30",
-                    "drawings": "1.1.30",
-                    "regions": "1.1.30",
+                    "lastUpdate": "1.1.34",
+                    "notes": "1.1.34",
+                    "tokens": "1.1.34",
+                    "walls": "1.1.34",
+                    "lights": "1.1.34",
+                    "drawings": "1.1.34",
+                    "regions": "1.1.34",
                     "foundry": "14.364"
                 }
             }
@@ -4355,7 +4355,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.1OK76Csa3XYfihfT"
+                            "..arumejMKwUXHHfGO"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -4438,7 +4438,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.JQuwddzfN5pnTnfX"
+                            "..F8cTg6K1mN0eRkIU"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -4521,7 +4521,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.DZJ9L80MrjfqXvEl"
+                            "..mWQx08QzFCY0b1t8"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -4604,7 +4604,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.xPiokyPnac1JWw1D"
+                            "..lOMLYcrjg0HaMG9L"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -4687,7 +4687,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.3lRyanbmX5h3d9PW"
+                            "..xykQvcUGNrgHJRGM"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -4770,7 +4770,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.twqNVnhxvAXFs1GP"
+                            "..V9HcLnfCG7Ini2ne"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -4853,7 +4853,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.EUH8PR2MhBMk72DH"
+                            "..bCxYRKhTPXGtTnr7"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -4936,7 +4936,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.1RMTY9jr8DmFWeVh"
+                            "..lzkboG3vncJsTHbt"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -5019,7 +5019,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.39YIEKUxd0ilrn0w"
+                            "..jdBIuT6TlGyXdNld"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -5102,7 +5102,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.nxErgg5ITmjjbVrE"
+                            "..QTMmDTewZeKFc7hz"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -5185,7 +5185,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.6JiCjtrLa7agPFsb"
+                            "..KKFbCM3lMq8BuNhK"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -5422,7 +5422,7 @@
                     "system": {
                         "choice": true,
                         "destinations": [
-                            "Scene.rhwOldKartakanIn.Region.eSJ0sdUU1zpWMt07"
+                            "..ZdvDpfDtzzRRx4hE"
                         ],
                         "placement": "random",
                         "snap": true,

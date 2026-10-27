@@ -863,13 +863,13 @@
                     "name": "Map 2.29: Shadowborn Manor",
                     "bookCode": "rthw",
                     "contentChunkId": "Map229ShadowbornManor-player",
-                    "lastUpdate": "1.1.30",
-                    "notes": "1.1.30",
-                    "tokens": "1.1.30",
-                    "walls": "1.1.30",
-                    "lights": "1.1.30",
-                    "drawings": "1.1.30",
-                    "regions": "1.1.30",
+                    "lastUpdate": "1.1.34",
+                    "notes": "1.1.34",
+                    "tokens": "1.1.34",
+                    "walls": "1.1.34",
+                    "lights": "1.1.34",
+                    "drawings": "1.1.34",
+                    "regions": "1.1.34",
                     "foundry": "14.364"
                 }
             }
@@ -1052,7 +1052,7 @@
                     "system": {
                         "choice": false,
                         "destinations": [
-                            "Scene.rhwTheShadowborn.Region.qlYiQC1bGLQhQcTt"
+                            "..Nhm5L4GAWP6bVvcK"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -1707,7 +1707,7 @@
                     "system": {
                         "choice": false,
                         "destinations": [
-                            "Scene.rhwTheShadowborn.Region.8iQON1IPGf7jYMU6"
+                            "..3wfu8gN8A7aHsRwM"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -1790,7 +1790,7 @@
                     "system": {
                         "choice": false,
                         "destinations": [
-                            "Scene.rhwTheShadowborn.Region.rRSXIT12T6xS3LaB"
+                            "..6jawABKcbrSV1Zao"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -1873,7 +1873,7 @@
                     "system": {
                         "choice": false,
                         "destinations": [
-                            "Scene.rhwTheShadowborn.Region.EaSr8aoAAFkkvWLf"
+                            "..vN90shLtcE95UTns"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -1956,7 +1956,7 @@
                     "system": {
                         "choice": false,
                         "destinations": [
-                            "Scene.rhwTheShadowborn.Region.c9jxQehWR0RRgG0g"
+                            "..WrxjpvPBgJVSXgL1"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -2039,7 +2039,7 @@
                     "system": {
                         "choice": false,
                         "destinations": [
-                            "Scene.rhwTheShadowborn.Region.21Qo0d58fyfEUiIn"
+                            "..pnsPGYUP1fNc4Qhp"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -2122,7 +2122,7 @@
                     "system": {
                         "choice": false,
                         "destinations": [
-                            "Scene.rhwTheShadowborn.Region.SuXU7WrRLMaTkY9B"
+                            "..P2fExFFVz0Scdgc8"
                         ],
                         "placement": "random",
                         "snap": true,
@@ -2205,7 +2205,7 @@
                     "system": {
                         "choice": false,
                         "destinations": [
-                            "Scene.rhwTheShadowborn.Region.Wbeyxm2lNJJ7T6FX"
+                            "..XkLERaFjX2cwOZH6"
                         ],
                         "placement": "random",
                         "snap": true,
