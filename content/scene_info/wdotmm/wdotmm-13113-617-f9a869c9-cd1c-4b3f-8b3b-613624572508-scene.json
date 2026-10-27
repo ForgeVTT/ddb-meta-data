@@ -1,0 +1,2130 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0.8,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": false,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "wdotmm",
+            "ddbId": 13113,
+            "cobaltId": null,
+            "parentId": 617,
+            "contentChunkId": "f9a869c9-cd1c-4b3f-8b3b-613624572508",
+            "notes": [
+                {
+                    "label": "01. Murkspan Bridge",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "bd7a5810-70a0-480e-be67-80c72a01b327",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "1MurkspanBridge",
+                            "labelName": "01. Murkspan Bridge",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2838,
+                            "y": 1197
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "02. Main Gate",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "7c844cc3-0711-4c96-a799-8650a004ee7b",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "2MainGate",
+                            "labelName": "02. Main Gate",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2704,
+                            "y": 1894
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "03. Harbors",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "3186cb8b-55dc-44e5-b891-732becc4cb9c",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "3Harbors",
+                            "labelName": "03. Harbors",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1333,
+                            "y": 2158
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "04. Duergar Barracks",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "a606ce1a-dde2-4126-9e20-ab8663025bff",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "4DuergarBarracks",
+                            "labelName": "04. Duergar Barracks",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1903,
+                            "y": 2498
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "05. Human Barracks",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "409fff1e-a38a-449d-807d-f8c025a29013",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "5HumanBarracks",
+                            "labelName": "05. Human Barracks",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2353,
+                            "y": 3154
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "06. Depleted Armory",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "e5a1c3c5-b534-465c-99fe-180d8bb1d341",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "6DepletedArmory",
+                            "labelName": "06. Depleted Armory",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2297,
+                            "y": 4194
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "07. Bugbear Barracks",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "bca75c01-7b55-4bc8-a23c-619b45c2ed38",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "7BugbearBarracks",
+                            "labelName": "07. Bugbear Barracks",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 3002,
+                            "y": 4154
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "08. Gargoyle Towers",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "1ebe0ded-f75c-42ad-b8e0-9a4db488c7d4",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "8GargoyleTowers",
+                            "labelName": "08. Gargoyle Towers",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2752,
+                            "y": 4653
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "09. Tower of the Seven Woes",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "03e863c8-d81d-4433-934c-a6fd3e47ae6c",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "9ToweroftheSevenWoes",
+                            "labelName": "09. Tower of the Seven Woes",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2251,
+                            "y": 5254
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "10. Kuo-toa Lair",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "0abb1163-ac4e-45de-9d8e-86696c85bb3d",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "10KuotoaLair",
+                            "labelName": "10. Kuo-toa Lair",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 4757,
+                            "y": 3952
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "10a. Old Dock",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "686aac6c-732c-4f46-b001-a93f9dd242ad",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "10aOldDock",
+                            "labelName": "10a. Old Dock",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 4507,
+                            "y": 3803
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "10b. Kuo-toa Cave",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 112,
+                            "bookCode": "wdotmm",
+                            "slug": "skullport#ExploringSkullIsland",
+                            "contentChunkId": "c36f0f01-11dd-4344-8976-56c53c237c07",
+                            "parentId": 617,
+                            "cobaltId": null,
+                            "slugLink": "10bKuotoaCave",
+                            "labelName": "10b. Kuo-toa Cave",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 5007,
+                            "y": 4101
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [
+                {
+                    "_id": "qITpkUFhwXsikQPI",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1900,
+                    "y": 2400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "qITpkUFhwXsikQPI",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "GnpKuT0t6G8so0xL",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1850,
+                    "y": 2400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "GnpKuT0t6G8so0xL",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "rTUYr4vjDIO7xIfJ",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1900,
+                    "y": 2500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "rTUYr4vjDIO7xIfJ",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "kHTx6GGtwNtU9IHI",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1950,
+                    "y": 2400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "kHTx6GGtwNtU9IHI",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "lrTFp9mhTSxHCNOL",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1950,
+                    "y": 2450,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "lrTFp9mhTSxHCNOL",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "ZJd9BecCTjkuGO6r",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1850,
+                    "y": 2450,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "ZJd9BecCTjkuGO6r",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "QEfTiAXe3hBwqQhr",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1850,
+                    "y": 2500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "QEfTiAXe3hBwqQhr",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "dxdCEIImWeqrtS4K",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1800,
+                    "y": 2350,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "dxdCEIImWeqrtS4K",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "NvCSNr7Ul7fxiCG5",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1800,
+                    "y": 2400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "NvCSNr7Ul7fxiCG5",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "g5xPHPyNTQfFI9MH",
+                    "name": "Duergar",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1950,
+                    "y": 2500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16850,
+                            "name": "Duergar"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "g5xPHPyNTQfFI9MH",
+                        "name": "Duergar",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Kqox1WYN9WUt9JYE",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2700,
+                    "y": 4600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "Kqox1WYN9WUt9JYE",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "BzYupvB7OATGi35G",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2700,
+                    "y": 4650,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "BzYupvB7OATGi35G",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "mZ0smSMdUAjmyzVp",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2700,
+                    "y": 4700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "mZ0smSMdUAjmyzVp",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "eNatGebvozFEKRwP",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2750,
+                    "y": 4600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "eNatGebvozFEKRwP",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "esYx3GSCElD2jHgF",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2300,
+                    "y": 3100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "name": "Thug"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "esYx3GSCElD2jHgF",
+                        "name": "Thug",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "3OzZONOZwrgxkBSY",
+                    "name": "Bugbear",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2950,
+                    "y": 4100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16817,
+                            "name": "Bugbear"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "3OzZONOZwrgxkBSY",
+                        "name": "Bugbear",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "OoJoh5bkhr0h3raH",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2750,
+                    "y": 4700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "OoJoh5bkhr0h3raH",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "2PBy3GZ732S7gwTC",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2800,
+                    "y": 4600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "2PBy3GZ732S7gwTC",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "IoaPEQF7I66g4KqL",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2800,
+                    "y": 4650,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "IoaPEQF7I66g4KqL",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "ppGwImpte5LXv6YQ",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2800,
+                    "y": 4700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "ppGwImpte5LXv6YQ",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "wUBDBnNJJa6DZGZl",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2650,
+                    "y": 4550,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "wUBDBnNJJa6DZGZl",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "bo85ZGzYBSH54SAn",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2650,
+                    "y": 4600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "bo85ZGzYBSH54SAn",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "qNLRlNR1zdB50ShS",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2650,
+                    "y": 4650,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "qNLRlNR1zdB50ShS",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "2tncWswPs6dQzchh",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2650,
+                    "y": 4700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "2tncWswPs6dQzchh",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "c8Ty8yw8fPvTcGmV",
+                    "name": "Sundeth",
+                    "width": 2,
+                    "height": 2,
+                    "x": 2200,
+                    "y": 5200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 278091,
+                            "name": "Sundeth"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "c8Ty8yw8fPvTcGmV",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "soj9qLc2XKr62HsS",
+                    "name": "Wyvern",
+                    "width": 2,
+                    "height": 2,
+                    "x": 2200,
+                    "y": 5250,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17065,
+                            "name": "Wyvern"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "soj9qLc2XKr62HsS",
+                        "name": "Wyvern",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "OsAo8BHIit6e0jC7",
+                    "name": "Kuo-toa",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4950,
+                    "y": 4050,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17166,
+                            "name": "Kuo-toa"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "OsAo8BHIit6e0jC7",
+                        "name": "Kuo-toa",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "c9TCIXkxcCYZKzyR",
+                    "name": "Champion",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2200,
+                    "y": 5300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17330,
+                            "name": "Champion"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "c9TCIXkxcCYZKzyR",
+                        "name": "Champion",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "foundryVersion": "14.369",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Exploring Skull Island",
+                    "bookCode": "wdotmm",
+                    "contentChunkId": "f9a869c9-cd1c-4b3f-8b3b-613624572508",
+                    "lastUpdate": "1.1.34",
+                    "notes": "1.1.34",
+                    "tokens": "1.1.34",
+                    "walls": "1.1.34",
+                    "lights": "1.1.34",
+                    "drawings": "1.1.34",
+                    "regions": "1.1.34",
+                    "foundry": "14.369"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "type": 1,
+        "size": 50,
+        "distance": 5,
+        "units": "ft",
+        "color": "#000000",
+        "alpha": 0.2,
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 7499,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#f8f8f8",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 8,
+                "offsetY": 8,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": null
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [],
+    "name": "Exploring Skull Island",
+    "navName": "Exploring Skull Island",
+    "navOrder": 0,
+    "padding": 0,
+    "regions": [],
+    "shiftX": 0,
+    "shiftY": 0,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [],
+    "weather": "",
+    "width": 5917
+}
