@@ -1,0 +1,67 @@
+{
+	"id": "prla",
+	"name": "prla",
+	"title": "Project_Lamordia",
+	"description": "<blockquote>Tomorrow’s horrors are yours to run tonight.</blockquote><p>PROJECT_LAMORDIA reimagines one of Ravenloft’s most chilling Domains of Dread through a modern lens. In the world of Gothic Earth, Dr. Viktra Mordenheim uses cutting-edge technology and forbidden magic to promise digital immortality at the cost of one’s own soul. Plunge your players into a modernistic AI-gone-wrong nightmare in Mordenheim Kinetics facility, a laboratory filled with mechanistic terrors and failed experiments.</p><p>Inside this adventure, you will discover:</p><ul><li>3 one-shots that can be connected into a full adventure, each with a map to traverse through the haunted halls of Mordenheim Kinetics</li><li>1 character species, the Reborn, whose consciousness was uploaded into a synthetic body after death</li><li>4 new character backgrounds and 4 new feats (Dark Gifts)</li><li>New mechanics to help you play desperate survivors in a modern world, including 4 preset playable stat blocks</li><li>5 monstrous stat blocks blending gothic dread and technological horror</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/prla",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/prla/listing_images/639268902024672823.jpeg"
+		}
+	]
+}
