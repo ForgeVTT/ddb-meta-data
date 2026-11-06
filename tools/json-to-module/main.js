@@ -3,7 +3,6 @@ const readline = require("node:readline");
 const path = require("path");
 const Datastore = require("nedb");
 const { ArgumentParser } = require("argparse");
-const chalk = require("chalk");
 const fetch = require("node-fetch");
 const utils = require("./utils");
 
@@ -303,7 +302,7 @@ async function confirmSourceUrl(bookName, defaultUrl) {
             output: process.stdout,
         });
         rl.question(
-            `Please check the correct URL (${chalk.strikethrough(defaultUrl)}) for ${chalk.bold(bookName)} ${chalk.dim("(leave empty if unavailable)")}:`,
+            `Please check the correct URL (${defaultUrl}) for ${bookName} (leave empty if unavailable):`,
             (url) => {
                 rl.close();
                 resolve(url || null);
