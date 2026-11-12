@@ -115,28 +115,13 @@ class DatabaseInterface {
 
         const db = new Datastore({ filename: this.path, autoload: true });
 
-        const outcomes = await Promise.allSettled(
-            docs.map(
-                (doc) =>
-                    new Promise((resolve, reject) =>
-                        db.insert(doc, (err, newDoc) => {
-                            if (err) {
-                                console.error("Error", `Error inserting document`, err);
-                                reject(err);
-                            } else {
-                                console.info(`Saved "${newDoc.name}" to ${this.name} as ${newDoc._id}`);
-                                resolve(newDoc);
-                            }
-                        })
-                    )
-            )
-        );
-        outcomes
-            .filter((outcome) => outcome.status !== "fulfilled")
-            .map((outcome) => console.error("Error", outcome.reason));
+        const savedDocs = await db.insertAsync(docs);
+        for (const doc of savedDocs) {
+            console.info(`Saved "${doc.name}" to ${this.name} as ${doc._id}`);
+        }
         await db.compactDatafileAsync();
         console.info(`Inserted ${this.name} and compacted database file`);
-        return outcomes.map((outcome) => outcome.value);
+        return savedDocs;
     }
 
     /**
@@ -176,12 +161,8 @@ async function assemble(args) {
 
     const contentPath = path.resolve(__dirname, "../../content");
 
-    try {
-        await assembleManifest(args);
-        await Promise.all([assembleScenes(args, contentPath), assembleTables(args, contentPath), assembleREADME(args)]);
-    } catch (err) {
-        console.error("Failed to assemble meta data", err);
-    }
+    await assembleManifest(args);
+    await Promise.all([assembleScenes(args, contentPath), assembleTables(args, contentPath), assembleREADME(args)]);
 
     console.info(`Done assembling meta data for ${args.book}`);
     console.timeEnd();
@@ -207,25 +188,22 @@ async function assembleScenes(args, contentPath) {
         let noteInfo = fs.existsSync(noteInfoPath) ? await fs.readJSON(noteInfoPath) : [];
         scenes = await new DatabaseInterface("scenes", args).save(
             (
-                await Promise.allSettled(
+                await Promise.all(
                     sceneFilePaths
                         .filter((file) => fs.existsSync(file))
                         .map(async (file) => alterScene(await fs.readJSON(file), noteInfo, contentPath, args))
                 )
             )
-                .reduce((acc, cur) => {
-                    if (cur.status === "fulfilled") acc.push(cur.value);
-                    else console.error("Error", "Error processing scene file", cur.reason);
-
+                .map((scene) => {
                     // Keep track of note info that wasn't inserted anywhere
-                    if (cur.value.flags.ddb.noteInfos) {
+                    if (scene.flags.ddb.noteInfos) {
                         const remainingNoteInfo = noteInfo.filter(
-                            (note) => !cur.value.flags.ddb.noteInfos.some((n) => n.slug === note.slug)
+                            (note) => !scene.flags.ddb.noteInfos.some((n) => n.slug === note.slug)
                         );
                         noteInfo = remainingNoteInfo;
                     }
-                    return acc;
-                }, [])
+                    return scene;
+                })
                 .map((scene) => {
                     const parentIds = [...new Set(scene.notes.map((n) => n.flags.ddb.parentId))];
                     // Add note to scene if one of the scene's parentIds matches the note's parentId
@@ -241,6 +219,7 @@ async function assembleScenes(args, contentPath) {
         console.info(`Assembled ${sceneFilePaths.length} scenes for ${args.book}`);
     } catch (err) {
         console.error("Error", "Failed to assemble scenes", err);
+        throw err;
     }
 
     // Copy tiles into the book's directory
@@ -254,6 +233,7 @@ async function assembleScenes(args, contentPath) {
             console.info(`Copied tiles for ${args.book}`);
         } catch (err) {
             console.error("Error", "Failed to copy tiles", err);
+            throw err;
         }
     }
 
@@ -281,6 +261,7 @@ async function assembleTables(args, contentPath) {
         console.info(`Assembled tables for ${args.book}`);
     } catch (err) {
         console.error("Error", "Failed to assemble tables", err);
+        throw err;
     }
     return tables;
 }
@@ -549,6 +530,7 @@ async function alterScene(scene, noteInfo, contentPath, args) {
         console.groupEnd();
     } catch (err) {
         console.error("Error", `Error altering scene ${scene.name}`, err);
+        throw err;
     }
 
     return scene;
@@ -574,6 +556,7 @@ async function alterTables(tables, args) {
         console.info(`Created ${folders.size} folders`);
     } catch (err) {
         console.error("Error", `Error creating folders`, err);
+        throw err;
     }
 
     // Create tables
@@ -598,6 +581,7 @@ async function alterTables(tables, args) {
         console.info(`Created ${alteredTables.length} tables`);
     } catch (err) {
         console.error("Error", `Error creating tables`, err);
+        throw err;
     }
 
     console.groupEnd();
