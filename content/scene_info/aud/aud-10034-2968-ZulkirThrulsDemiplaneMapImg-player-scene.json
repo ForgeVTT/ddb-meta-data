@@ -1,0 +1,429 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0.05,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.8
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "aud",
+            "ddbId": 10034,
+            "cobaltId": null,
+            "parentId": 2968,
+            "contentChunkId": "ZulkirThrulsDemiplaneMapImg-player",
+            "notes": [],
+            "tokens": [
+                {
+                    "_id": "l9unru8gL41hTBFU",
+                    "name": "Wynston Wrynn",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1386,
+                    "y": 3696,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "fe695960-b605-49ee-a6ec-aa0050cbe472",
+                            "ddbEntityId": 5195216,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -6.86638200187827,
+                                -8.944402893126
+                            ],
+                            "rawZPosition": 0.03,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/266/638741964673603784.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195216,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 295,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbSpyMas5195216",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Spy Master"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "KRlXkD0O4mkOr8zl",
+                        "name": "Wynston Wrynn",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 137,
+                                    "max": 137,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "NkzUY2CpXzi6h3jy",
+                    "name": "Xelnene Thrul",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2310,
+                    "y": 3696,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "1fb726cd-fde5-4476-9028-3d9902cc63b8",
+                            "ddbEntityId": 6719634,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AUD",
+                            "rawPosition": [
+                                2.3719205699437116,
+                                -8.875729989456714
+                            ],
+                            "rawZPosition": 0.02,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/348/639198293411616760.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719634,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 302,
+                                    "pageNumber": 128,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbXelThr6719634",
+                            "sourceId": 302,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Xelnene Thrul"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "is0ITta8oyQGU22Q",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 208,
+                                    "max": 208,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/aud/map-03-03.zulkir-thruls-demiplane-player.png",
+            "foundryVersion": "14.367",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 3.3: Zulkir Thrul's Demiplane",
+                    "bookCode": "aud",
+                    "contentChunkId": "ZulkirThrulsDemiplaneMapImg-player",
+                    "lastUpdate": "1.1.31",
+                    "notes": "1.1.31",
+                    "tokens": "1.1.31",
+                    "walls": "1.1.31",
+                    "lights": "1.1.31",
+                    "drawings": "1.1.31",
+                    "regions": "1.1.31",
+                    "foundry": "14.367"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0.2,
+        "color": "#000000",
+        "distance": 5,
+        "size": 462,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 4096,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#d980a5",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [],
+    "name": "Map 3.3: Zulkir Thrul's Demiplane",
+    "navName": "Zulkir Thrul's Demiplane",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": 256,
+    "shiftY": 383,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                855,
+                4946,
+                855,
+                1750
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3755,
+                4946,
+                855,
+                4946
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3755,
+                1750,
+                3755,
+                4946
+            ]
+        },
+        {
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                855,
+                1750,
+                3755,
+                1750
+            ]
+        }
+    ],
+    "weather": "",
+    "width": 3277
+}
