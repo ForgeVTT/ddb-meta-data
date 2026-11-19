@@ -1,0 +1,4766 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0.4,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.65
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "prla",
+            "ddbId": 10027,
+            "cobaltId": null,
+            "parentId": 2994,
+            "contentChunkId": "Map04002cryogenics-player",
+            "notes": [
+                {
+                    "label": "D1: Cryopod Storage",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 26,
+                            "bookCode": "prla",
+                            "slug": "adventures#DeepFreeze",
+                            "linkName": "Deep Freeze",
+                            "slugLink": "D1CryopodStorage",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 2994
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1710,
+                            "y": 2430
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "D2: Hallway",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 26,
+                            "bookCode": "prla",
+                            "slug": "adventures#DeepFreeze",
+                            "linkName": "Deep Freeze",
+                            "slugLink": "D2Hallway",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 2994
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2430,
+                            "y": 2970
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "D3: Operating Theater",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 26,
+                            "bookCode": "prla",
+                            "slug": "adventures#DeepFreeze",
+                            "linkName": "Deep Freeze",
+                            "slugLink": "D3OperatingTheater",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 2994
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 3150,
+                            "y": 1530
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "D4: Cryopod Research",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 26,
+                            "bookCode": "prla",
+                            "slug": "adventures#DeepFreeze",
+                            "linkName": "Deep Freeze",
+                            "slugLink": "D4CryopodResearch",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 2994
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 4635,
+                            "y": 2340
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "D5: Cryogenerator Room",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 26,
+                            "bookCode": "prla",
+                            "slug": "adventures#DeepFreeze",
+                            "linkName": "Deep Freeze",
+                            "slugLink": "D5CryogeneratorRoom",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 2994
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 3150,
+                            "y": 2430
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [
+                {
+                    "_id": "hRLJ5AWmW4CIjFX1",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1440,
+                    "y": 2070,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "0e26d27f-99bc-4df1-9348-a4b9650094aa",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                -16.304800884304022,
+                                0.6401070166536598
+                            ],
+                            "rawZPosition": 0.04,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "wUqH8vSC6tgewa9U",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "m7ecvNmAhQYKNbRE",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1440,
+                    "y": 2250,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "28eefa0f-9200-41ae-9594-9909aeb7bb5b",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                -16.29354360129153,
+                                -1.2528834008950738
+                            ],
+                            "rawZPosition": 0.05,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "V6IOBzJxrimChlRa",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "FDFytFzAaB9Nb09v",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4590,
+                    "y": 1890,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "230e8fec-29fa-4ef7-b0d1-90d65410b12b",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                15.121966437547648,
+                                2.418311782111403
+                            ],
+                            "rawZPosition": 0.08,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "o6RSC3WkILuNQcLZ",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "GbwChnmWv7VPyXvr",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4680,
+                    "y": 1890,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "f5b20bec-1f47-4824-9305-adcdd4cc7d30",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                16.02881754283855,
+                                2.4218940963552704
+                            ],
+                            "rawZPosition": 0.07,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "fQcexCVGHxOGkP5Z",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "jNk8eGYLdnl1bNJO",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1440,
+                    "y": 2430,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "186702b4-feab-4fb9-9371-c01db0e26506",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                -16.311369589803256,
+                                -3.0032476694110173
+                            ],
+                            "rawZPosition": 0.06,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "lWp6ZtiJCdtGw0hR",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "xabxYbB2FxIA0acY",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4500,
+                    "y": 1890,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "79af3bdb-135d-4427-b049-fd0325039721",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                14.208193349371621,
+                                2.425048489189165
+                            ],
+                            "rawZPosition": 0.09,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "9mvgCC5rdN97wfdx",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "x7gAmRmnasJUir9B",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4410,
+                    "y": 1890,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "d12ecec4-cb16-4526-8044-1017d79d9e09",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                13.316086256044523,
+                                2.4033824943402324
+                            ],
+                            "rawZPosition": 0.1,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "aT6eS36x5bYX67s6",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "TExkupDnroavyzrQ",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4680,
+                    "y": 2070,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "f54cbea4-5542-4b66-944f-2e678b936a04",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                16.008122111701432,
+                                0.566668673193284
+                            ],
+                            "rawZPosition": 0.11,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "4JbIjib4qg9b5EPt",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "rcXnfRYhBfAm29D9",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4590,
+                    "y": 2070,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "b5458b79-9205-4183-9628-09b2b48f132d",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                15.111271829062648,
+                                0.615474239551913
+                            ],
+                            "rawZPosition": 0.12,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "sWQGI3JAMQYL0V15",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "jo2v3lTWfCpkzzJA",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4500,
+                    "y": 2070,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "793ce4a7-e0fa-4c91-b25c-cb62dad027e5",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                14.20489505649331,
+                                0.6072950678834074
+                            ],
+                            "rawZPosition": 0.13,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "GSR6fodR16n7vWWM",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "gMZlCRJJoRTaTT6P",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4410,
+                    "y": 2070,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "5425b3dc-98f5-4824-a3f2-3dea5ee112bd",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                13.267957306469224,
+                                0.6182641381722306
+                            ],
+                            "rawZPosition": 0.14,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "4qNbG38WG5QIY0RD",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "LGOseD6FksBiZLBT",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4500,
+                    "y": 2790,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "3d117b10-1e36-4557-a981-6d58d5aae782",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                14.207177933082425,
+                                -6.511640972268535
+                            ],
+                            "rawZPosition": 0.16,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "6Rb9YFGVP4qy34Zr",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "NJytmsPExyyLsrXC",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4410,
+                    "y": 2790,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "d0297028-8126-41a8-8534-39bd3bd72a97",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                13.195665519895087,
+                                -6.556404583841023
+                            ],
+                            "rawZPosition": 0.15,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "UKba8U5Q6p7woDYB",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "rLo9nUSzMC72WGl4",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4590,
+                    "y": 2790,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "5dce9059-97e1-4c0f-8bce-c405e8a179fb",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                15.050381800803663,
+                                -6.5269214609959105
+                            ],
+                            "rawZPosition": 0.17,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "1jQmUbE2sdHwsR9F",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "A31liU6cRgawyotf",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4680,
+                    "y": 2790,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "2dd3ec58-ca35-4fa0-be0a-66028dc3d5b0",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                15.901590638637229,
+                                -6.557751902103069
+                            ],
+                            "rawZPosition": 0.18,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "TiTr4i38XCFogjTd",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "k2bU6vdTDMMCilmt",
+                    "name": "Shattered Echo",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2880,
+                    "y": 2880,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "a72e2405-7994-4143-a304-3bb00e1fe123",
+                            "ddbEntityId": 6818883,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                -1.963227581813678,
+                                -7.4618536813635705
+                            ],
+                            "rawZPosition": 0.19,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/809/639160245191000599.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818883,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbShaEch6818883",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Shattered Echo"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "PG0KW0F6csrfi1Z8",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 60,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "QAPLVMIwRBMYtYdF",
+                    "name": "Created",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2700,
+                    "y": 1350,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "bfce580d-26c1-4c14-a2dc-49cff51b47ce",
+                            "ddbEntityId": 6818876,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                -3.710122769532395,
+                                7.785125205018748
+                            ],
+                            "rawZPosition": 0.2,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/800/639160241357332523.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818876,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCreate6818876",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Created"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "u93Ohewps0j2o2YE",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 60,
+                                    "max": 127,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "qP9O1HzY4yYvLF1C",
+                    "name": "Created",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3960,
+                    "y": 2700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "73ec3159-f533-4d08-ac37-777acede6c64",
+                            "ddbEntityId": 6818876,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                8.808021751092529,
+                                -5.696460069043667
+                            ],
+                            "rawZPosition": 0.21,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/800/639160241357332523.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818876,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCreate6818876",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Created"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "DZxSJkp4WYxhtsop",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 127,
+                                    "max": 127,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "9P2qDDVhigQpTRQ8",
+                    "name": "Hendrik von Aubrecker",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3060,
+                    "y": 1350,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "6b3f5c2d-5fa3-4d16-a8ce-59ce5b20dc66",
+                            "ddbEntityId": 6818880,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                -0.1798113882740776,
+                                7.780228141916786
+                            ],
+                            "rawZPosition": 0.02,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/59226/802/639160243859060944.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818880,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbHeVoAu6818880",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Hendrik von Aubrecker"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "WmERykRQ9zqW3nSc",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 65,
+                                    "max": 65,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "VbkwIHB2JNH7lpHv",
+                    "name": "Gerta von Aubrecker",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4500,
+                    "y": 2520,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "936bee4e-1586-484e-81ca-fcac52fac6e7",
+                            "ddbEntityId": 6818879,
+                            "ddbType": "MONSTER",
+                            "sourceName": "PrLa",
+                            "rawPosition": [
+                                14.635376708300775,
+                                -3.5009682020905295
+                            ],
+                            "rawZPosition": 0.03,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/4675/676/636747837839875603.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6818879,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 270,
+                                    "pageNumber": null,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbGeVoAu6818879",
+                            "sourceId": 270,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Gerta von Aubrecker"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "1KQlYUaKNxvY8oiJ",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 84,
+                                    "max": 84,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/prla/map-05-002.cryogenics-player.jpg",
+            "foundryVersion": "14.369",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 1.2 Cryogenics",
+                    "bookCode": "prla",
+                    "contentChunkId": "Map04002cryogenics-player",
+                    "lastUpdate": "1.1.33",
+                    "notes": "1.1.33",
+                    "tokens": "1.1.33",
+                    "walls": "1.1.33",
+                    "lights": "1.1.33",
+                    "drawings": "1.1.33",
+                    "regions": "1.1.33",
+                    "foundry": "14.369"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0,
+        "color": "#000000",
+        "distance": 5,
+        "size": 90,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 2908,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#262626",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": null
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [
+        {
+            "x": 3995,
+            "y": 1204,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 15,
+                "bright": 7.5,
+                "color": null,
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 2769,
+            "y": 1374,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 15,
+                "bright": 7.5,
+                "color": "#7fe9ff",
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 3698,
+            "y": 2431,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "color": "#7fe9ff",
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 3995,
+            "y": 1584,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 15,
+                "bright": 7.5,
+                "color": null,
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 4829,
+            "y": 1834,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 15,
+                "bright": 7.5,
+                "color": null,
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 4359,
+            "y": 1834,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 15,
+                "bright": 7.5,
+                "color": null,
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 4829,
+            "y": 2924,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 15,
+                "bright": 7.5,
+                "color": null,
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 1589,
+            "y": 1844,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 20,
+                "bright": 10,
+                "color": null,
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 4359,
+            "y": 2924,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 15,
+                "bright": 7.5,
+                "color": null,
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 2826,
+            "y": 1960,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 2359,
+            "y": 1974,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 3643,
+            "y": 1960,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 2826,
+            "y": 2888,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 3643,
+            "y": 2888,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 2355,
+            "y": 2703,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 2269,
+            "y": 2324,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 3976,
+            "y": 2431,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 4219,
+            "y": 2534,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 3064,
+            "y": 1714,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 7.5,
+                "bright": 2.5,
+                "color": "#ff3030",
+                "alpha": 0.35,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        },
+        {
+            "x": 3705,
+            "y": 1574,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 15,
+                "bright": 7.5,
+                "color": "#7fe9ff",
+                "alpha": 0.5,
+                "luminosity": 0.5,
+                "attenuation": 0.5,
+                "coloration": 1,
+                "animation": {
+                    "type": null,
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "negative": false,
+                "priority": 0,
+                "angle": 360,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "elevation": 0,
+            "levels": [],
+            "rotation": 0,
+            "hidden": false,
+            "locked": false
+        }
+    ],
+    "name": "Map 1.2 Cryogenics",
+    "navName": "Map 1.2 Cryogenics",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": 11,
+    "shiftY": 86,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [
+        {
+            "c": [
+                2994,
+                1641,
+                2947,
+                1641
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2589,
+                1641,
+                2589,
+                1149
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2947,
+                1641,
+                2589,
+                1641
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4162,
+                1149,
+                4162,
+                1641
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2589,
+                1149,
+                4162,
+                1149
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4162,
+                1641,
+                3152,
+                1641
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                3152,
+                1641,
+                3134,
+                1641
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2994,
+                1641,
+                3134,
+                1641
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "door": 1,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2947,
+                1641,
+                2947,
+                1781
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2947,
+                1781,
+                2319,
+                1781
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2319,
+                2157,
+                2183,
+                2157
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2319,
+                1781,
+                2319,
+                2157
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                3152,
+                1641,
+                3152,
+                1781
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                3152,
+                1781,
+                4162,
+                1781
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4162,
+                1781,
+                4162,
+                2504
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2183,
+                2349,
+                2319,
+                2349
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4162,
+                2504,
+                4295,
+                2504
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2319,
+                2349,
+                2319,
+                3084
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2319,
+                3084,
+                3393,
+                3084
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                3393,
+                3084,
+                3393,
+                3284
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                3393,
+                3284,
+                3622,
+                3284
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                3622,
+                3284,
+                3622,
+                3084
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                3622,
+                3084,
+                4162,
+                3084
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4162,
+                3084,
+                4162,
+                2709
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4162,
+                2709,
+                4295,
+                2709
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4295,
+                2539,
+                4295,
+                2504
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4295,
+                2504,
+                4295,
+                1781
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4295,
+                1781,
+                4887,
+                1781
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4887,
+                1781,
+                4887,
+                2993
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4887,
+                2993,
+                4770,
+                2993
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4295,
+                2993,
+                4295,
+                2709
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4295,
+                2709,
+                4295,
+                2674
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4295,
+                2539,
+                4295,
+                2674
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "door": 1,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2183,
+                2184,
+                2183,
+                2157
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2183,
+                2157,
+                2183,
+                1781
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                1329,
+                1781,
+                1329,
+                2721
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                1329,
+                2721,
+                1599,
+                2721
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                1599,
+                2721,
+                1599,
+                2795
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                1599,
+                2795,
+                1599,
+                2898
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                1599,
+                2898,
+                1739,
+                2898
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                1739,
+                2898,
+                1739,
+                2795
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                1739,
+                2795,
+                1739,
+                2721
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2183,
+                1781,
+                1626,
+                1782
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                1739,
+                2721,
+                2183,
+                2721
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2183,
+                2721,
+                2183,
+                2349
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2183,
+                2349,
+                2183,
+                2319
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2183,
+                2184,
+                2183,
+                2319
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "door": 1,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                1599,
+                2795,
+                1739,
+                2795
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "door": 1,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2545,
+                2234,
+                2545,
+                2002
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2545,
+                2002,
+                3940,
+                2002
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                3940,
+                2002,
+                3940,
+                2857
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                3940,
+                2857,
+                2545,
+                2857
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2545,
+                2857,
+                2545,
+                2619
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2545,
+                2234,
+                2545,
+                2369
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "door": 1,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2545,
+                2484,
+                2545,
+                2619
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "door": 1,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                2545,
+                2369,
+                2545,
+                2484
+            ],
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            },
+            "levels": [],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null
+        },
+        {
+            "c": [
+                4613,
+                2993,
+                4295,
+                2993
+            ],
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            }
+        },
+        {
+            "c": [
+                4770,
+                2993,
+                4770,
+                3173
+            ],
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            }
+        },
+        {
+            "c": [
+                4613,
+                3173,
+                4613,
+                2993
+            ],
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            }
+        },
+        {
+            "c": [
+                4770,
+                3173,
+                4613,
+                3173
+            ],
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            }
+        },
+        {
+            "c": [
+                1472,
+                1781,
+                1329,
+                1781
+            ],
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            }
+        },
+        {
+            "c": [
+                1626,
+                1782,
+                1627,
+                1604
+            ],
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            }
+        },
+        {
+            "c": [
+                1472,
+                1603,
+                1472,
+                1781
+            ],
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            }
+        },
+        {
+            "c": [
+                1627,
+                1604,
+                1472,
+                1603
+            ],
+            "levels": [],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {
+                "world": {
+                    "claudeWalls": true
+                }
+            }
+        }
+    ],
+    "weather": "",
+    "width": 4107
+}

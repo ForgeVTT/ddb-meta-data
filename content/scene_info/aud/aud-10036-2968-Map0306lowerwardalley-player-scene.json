@@ -1,0 +1,515 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.75
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "aud",
+            "ddbId": 10036,
+            "cobaltId": null,
+            "parentId": 2968,
+            "contentChunkId": "Map0306lowerwardalley-player",
+            "notes": [],
+            "tokens": [
+                {
+                    "_id": "KujwBUPXJrEMgzla",
+                    "name": "Ruther",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2496,
+                    "y": 2184,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "527e9461-cd30-47fa-870a-d883a027e380",
+                            "ddbEntityId": 5194951,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                1.58574124366124,
+                                8.604625744452706
+                            ],
+                            "rawZPosition": 0.02,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/723/638741963924525353.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194951,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 77,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbCommon5194951",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "0VvQvhxmCsqtkXAm",
+                        "name": "Ruther",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 3,
+                                    "max": 4,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "PDSNlJpjiZQFncm6",
+                    "name": "Carla",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2808,
+                    "y": 2496,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "94faf2cf-4c32-4146-986f-26cc53d055d5",
+                            "ddbEntityId": 5194914,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                4.679233685118297,
+                                5.473152647202598
+                            ],
+                            "rawZPosition": 0.04,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/645/638741963818074938.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194914,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 28,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbBanDec5194914",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Bandit Deceiver"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "zR8JsW7jQxwTjKVF",
+                        "name": "Carla",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 130,
+                                    "max": 130,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "vJKSRKFw7PdS8trI",
+                    "name": "Rathan Jur",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2496,
+                    "y": 2496,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "d619397e-cb71-460d-b4b1-944635369553",
+                            "ddbEntityId": 5194913,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                1.532839663651253,
+                                5.467564732524303
+                            ],
+                            "rawZPosition": 0.05,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/643/638741963814775509.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194913,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 28,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbBaCrLo5194913",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Bandit Crime Lord"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "koWKUmsroaPZffUV",
+                        "name": "Rathan Jur",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 169,
+                                    "max": 169,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "47MKTOVbsWmLbCFY",
+                    "name": "Rettene",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2184,
+                    "y": 2496,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "9b481a99-857d-40a0-83a5-2a84f339bdf4",
+                            "ddbEntityId": 5194914,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -1.56511435056622,
+                                5.47916984522955
+                            ],
+                            "rawZPosition": 0.03,
+                            "rawHidden": true,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/645/638741963818074938.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5194914,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 28,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbBanDec5194914",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Bandit Deceiver"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "fcW2iAYdGdCkCxlh",
+                        "name": "Rettene",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 130,
+                                    "max": 130,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/aud/map-03-06.lower-ward-alley-player.png",
+            "foundryVersion": "14.367",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 3.6: Lower Ward Alley",
+                    "bookCode": "aud",
+                    "contentChunkId": "Map0306lowerwardalley-player",
+                    "lastUpdate": "1.1.31",
+                    "notes": "1.1.31",
+                    "tokens": "1.1.31",
+                    "walls": "1.1.31",
+                    "lights": "1.1.31",
+                    "drawings": "1.1.31",
+                    "regions": "1.1.31",
+                    "foundry": "14.367"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0,
+        "color": "#000000",
+        "distance": 5,
+        "size": 156,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 4087,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#c0b19a",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [],
+    "name": "Map 3.6: Lower Ward Alley",
+    "navName": "Lower Ward Alley",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": 153,
+    "shiftY": 15,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [],
+    "weather": "",
+    "width": 3270
+}

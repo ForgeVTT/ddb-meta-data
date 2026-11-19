@@ -1,0 +1,1053 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.75
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "rwg",
+            "ddbId": 10020,
+            "cobaltId": null,
+            "parentId": 2979,
+            "contentChunkId": "the-height-of-danger-map-player",
+            "notes": [],
+            "tokens": [
+                {
+                    "_id": "v4DWABSM8CzsYxw4",
+                    "name": "Living Thunderwave",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4824,
+                    "y": 2546,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "d8877fa7-0354-4858-8d52-6eaff3a6fe8f",
+                            "ddbEntityId": 6719578,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AU",
+                            "rawPosition": [
+                                18.1638286616204,
+                                -3.398251494219452
+                            ],
+                            "rawZPosition": 0.02,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/205/639201558587309243.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719578,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 301,
+                                    "pageNumber": 146,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbLivThu6719578",
+                            "sourceId": 301,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Living Thunderwave"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "kDIcYMMYWjACwJmD",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 30,
+                                    "max": 30,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "25ooYUple4KTHTaa",
+                    "name": "Living Thunderwave",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3752,
+                    "y": 3350,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "40ce1f89-af61-4890-878f-e337ba0a7f87",
+                            "ddbEntityId": 6719578,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AU",
+                            "rawPosition": [
+                                7.488209120718724,
+                                -11.565305974672587
+                            ],
+                            "rawZPosition": 0.03,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/205/639201558587309243.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719578,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 301,
+                                    "pageNumber": 146,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbLivThu6719578",
+                            "sourceId": 301,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Living Thunderwave"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "idMSH4dfTJTMYGNG",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 30,
+                                    "max": 30,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "M6ibvIPY0AhUmtFR",
+                    "name": "Living Thunderwave",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2412,
+                    "y": 2546,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "e7647711-6382-4842-be83-8a485b6264d7",
+                            "ddbEntityId": 6719578,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AU",
+                            "rawPosition": [
+                                -5.993847111181856,
+                                -3.4928503486475426
+                            ],
+                            "rawZPosition": 0.04,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/205/639201558587309243.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719578,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 301,
+                                    "pageNumber": 146,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbLivThu6719578",
+                            "sourceId": 301,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Living Thunderwave"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "GPVqMz35YLoGiWPP",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 30,
+                                    "max": 30,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "mf528LC02t7WrGes",
+                    "name": "Living Thunderwave",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2144,
+                    "y": 3216,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "92312ff2-b2cd-42a1-9bae-5e5e6b4bd14f",
+                            "ddbEntityId": 6719578,
+                            "ddbType": "MONSTER",
+                            "sourceName": "AU",
+                            "rawPosition": [
+                                -8.667409217293251,
+                                -10.27245215741277
+                            ],
+                            "rawZPosition": 0.01,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/58532/205/639201558587309243.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 6719578,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 301,
+                                    "pageNumber": 146,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbLivThu6719578",
+                            "sourceId": 301,
+                            "sourceCategory": 38,
+                            "flatAC": false,
+                            "name": "Living Thunderwave"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "X410Ff8uQzajIldN",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 30,
+                                    "max": 30,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "zvOAxrPf1rN6tAQp",
+                    "name": "Tough",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3886,
+                    "y": 1206,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "2b9e6e9b-6573-4e22-be1a-8ff22c7927e7",
+                            "ddbEntityId": 5195235,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                8.728703720025138,
+                                10.00328636352278
+                            ],
+                            "rawZPosition": 0.07,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/304/638741964727756616.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195235,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 307,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbTough5195235I",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Tough"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "oRQEHqC4Xo9MouxZ",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 32,
+                                    "max": 32,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "URCnOcaAky9RME70",
+                    "name": "Tough",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3752,
+                    "y": 2278,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "f354831a-8e76-43d8-a858-62275e9afdc4",
+                            "ddbEntityId": 5195235,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                7.38686347767492,
+                                -0.7810101062973274
+                            ],
+                            "rawZPosition": 0.08,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/304/638741964727756616.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195235,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 307,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbTough5195235I",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Tough"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "qw1T0kMpreZRjCJO",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 32,
+                                    "max": 32,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "gQrs41pts1vF4RR4",
+                    "name": "Tough",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2412,
+                    "y": 2010,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "57a32d16-9124-4ce7-aa50-08335f806ecf",
+                            "ddbEntityId": 5195235,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -6.0113033915388465,
+                                1.8992975855400878
+                            ],
+                            "rawZPosition": 0.06,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/304/638741964727756616.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195235,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 307,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbTough5195235I",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Tough"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "eFCHrwIux4x0GCah",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 32,
+                                    "max": 32,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "fOKjKpXylQ3c9XLu",
+                    "name": "Ezzik",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2948,
+                    "y": 2278,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "e1a68de4-63a5-4a56-ae1d-ed4802decbaa",
+                            "ddbEntityId": 4831023,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -0.6399809219021322,
+                                -0.8125438596998216
+                            ],
+                            "rawZPosition": 0.09,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47158/555/638742819087925312.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 4831023,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 199,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbMage4831023II",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Mage"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "ng4K6SazyeSlSrtu",
+                        "name": "Ezzik",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 81,
+                                    "max": 81,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "0f7vTVup4dJhJV6D",
+                    "name": "Agaratha",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2814,
+                    "y": 2278,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "8f1fdf2a-dbf6-4a2a-85be-ce9e5245f894",
+                            "ddbEntityId": 5195064,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -2.0133537147651355,
+                                -0.7810101062973275
+                            ],
+                            "rawZPosition": 0.1,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47138/953/638741964240197393.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195064,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 162,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbGuaCap5195064",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Guard Captain"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "lByEC6g830q5sH2i",
+                        "name": "Agaratha",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 75,
+                                    "max": 75,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "pO0Hi129WUEQJgMJ",
+                    "name": "Tough",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1340,
+                    "y": 1608,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbimporter": {
+                            "quickplayTokenId": "bfe15ab6-511a-4f5c-bdde-9c4605c5ea33",
+                            "ddbEntityId": 5195235,
+                            "ddbType": "MONSTER",
+                            "sourceName": "MM-2024",
+                            "rawPosition": [
+                                -16.757318717895895,
+                                5.967058550510257
+                            ],
+                            "rawZPosition": 0.05,
+                            "rawHidden": false,
+                            "ddbImageUrl": "https://images.dndbeyond.com/avatars/47139/304/638741964727756616.jpeg?width=128&height=128"
+                        },
+                        "ddbActorFlags": {
+                            "id": 5195235,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 147,
+                                    "pageNumber": 307,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbTough5195235I",
+                            "sourceId": 147,
+                            "sourceCategory": 24,
+                            "flatAC": false,
+                            "name": "Tough"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "AVJW9D3rksYVu90a",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 32,
+                                    "max": 32,
+                                    "temp": 0
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/rwg/map-02-001.the-height-of-danger-player.png",
+            "foundryVersion": "14.367",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map: The Height of Danger",
+                    "bookCode": "rwg",
+                    "contentChunkId": "the-height-of-danger-map-player",
+                    "lastUpdate": "1.1.31",
+                    "notes": "1.1.31",
+                    "tokens": "1.1.31",
+                    "walls": "1.1.31",
+                    "lights": "1.1.31",
+                    "drawings": "1.1.31",
+                    "regions": "1.1.31",
+                    "foundry": "14.367"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0,
+        "color": "#000000",
+        "distance": 5,
+        "size": 134,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 3010,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#181818",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [],
+    "name": "Map: The Height of Danger",
+    "navName": "The Height of Danger",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": 38,
+    "shiftY": 38,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [],
+    "weather": "",
+    "width": 4090
+}

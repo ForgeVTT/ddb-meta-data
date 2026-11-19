@@ -899,7 +899,7 @@
         }
     },
     "grid": {
-        "alpha": 0.2,
+        "alpha": 0,
         "color": "#000000",
         "distance": 5,
         "size": 185,
@@ -1521,7 +1521,7 @@
     "padding": 0.25,
     "regions": [],
     "shiftX": 15,
-    "shiftY": 8,
+    "shiftY": 16,
     "tokenVision": true,
     "transition": {
         "type": null,

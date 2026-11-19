@@ -1,0 +1,4840 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0.8,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": false,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "wdotmm",
+            "ddbId": 13087,
+            "cobaltId": null,
+            "parentId": 612,
+            "contentChunkId": "77755eda-604b-4091-b42c-851d57766c82",
+            "notes": [
+                {
+                    "label": "01b. Curtains of Water",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "a60ca358-b45e-4fa4-8c03-7e4ea36ddc0b",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "1bCurtainsofWater",
+                            "labelName": "01b. Curtains of Water",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1512,
+                            "y": 5299
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "01. The Resplendent Grotto of Ichthyglug the Voluminous",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "926590e9-a287-4c64-9059-d9f81a1fecc9",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "1TheResplendentGrottoofIchthyglugtheVoluminous",
+                            "labelName": "01. The Resplendent Grotto of Ichthyglug the Voluminous",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1447,
+                            "y": 5364
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "02. Space Orogs",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "e1eb2be0-3dc7-42cc-bcfa-a0033b2acb9e",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "2SpaceOrogs",
+                            "labelName": "02. Space Orogs",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2400,
+                            "y": 4404
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "03. Ooze There?",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "659d3f61-fcc0-48d8-beda-7a8cf57b23ad",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "3OozeThere",
+                            "labelName": "03. Ooze There?",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2993,
+                            "y": 4917
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "01a. Shipwreck",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "91b922a4-98f5-4994-a207-d23ca3846943",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "1aShipwreck",
+                            "labelName": "01a. Shipwreck",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2115,
+                            "y": 5096
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "01c. Ichthyglug’s Cavern",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "524bae15-4b21-4e9f-a69f-40fad6b261be",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "1cIchthyglugsCavern",
+                            "labelName": "01c. Ichthyglug’s Cavern",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 713,
+                            "y": 5697
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "03a. The Great Ooze March",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "564cae29-dff7-4284-8c51-8218b9d9c819",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "3aTheGreatOozeMarch",
+                            "labelName": "03a. The Great Ooze March",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 3037,
+                            "y": 3952
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "03b. Ooze Halaster",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "84735778-10fd-41c6-a0ab-394557670237",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "3bOozeHalaster",
+                            "labelName": "03b. Ooze Halaster",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 4011,
+                            "y": 3999
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "04. The Weeping Eye",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "cb16812f-ec9c-4b9f-bf99-b2e582c57491",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "4TheWeepingEye",
+                            "labelName": "04. The Weeping Eye",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 3696,
+                            "y": 5950
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "05. In the Grip of Ghaunadaur",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "22d841d9-f922-4d55-b525-816724be4f85",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "5IntheGripofGhaunadaur",
+                            "labelName": "05. In the Grip of Ghaunadaur",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 5307,
+                            "y": 5450
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "05a. Pudding Pit",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "0d81146b-efa7-43de-a3ab-9c9f1bd807f9",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "5aPuddingPit",
+                            "labelName": "05a. Pudding Pit",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 5304,
+                            "y": 5796
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "05b. Standing Gate to Level 12",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "1cc1e6b9-684a-43c4-916e-5d1d5e2b0ef5",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "5bStandingGatetoLevel12",
+                            "labelName": "05b. Standing Gate to Level 12",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 5309,
+                            "y": 5103
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "06. Cave with a View",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "62de1211-02d0-48b0-b57e-48f02f0e2ac4",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "6CavewithaView",
+                            "labelName": "06. Cave with a View",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2903,
+                            "y": 2797
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "07. Standing Gate to Level 21",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "86a08dab-8782-499d-bd70-08e576c58511",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "7StandingGatetoLevel21",
+                            "labelName": "07. Standing Gate to Level 21",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 4552,
+                            "y": 3299
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "08. Thanks for the Memories",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "b0f7ab09-2cee-4b8b-b37b-468c93640e9c",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "8ThanksfortheMemories",
+                            "labelName": "08. Thanks for the Memories",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 5204,
+                            "y": 2201
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "10. Culvert",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "2b278f85-430a-4b6c-afb0-7946930ac71f",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "10Culvert",
+                            "labelName": "10. Culvert",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 4305,
+                            "y": 1197
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "09. High Ground",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "5593401c-9627-41e6-a1fd-8eef612dfeec",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "9HighGround",
+                            "labelName": "09. High Ground",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 4706,
+                            "y": 1751
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "11. The Glittering Caverns of Jarûk the Prismatic",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "4ea996ea-7548-46e7-85a2-24e479c134a9",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "11TheGlitteringCavernsofJarkthePrismatic",
+                            "labelName": "11. The Glittering Caverns of Jarûk the Prismatic",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 5259,
+                            "y": 1002
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "11a. Fortune Favors the Boulders",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "68428b5f-2831-4372-afdf-0c39dda7f846",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "11aFortuneFavorstheBoulders",
+                            "labelName": "11a. Fortune Favors the Boulders",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 5108,
+                            "y": 754
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "11b. Jarûk’s Cavern",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "32a6ec6c-3c9e-4e22-9ec7-701b5a68a516",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "11bJarksCavern",
+                            "labelName": "11b. Jarûk’s Cavern",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 5409,
+                            "y": 1251
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "12. Ghaunadaur Shrine",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "c032f43d-7255-4a98-9d36-8022e5b29b21",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "12GhaunadaurShrine",
+                            "labelName": "12. Ghaunadaur Shrine",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 3810,
+                            "y": 699
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "13a. Upper Deck",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "9c65cf73-ec81-4484-ab1c-e9e2221e3e64",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "13aUpperDeck",
+                            "labelName": "13a. Upper Deck",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2049,
+                            "y": 2580
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "13. The Scavenger",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "9db85de9-6cca-4ea5-a53b-ad9c12f0bc8e",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "13TheScavenger",
+                            "labelName": "13. The Scavenger",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1771,
+                            "y": 6305
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "13b. Cargo Hold",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "6870e6c9-6e6e-4d17-983d-673c18554dbf",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "13bCargoHold",
+                            "labelName": "13b. Cargo Hold",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2511,
+                            "y": 6853
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "13c. Galley and Mess Hall",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "5c203ca5-11d6-4423-bab4-6332dbde24f5",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "13cGalleyandMessHall",
+                            "labelName": "13c. Galley and Mess Hall",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2165,
+                            "y": 6799
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "13d. Captain’s Stateroom",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "72cbc403-06fc-47fa-bea3-e639396a39ea",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "13dCaptainsStateroom",
+                            "labelName": "13d. Captain’s Stateroom",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1912,
+                            "y": 6796
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "13e. Starboard Crew Cabin",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "b7900015-37f4-44aa-8f94-a2bfd69474ae",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "13eStarboardCrewCabin",
+                            "labelName": "13e. Starboard Crew Cabin",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1613,
+                            "y": 6657
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "13f. Port Crew Quarters",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "126c9bce-e96f-40f1-b88d-6582a3bb6134",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "13fPortCrewQuarters",
+                            "labelName": "13f. Port Crew Quarters",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1615,
+                            "y": 7053
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "13g. Bridge",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "70857e5a-afa0-479d-a090-a09e6c6ba83a",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "13gBridge",
+                            "labelName": "13g. Bridge",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1310,
+                            "y": 6855
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "13h. Oh Captain, My Captain!",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "97b2c870-552f-4a9d-a22c-adee3318703f",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "13hOhCaptainMyCaptain",
+                            "labelName": "13h. Oh Captain, My Captain!",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 994,
+                            "y": 6850
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "15. Standing Gate to Level 17",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "fa50543c-c7b6-4d27-b313-36635bbb0417",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "15StandingGatetoLevel17",
+                            "labelName": "15. Standing Gate to Level 17",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 703,
+                            "y": 4001
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "14. Ooze Den",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "6b331340-7b91-4918-a3f2-6f352ea91b2f",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "14OozeDen",
+                            "labelName": "14. Ooze Den",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 2415,
+                            "y": 907
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "16. Tunnel to Level 20",
+                    "flags": {
+                        "ddb": {
+                            "ddbId": 86,
+                            "bookCode": "wdotmm",
+                            "slug": "caverns-of-ooze#ExploringThisLevel",
+                            "contentChunkId": "77fdeeb6-9778-40c4-915b-173475b8985e",
+                            "parentId": 612,
+                            "cobaltId": null,
+                            "slugLink": "16TunneltoLevel20",
+                            "labelName": "16. Tunnel to Level 20",
+                            "note": true,
+                            "img": false
+                        }
+                    },
+                    "levels": [
+                        "defaultLevel0000"
+                    ],
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "anchorX": 0.5,
+                        "anchorY": 0.5,
+                        "fit": "contain",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": "#ffffff",
+                        "alphaThreshold": 0
+                    },
+                    "positions": [
+                        {
+                            "x": 1308,
+                            "y": 1202
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#ffffff",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [
+                {
+                    "_id": "2ixvC65ZbqCmwbrs",
+                    "name": "Marid",
+                    "width": 2,
+                    "height": 2,
+                    "x": 650,
+                    "y": 5600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17143,
+                            "name": "Marid"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "2ixvC65ZbqCmwbrs",
+                        "name": "Marid",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "bNE5zGa4ofP3ARhY",
+                    "name": "Swarm of Quippers",
+                    "width": 1,
+                    "height": 1,
+                    "x": 650,
+                    "y": 5700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17031,
+                            "name": "Swarm of Quippers"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "bNE5zGa4ofP3ARhY",
+                        "name": "Swarm of Quippers",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "GbacOoRmlOkTooqS",
+                    "name": "Swarm of Quippers",
+                    "width": 1,
+                    "height": 1,
+                    "x": 700,
+                    "y": 5600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17031,
+                            "name": "Swarm of Quippers"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "GbacOoRmlOkTooqS",
+                        "name": "Swarm of Quippers",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "wSbShCNdyzL2UGjj",
+                    "name": "Swarm of Quippers",
+                    "width": 1,
+                    "height": 1,
+                    "x": 650,
+                    "y": 5650,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17031,
+                            "name": "Swarm of Quippers"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "wSbShCNdyzL2UGjj",
+                        "name": "Swarm of Quippers",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "LFcqeYbdj3HRRfh2",
+                    "name": "Swarm of Quippers",
+                    "width": 1,
+                    "height": 1,
+                    "x": 750,
+                    "y": 5600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17031,
+                            "name": "Swarm of Quippers"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "LFcqeYbdj3HRRfh2",
+                        "name": "Swarm of Quippers",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "fWIsHlyN5oAdUhVp",
+                    "name": "Swarm of Quippers",
+                    "width": 1,
+                    "height": 1,
+                    "x": 700,
+                    "y": 5700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17031,
+                            "name": "Swarm of Quippers"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "fWIsHlyN5oAdUhVp",
+                        "name": "Swarm of Quippers",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "G2fAYJ43CEq7YfW1",
+                    "name": "Swarm of Quippers",
+                    "width": 1,
+                    "height": 1,
+                    "x": 750,
+                    "y": 5650,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17031,
+                            "name": "Swarm of Quippers"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "G2fAYJ43CEq7YfW1",
+                        "name": "Swarm of Quippers",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "nOx5AP89Pzd0QeBu",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2350,
+                    "y": 4350,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "nOx5AP89Pzd0QeBu",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "d2mSYdDSAerB9GBg",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2350,
+                    "y": 4400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "d2mSYdDSAerB9GBg",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "TTeJ2FcSRDIezeJI",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2350,
+                    "y": 4450,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "TTeJ2FcSRDIezeJI",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "53ts3SJDOPectx1O",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2400,
+                    "y": 4350,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "53ts3SJDOPectx1O",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "XAn5S5rY9R5m8c7Z",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2400,
+                    "y": 4450,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "XAn5S5rY9R5m8c7Z",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "lnhucYGknzHvvm7P",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2450,
+                    "y": 4350,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "lnhucYGknzHvvm7P",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "kAZtMFhewlGInrTi",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2450,
+                    "y": 4400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "kAZtMFhewlGInrTi",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "RI01TkpgZBaUZJ9y",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2300,
+                    "y": 4300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "RI01TkpgZBaUZJ9y",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "ZCBl44JPiYPVf7E3",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2450,
+                    "y": 4450,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "ZCBl44JPiYPVf7E3",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "vcBfbHTRGlFiD21M",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2300,
+                    "y": 4400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "vcBfbHTRGlFiD21M",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "9EB3DMzOCRhqPXDf",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2300,
+                    "y": 4350,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "9EB3DMzOCRhqPXDf",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "4ZaqYAoXDCt18qU0",
+                    "name": "Orog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2300,
+                    "y": 4450,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17189,
+                            "name": "Orog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "4ZaqYAoXDCt18qU0",
+                        "name": "Orog",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "u5MusVHN2u5AFeiX",
+                    "name": "Mud Mephit",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3600,
+                    "y": 5900,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17173,
+                            "name": "Mud Mephit"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "u5MusVHN2u5AFeiX",
+                        "name": "Mud Mephit",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "MGaQEUwQosxPNvLY",
+                    "name": "Intelligent Black Pudding",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5250,
+                    "y": 5750,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 276570,
+                            "name": "Intelligent Black Pudding"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "MGaQEUwQosxPNvLY",
+                        "name": "Intelligent Black Pudding",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "FQZbT57xX3aJEwiK",
+                    "name": "Intelligent Black Pudding",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5250,
+                    "y": 5800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 276570,
+                            "name": "Intelligent Black Pudding"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "FQZbT57xX3aJEwiK",
+                        "name": "Intelligent Black Pudding",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "5lFe85zguYQwLlzb",
+                    "name": "Intelligent Black Pudding",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5250,
+                    "y": 5700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 276570,
+                            "name": "Intelligent Black Pudding"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "5lFe85zguYQwLlzb",
+                        "name": "Intelligent Black Pudding",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "jJhLYbDT8YrAMqk4",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 4500,
+                    "y": 3200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "jJhLYbDT8YrAMqk4",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "RP3bpkvSB5jKhgF6",
+                    "name": "Nalfeshnee",
+                    "width": 2,
+                    "height": 2,
+                    "x": 4500,
+                    "y": 3250,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16963,
+                            "name": "Nalfeshnee"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "RP3bpkvSB5jKhgF6",
+                        "name": "Nalfeshnee",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Gf74e06aA1lG0Erw",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5150,
+                    "y": 2150,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "Gf74e06aA1lG0Erw",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Met8NXrFMrkcGNVU",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5150,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "Met8NXrFMrkcGNVU",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "dvJVPC21lreSVi0N",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5150,
+                    "y": 2250,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "dvJVPC21lreSVi0N",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "MSWd2bYj6NesHliS",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5200,
+                    "y": 2150,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "MSWd2bYj6NesHliS",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "3LyBealLiMyHWLmZ",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5250,
+                    "y": 2150,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "3LyBealLiMyHWLmZ",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "TubWqWP8kzCULSDf",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5250,
+                    "y": 2250,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "TubWqWP8kzCULSDf",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "3LPmcujmYeUcD1ZU",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5200,
+                    "y": 2250,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "3LPmcujmYeUcD1ZU",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "vaorADLBVvRh5G0k",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5250,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "vaorADLBVvRh5G0k",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "RDERbmIzp8kEb1Ay",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5100,
+                    "y": 2100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "RDERbmIzp8kEb1Ay",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "OMPrqOtcOzMFZtrx",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5100,
+                    "y": 2150,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "OMPrqOtcOzMFZtrx",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "ke0nDGr3oy3k4vNk",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5100,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "ke0nDGr3oy3k4vNk",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "nUhec3YZAcgMGSKg",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5100,
+                    "y": 2250,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "nUhec3YZAcgMGSKg",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "tbWjTEo984BJ4eqy",
+                    "name": "Gas Spore",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5100,
+                    "y": 2300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17147,
+                            "name": "Gas Spore"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "tbWjTEo984BJ4eqy",
+                        "name": "Gas Spore",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "rznp1fr5saCn3uI6",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4650,
+                    "y": 1700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "rznp1fr5saCn3uI6",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "rh6TrSvcigdKZUcj",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4650,
+                    "y": 1750,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "rh6TrSvcigdKZUcj",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "JIYfJMef3BBrbGRy",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4650,
+                    "y": 1800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "JIYfJMef3BBrbGRy",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "eQ822edf8q5xpFBv",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4700,
+                    "y": 1700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "eQ822edf8q5xpFBv",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "MwEywT3lR2l7byyz",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4700,
+                    "y": 1800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "MwEywT3lR2l7byyz",
+                        "name": "Gargoyle",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Jc47kEjuKegeaMNg",
+                    "name": "Galeb Duhr",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5050,
+                    "y": 700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17148,
+                            "name": "Galeb Duhr"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "Jc47kEjuKegeaMNg",
+                        "name": "Galeb Duhr",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "UcLDwqe5g98dvj7O",
+                    "name": "Galeb Duhr",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5050,
+                    "y": 750,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17148,
+                            "name": "Galeb Duhr"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "UcLDwqe5g98dvj7O",
+                        "name": "Galeb Duhr",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "H3gt4d6MZXWvEZ89",
+                    "name": "Galeb Duhr",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5050,
+                    "y": 800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17148,
+                            "name": "Galeb Duhr"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "H3gt4d6MZXWvEZ89",
+                        "name": "Galeb Duhr",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "MUOeJBICMo1YL2zP",
+                    "name": "Galeb Duhr",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5100,
+                    "y": 700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17148,
+                            "name": "Galeb Duhr"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "MUOeJBICMo1YL2zP",
+                        "name": "Galeb Duhr",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "mSW7u9C4iJMb73pP",
+                    "name": "Galeb Duhr",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5150,
+                    "y": 700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17148,
+                            "name": "Galeb Duhr"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "mSW7u9C4iJMb73pP",
+                        "name": "Galeb Duhr",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "v5FKsRfyWVgHZCUi",
+                    "name": "Galeb Duhr",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5100,
+                    "y": 800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17148,
+                            "name": "Galeb Duhr"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "v5FKsRfyWVgHZCUi",
+                        "name": "Galeb Duhr",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "qoOhXHDNyhPyOkp3",
+                    "name": "Medusa",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5350,
+                    "y": 1250,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16954,
+                            "name": "Medusa"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "qoOhXHDNyhPyOkp3",
+                        "name": "Medusa",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "upWZMO8BH859MP87",
+                    "name": "Dao",
+                    "width": 2,
+                    "height": 2,
+                    "x": 5350,
+                    "y": 1200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17142,
+                            "name": "Dao"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "upWZMO8BH859MP87",
+                        "name": "Dao",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "VAeCeRbQwzK3zRvB",
+                    "name": "Medusa",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5350,
+                    "y": 1300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16954,
+                            "name": "Medusa"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "VAeCeRbQwzK3zRvB",
+                        "name": "Medusa",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "OW7ZCdZwx720fVY3",
+                    "name": "Intelligent Black Pudding",
+                    "width": 2,
+                    "height": 2,
+                    "x": 3750,
+                    "y": 600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 276570,
+                            "name": "Intelligent Black Pudding"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "OW7ZCdZwx720fVY3",
+                        "name": "Intelligent Black Pudding",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "QKs3JHmuIlV7SEQi",
+                    "name": "Intelligent Black Pudding",
+                    "width": 2,
+                    "height": 2,
+                    "x": 3750,
+                    "y": 700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 276570,
+                            "name": "Intelligent Black Pudding"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "QKs3JHmuIlV7SEQi",
+                        "name": "Intelligent Black Pudding",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "UGLSoNgP0usuV5nt",
+                    "name": "Intelligent Black Pudding",
+                    "width": 2,
+                    "height": 2,
+                    "x": 3750,
+                    "y": 650,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 276570,
+                            "name": "Intelligent Black Pudding"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "UGLSoNgP0usuV5nt",
+                        "name": "Intelligent Black Pudding",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "MCbWjUNbGHRqyLNA",
+                    "name": "Huge gray ooze",
+                    "width": 3,
+                    "height": 3,
+                    "x": 3800,
+                    "y": 600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 276567,
+                            "name": "Huge Gray Ooze"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "MCbWjUNbGHRqyLNA",
+                        "name": "Huge gray ooze",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Kk8jiryf4lUFQwlI",
+                    "name": "Mind Flayer Arcanist",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1700,
+                    "y": 6250,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17175,
+                            "name": "Mind Flayer Arcanist"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "Kk8jiryf4lUFQwlI",
+                        "name": "Mind Flayer Arcanist",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "C4WkH31fAsayFClp",
+                    "name": "Gray Slaad",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1950,
+                    "y": 2500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17114,
+                            "name": "Gray Slaad"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "C4WkH31fAsayFClp",
+                        "name": "Gray Slaad",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "6b6xfWD4g667sHvt",
+                    "name": "Gray Slaad",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1950,
+                    "y": 2550,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17114,
+                            "name": "Gray Slaad"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "6b6xfWD4g667sHvt",
+                        "name": "Gray Slaad",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "tjSbDgJ51fZ0nQ4I",
+                    "name": "Gray Slaad",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1950,
+                    "y": 2600,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17114,
+                            "name": "Gray Slaad"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "tjSbDgJ51fZ0nQ4I",
+                        "name": "Gray Slaad",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "UV8XtWfXl04oMt9Y",
+                    "name": "Rat",
+                    "width": 0.5,
+                    "height": 0.5,
+                    "x": 2100,
+                    "y": 6700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16991,
+                            "name": "Rat"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "UV8XtWfXl04oMt9Y",
+                        "name": "Rat",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "XqCS0Op3HHUuPRgS",
+                    "name": "Gray Slaad",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2000,
+                    "y": 2500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17114,
+                            "name": "Gray Slaad"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "XqCS0Op3HHUuPRgS",
+                        "name": "Gray Slaad",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "IWvOK0gShIUxglD0",
+                    "name": "Huge gray ooze",
+                    "width": 3,
+                    "height": 3,
+                    "x": 2350,
+                    "y": 850,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 276567,
+                            "name": "Huge Gray Ooze"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "level": "defaultLevel0000",
+                    "depth": 1,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "IWvOK0gShIUxglD0",
+                        "name": "Huge gray ooze",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "foundryVersion": "14.369",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Level 19: Caverns of Ooze",
+                    "bookCode": "wdotmm",
+                    "contentChunkId": "77755eda-604b-4091-b42c-851d57766c82",
+                    "lastUpdate": "1.1.34",
+                    "notes": "1.1.34",
+                    "tokens": "1.1.34",
+                    "walls": "1.1.34",
+                    "lights": "1.1.34",
+                    "drawings": "1.1.34",
+                    "regions": "1.1.34",
+                    "foundry": "14.369"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "type": 1,
+        "size": 50,
+        "distance": 5,
+        "units": "ft",
+        "color": "#000000",
+        "alpha": 0.2,
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 7500,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#f8f8f8",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 8,
+                "offsetY": 4,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": null
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [],
+    "name": "Level 19: Caverns of Ooze",
+    "navName": "Caverns of Ooze",
+    "navOrder": 0,
+    "padding": 0,
+    "regions": [],
+    "shiftX": 0,
+    "shiftY": 0,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [],
+    "weather": "",
+    "width": 5721
+}
