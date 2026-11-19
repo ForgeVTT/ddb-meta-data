@@ -1,7 +1,3 @@
-# 1.1.32
-
-- Arcana Unleashed: Deadfall and Red Wizards Gambit
-
 # 1.1.31
 
 - Shadows of Sithicus
