@@ -1,7 +1,5 @@
 # Flee Mortals: Rule Primer
 
-Free product that provides listing content only.
-
 ---
 
 ## License

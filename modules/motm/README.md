@@ -1,5 +1,7 @@
 # Mordenkainen Presents: Monsters of the Multiverse
 
+* D&D Rules Expansion Gift Set
+
 Buy Monsters of the Multiverse for a monstrous volume of options for D&D players and Dungeon Masters alike:
 
 ### For Players

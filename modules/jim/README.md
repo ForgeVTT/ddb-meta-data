@@ -1,7 +1,5 @@
 # Jimothy
 
-You too can have Jimothy throw garbage in your game!
-
 ---
 
 ## License

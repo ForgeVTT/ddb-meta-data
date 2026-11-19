@@ -1,5 +1,8 @@
 # Bigby Presents: Glory of the Giants
 
+* _Bigby Presents: Glory of the Giants_ \- Friendly Local Game Store  
+Buy Local _External link_
+
 > A Manual of Mammoth Marvels
 
 Bigby the Great recounts his journeys into the history, myth, and society of giants in this guide to their realms in the worlds of Dungeons & Dragons. Here Bigby and the demigod Diancastra, child of the giants’ All-Father, Annam, unveil the secrets of Annam’s mighty descendants. Players will find a wealth of giant-themed character options: a subclass for barbarians, two backgrounds related to giants and their runic magic, and feat options that evoke the strength and primal magic of the giants. Dungeon Masters will gain inspiration for bringing giants to life, from maps of giant-built sites and big new monsters to tremendous treasures and intriguing trinkets in a giant’s bag! Let Bigby and Diancastra teach you everything about the iconic giants of D&D:

@@ -1,7 +1,5 @@
 # Scions of Elemental Evil
 
-Free product that provides listing content only.
-
 ---
 
 ## License

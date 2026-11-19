@@ -1,7 +1,5 @@
 # Baldur’s Gate Gazetteer
 
-Baldur’s Gate Gazetteer.
-
 ---
 
 ## License

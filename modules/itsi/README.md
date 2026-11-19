@@ -1,7 +1,5 @@
 # Intro to Stormwreck Isle
 
-Free product that provides listing content only.
-
 ---
 
 ## License

@@ -1,5 +1,8 @@
 # Quests from the Infinite Staircase
 
+* _Quests from the Infinite Staircase_ \- Friendly Local Game Store  
+Buy Local _External link_
+
 _Quests from the Infinite Staircase_ embraces the magic of the most beloved Dungeons & Dragons adventures of all time. Your journey begins in the Infinite Staircase, a dreamlike expanse with doors leading to fantastical worlds, where you’ll meet Nafas, a noble genie who fulfills wishes with the help of valiant heroes – like you! As you explore what lies beyond each door, embark on timeless adventures and make memorable moments with your party.
 
 This handpicked collection contains 6 remastered first edition adventures, complete with striking settings and a lovable cast of characters. These unforgettable quests can be run individually or as a delightful campaign that takes characters from level 1 to 13.

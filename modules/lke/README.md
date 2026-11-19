@@ -1,7 +1,5 @@
 # Lightning Keep
 
-Free product that provides listing content only.
-
 ---
 
 ## License

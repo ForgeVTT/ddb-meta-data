@@ -4,6 +4,10 @@
 
 Nestled on the coast of the Azure Sea is Saltmarsh, a sleepy fishing village that sits on the precipice of destruction. Smugglers guide their ships to hidden coves, willing to slit the throat of anyone fool enough to cross their path. Cruel sahuagin gather beneath the waves, plotting to sweep away coastal cities. While Saltmarsh slumbers, the evils that seek to plunder it grow stronger.
 
+* **Rules**, **stat blocks**, and **combat for ships**, **ocean travel**, **and sea encounters**
+* **Detailed maps and tables** for mysterious new islands, fishing villages, pirate coves and more
+* Collects the following adventures: _The Sinister Secret of Saltmarsh_, _Danger at Dunwater_, _Salvage Operation_, _Isle of the Abby_, _The Final Enemy_, _Tammeraut’s Fate_, _The Styes_
+
 ---
 
 ## License

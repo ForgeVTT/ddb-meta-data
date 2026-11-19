@@ -1,7 +1,5 @@
 # Elemental Evil Player's Companion
 
-This supplement provides new options for player characters in the Princes of the Apocalypse campaign and beyond.
-
 ---
 
 ## License
