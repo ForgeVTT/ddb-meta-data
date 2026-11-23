@@ -1,6 +1,6 @@
 # D&D Beyond metadata
 
-This repository is a fork of [MrPrimateddb-meta-data](https://github.com/MrPrimate/ddb-meta-data) and contains metadata associated with books on D&D Beyond.
+This repository is a fork of [MrPrimate/ddb-meta-data](https://github.com/MrPrimate/ddb-meta-data) and contains metadata associated with books on D&D Beyond.
 It is used by [The Forge's D&D Beyond converter](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/README.md) to align maps, place tokens, and set up D&D Beyond content in generated Foundry VTT packages.
 
 ## Current Scene Support
@@ -27,9 +27,9 @@ The `modules/` tree is generated but versioned. Do not fix generated files witho
 
 ## Assemble and validate
 
-Use the monolith workflow rather than running this repository in isolation. The canonical commands, prerequisites, cache layout, and review checklist are in [Operations and troubleshooting](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/operations.md#refresh-sources-and-metadata).
+Use the monolith workflow described in [Operations and troubleshooting](https://github.com/ForgeVTT/theforge/blob/master/docs/dndbeyond/operations.md#refresh-sources-and-metadata).
 
-Assembly writes `modules/<slug>/module.json` and `README.md`, creates newline-delimited NeDB packs where source metadata exists, and copies `content/assets/<slug>/` into the generated module. A full assembly pass also updates contributors and pack declarations and cleans descriptions across the generated tree. The Forge converter currently consumes the manifest, README, scene pack, and referenced assets; assembled table and folder packs are not merged into generated user packages.
+Assembly writes `modules/<slug>/module.json` and `README.md`, creates newline-delimited NeDB packs where source metadata exists, and copies `content/assets/<slug>/` into the generated module. The monolith workflow also updates contributors and pack declarations and cleans descriptions across the generated tree, even when assembling a single source. The Forge converter currently consumes the manifest, README, scene pack, and referenced assets; assembled table and folder packs are not merged into generated user packages.
 
 The runtime contract is the assembled source directory:
 
