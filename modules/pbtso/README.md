@@ -1,5 +1,8 @@
 # Phandelver and Below: The Shattered Obelisk
 
+* _Phandelver and Below: The Shattered Obelisk_ \- Friendly Local Game Store  
+Buy Local _External link_
+
 > A quintessential dungeoneering adventure for parties level 1-12
 
 Evil is lurking in the beloved town of Phandalin, and you and your party are the only ones who can stop it. Solve mysteries and stamp out growing corruption as you uncover more about the malevolent cult that are plaguing the town. Fear not: with your trusty sword and friends by your side, you’ve got everything you need to shine a light through the darkness. Whether you’re a new player or an aspiring Dungeon Master, this classic adventure is the perfect opportunity to let loose.

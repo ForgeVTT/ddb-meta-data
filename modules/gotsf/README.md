@@ -1,7 +1,5 @@
 # Giants of the Star Forge
 
-Giants of the Star Forge.
-
 ---
 
 ## License

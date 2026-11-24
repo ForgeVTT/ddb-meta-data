@@ -1,7 +1,5 @@
 # Curse of Strahd: Character Options
 
-Free product that provides listing content only.
-
 ---
 
 ## License

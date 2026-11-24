@@ -1,7 +1,5 @@
 # Uni and the Hunt for the Lost Horn
 
-Free product that provides listing content only.
-
 ---
 
 ## License

@@ -1,7 +1,5 @@
 # Borderlands Quest: Goblin Trouble
 
-Free product that provides listing content only.
-
 ---
 
 ## License

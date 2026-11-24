@@ -1,7 +1,5 @@
 # Sage Advice & Errata
 
-Free product that provides listing content only.
-
 ---
 
 ## License

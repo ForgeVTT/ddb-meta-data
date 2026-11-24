@@ -1,7 +1,5 @@
 # D&D Beyond Basic Rules
 
-Everything you need to get started playing D&D on D&D Beyond!
-
 ---
 
 ## License

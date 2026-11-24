@@ -1,7 +1,5 @@
 # Monstrous Compendium Vol. 3: Minecraft Creatures
 
-Monstrous Compendium Vol. 3: Minecraft Creatures.
-
 ---
 
 ## License

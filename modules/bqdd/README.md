@@ -1,7 +1,5 @@
 # Borderlands Quest: Dagger Danger!
 
-Free product that provides listing content only.
-
 ---
 
 ## License

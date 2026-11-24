@@ -279,10 +279,13 @@ async function confirmSourceUrl(bookName, defaultUrl) {
             input: process.stdin,
             output: process.stdout,
         });
-        rl.question(`Please check the redirected URL from ${defaultUrl} (leave empty if unavailable):`, (url) => {
-            rl.close();
-            resolve(url || null);
-        });
+        rl.question(
+            `Please check the correct URL (${defaultUrl}) for ${bookName} (leave empty if unavailable):`,
+            (url) => {
+                rl.close();
+                resolve(url || null);
+            }
+        );
     });
     cacheSourceUrl(bookName, sourceUrl);
     return sourceUrl;

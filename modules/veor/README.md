@@ -1,5 +1,8 @@
 # Vecna: Eve of Ruin
 
+* _Vecna: Eve of Ruin_ \- Friendly Local Game Store  
+Buy Local _External link_
+
 The notorious lich Vecna is weaving a ritual to eliminate good, obliterate the gods, and subjugate all worlds. To stop Vecna before he remakes the universe, the heroes work with three of the multiverse’s most famous archmages, travel to far-flung locales, and rebuild the legendary _Rod of Seven Parts_.
 
 _Vecna: Eve of Ruin_ is a high-stakes adventure in which Dungeon Masters and players can change the multiverse’s fate. This book includes legendary D&D figures, iconic fantasy locations, terrifying new monsters, and more!

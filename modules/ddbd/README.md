@@ -1,7 +1,5 @@
 # D&D Beyond Drops
 
-A Growing Library of Adventures, Tools, and Content—Ready to Play Anytime.
-
 ---
 
 ## License
