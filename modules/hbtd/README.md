@@ -1,7 +1,5 @@
 # Hold Back The Dead
 
-Defend Ironspine Keep against Szass Tam’s Undead horde!
-
 ---
 
 ## License

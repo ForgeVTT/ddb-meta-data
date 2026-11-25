@@ -7,6 +7,7 @@ These lands cry out for mighty heroes to pursue noble deeds:
 * Scale Yggdrasil, the World-Tree, and survive the frosts of Jotunheim in Among the Norns.
 * Rally a defense against an army of giants and the dreaded Cult of Ragnarok in Assault on Hvalfell.
 * Race against the coming apocalypse and stop the release of the dread wolf in Storming the Den of Fenris.
+* And there is much more! Discover hidden fortresses, solve a giantslaying, and visit Asgard for a thrilling saga like no other.
 
 ---
 

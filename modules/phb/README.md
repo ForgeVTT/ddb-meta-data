@@ -4,6 +4,8 @@
 
 The Player’s Handbook is the essential core reference for every Dungeons & Dragons roleplayer. This sourcebook provides you the tools and tips to help create your characters, equip them, and send them out into the world.
 
+* Get **all the rules needed to create**, **level up** and **start adventuring** with your D&D characters with **helpful tooltips**
+
 ---
 
 ## License

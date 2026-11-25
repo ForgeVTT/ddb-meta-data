@@ -1,6 +1,11 @@
 # Xanathar's Guide to Everything
 
-_Xanathar's Guide to Everything_ is the first major expansion for fifth edition Dungeons & Dragons, offering new rules and story options for your game.
+* D&D Rules Expansion Gift Set
+
+_Xanathar’s Guide to Everything_ is the first major expansion for fifth edition Dungeons & Dragons, offering new rules and story options for your game.
+
+* **New tools** to give Dungeon Masters new ways to use **traps**, **magic items**, and **downtime activities** in your game
+* **A brand new system** to give your characters a unique and new backstory
 
 ---
 

@@ -4,6 +4,8 @@
 
 Introducing the **2024 Player’s Handbook**, the new and improved guide for fifth edition DUNGEONS & DRAGONS. We’ve loved hearing from you and built this book to deliver what you want—and more!
 
+Create compelling characters with optimized rules, updated spells and equipment, and expanded player options. With an improved layout and organization, you have all the information you need right at your fingertips. Your adventure begins now!
+
 New features:
 
 * Customize your character with **12 classes**, **48 subclasses**, **10 species**, **16 backgrounds**, and **75 feats**, revised and balanced for maximum fun.

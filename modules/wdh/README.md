@@ -4,6 +4,9 @@
 
 Take a mad romp through the wards of Waterdeep as you uncover a villainous plot involving some of the city’s most influential figures. A grand urban caper awaits you. Pit your skill and bravado against villains the likes of which you’ve never faced before, and let the dragon hunt begin!
 
+* Play **a unique game each time you play** —the game’s villains and story change with each session
+* **Rollable tables**, **detailed maps**, and **a wealth of stats** to help dungeon masters run this **256-page adventure**
+
 ---
 
 ## License

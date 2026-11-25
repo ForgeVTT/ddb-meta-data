@@ -1,7 +1,5 @@
 # Vampire: The Masquerade – Bound by Blood
 
-Free product that provides listing content only.
-
 ---
 
 ## License

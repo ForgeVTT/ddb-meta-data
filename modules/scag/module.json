@@ -2,7 +2,7 @@
 	"id": "scag",
 	"name": "scag",
 	"title": "Sword Coast Adventurer's Guide",
-	"description": "<blockquote>Welcome to the Sword Coast</blockquote><p>The Sword Coast Adventurer’s Guide is a valuable resource to start any game in the Sword Coast. Giving details to the region of the Forgotten Realms, the sourcebook comprises shining paragons of civilization, perilous locales fraught with evil, and a wilderness that offers an explorer both vast opportunity and great danger.</p>",
+	"description": "<blockquote>Welcome to the Sword Coast</blockquote><p>The Sword Coast Adventurer’s Guide is a valuable resource to start any game in the Sword Coast. Giving details to the region of the Forgotten Realms, the sourcebook comprises shining paragons of civilization, perilous locales fraught with evil, and a wilderness that offers an explorer both vast opportunity and great danger.</p><ul><li>Adds <strong>11 new subclasses</strong>, <strong>12 backgrounds</strong>, and <strong>4 spells</strong> to customize your character</li><li>Gives details of the factions that populate the Sword Coast to <strong>create unique adventures and quests</strong> for your party</li></ul>",
 	"authors": [
 		{
 			"name": "MrPrimate",

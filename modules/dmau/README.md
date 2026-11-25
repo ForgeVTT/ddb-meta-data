@@ -1,7 +1,5 @@
 # Dungeon Masters: Arcana Unleashed Play-Along Pack
 
-Free product that provides listing content only.
-
 ---
 
 ## License

@@ -1,0 +1,67 @@
+{
+	"id": "au",
+	"name": "au",
+	"title": "Arcana Unleashed",
+	"description": "<p>Take your magic to the next level in a world shaped by arcane power.</p><p>Inside this magical tome, you will uncover:</p><ul><li><strong>8 new and revised subclasses</strong> inspired by powerful arcane traditions.</li><li><strong>33 new and revised spells</strong> that unleash spellcasting prowess in new ways.</li><li><strong>19 magical creatures</strong> ranging from mysterious allies to deadly foes.</li><li><strong>9 arcane factions</strong> and <strong>6 group patrons</strong> that shape the politics and power of magical society.</li><li><strong>47 magical items</strong> including evolving relics and legendary artifacts.</li><li><strong>Tomb of the Shadow Serpents</strong>: A level 1introductory adventure for 1 to 2 sessions of play.</li><li><strong>10 backgrounds</strong> and <strong>20+ feats</strong> rooted in arcane factions and magical traditions.</li></ul>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/dnd/au",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/au/listing_images/639234955044123715.jpeg"
+		}
+	]
+}

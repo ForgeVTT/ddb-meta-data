@@ -2,6 +2,8 @@
 
 From the jungles of Chult, these tribal frog-like humanoids are fiercely territorial and naturally secrete poison to use as weapons.
 
+_Disclaimer this race isn’t a legal playable race in D&D adventure league or any campaign where the DM hates amphibians with an excess of apostrophes in their names… and yes, if you’re not immune to poison and you must touch the grung to heal it… you get to make a saving throw._
+
 ---
 
 ## License
